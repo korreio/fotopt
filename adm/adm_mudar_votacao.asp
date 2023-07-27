@@ -1,0 +1,43 @@
+<!-- #include file="topo.asp" -->
+<td bgcolor="gray" width="100%" align="left"><font size="-1" color="black" face="arial">&nbsp;MUDAR OU APAGAR VOTA&Ccedil;&Atilde;O</font></td>
+<!-- #include file="fim_topo.asp" -->
+<!-- #include file="autenticar_webmaster.asp" -->
+<!-- #include file="inicio_basedados.asp" -->
+
+<%
+SQL = "SELECT nome FROM autor WHERE id = " & session("login")
+Set autorRes = dbConnection.Execute(SQL)
+
+votacao = request("votacao")
+
+SQL = "SELECT * FROM votacao_topico WHERE id = " & votacao
+Set votacaoRes = dbConnection.Execute(SQL)
+%>
+
+<form action="adm_mudar_votacao_res.asp?votacao=<% =votacao %>" method=post>
+
+<table border="0" cellpadding="3" cellspacing="0">
+	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>TEMA: </b></font></td><td><input value="<% =votacaoRes("nome") %>" maxlength="100" type="Text" name="nome" size="40"> <font size="-1" color="white" face="arial">(obrig)</font></td></tr>
+	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>DESCRI&Ccedil;&Atilde;O: </b></font><font size="-1" color="white" face="arial"><br>(se ultrapassar<br>estas 6 linhas<br>o texto ser&aacute;<br>cortado)</font></td><td><textarea name="descricao" cols="38" rows="6" wrap="VIRTUAL"><% =votacaoRes("descricao") %></textarea> <font size="-1" color="white" face="arial">(obrig)</font></td></tr>
+	<tr>
+		<td><font size="-1" color="#FFCC66" face="arial"><b>POUCO VOTADA: </b></font></td>
+		<td><select name="antigo">
+			<option value="0">N&atilde;o</option>
+			<% if votacaoRes("antigo") = true then %>
+				<option selected value="1">Sim</option>
+			<% else %>
+				<option value="1">Sim</option>
+			<% end if %>
+		</select>
+	</tr>
+	<tr><td></td><td><input type="Submit" value="Mudar vota&ccedil;&atilde;o"></td></tr>
+</table>
+
+</form>
+
+<form method="post" action="adm_apagar_votacao.asp?votacao=<% =votacao %>">
+	<font color="#FFCC66" face="arial"><b>Para apagar esta vota&ccedil;&atilde;o corfirme aqui <input type="Checkbox" name="apagar"> e prima o bot&atilde;o - </b></font><input type="Submit" value="Apagar">
+</form>
+
+<!-- #include file="fim_autenticacao.asp" -->
+<!-- #include file="fim_basedados.asp" -->

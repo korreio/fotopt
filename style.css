@@ -1,0 +1,22 @@
+a:hover { text-decoration: underline; color: #ffcc66; }
+
+.des { font-family: arial; font-size: 10px; text-decoration: none; color: silver; font-weight: bold; line-height: 1.02em; }
+.desd { font-family: arial; font-size: 10px; text-decoration: none; color: silver; font-weight: bold; line-height: 1em; }
+.desa { font-family: arial; font-size: 10px; text-decoration: none; color: #ffcc66; font-weight: bold; line-height: 1em; }
+
+.destaque { font-family: verdana, arial; font-size: 10px; text-decoration: none; color: silver; font-weight: bold; }
+.uteis { font-family: verdana, arial; font-size: 10px; text-decoration: none; color: white; font-weight: bold; }
+.titulo { font-family: verdana, arial; font-size: 10px; text-decoration: none; color: #ffcc66; font-weight: bold; line-height: 1em; }
+
+.pa { font-family: verdana,arial; font-size: 11px; text-decoration: none; color: #ffcc66; font-weight: bold; line-height: 1em; padding : 4px; }
+.pi { font-family: verdana,arial; font-size: 11px; text-decoration: none; color: white; font-weight: bold; line-height: 1em; padding : 4px; }
+.sa { font-family: verdana,arial; font-size: 11px; text-decoration: none; color: #ffcc66; font-weight: bold; line-height: 1em; }
+.si { font-family: verdana,arial; font-size: 11px; text-decoration: none; color: white; font-weight: bold; line-height: 1em; }
+.oa { font-family: verdana,arial; font-size: 10px; text-decoration: none; color: #ffcc66; font-weight: bold; line-height: 1em; }
+.oi { font-family: verdana,arial; font-size: 10px; text-decoration: none; color: white; line-height: 1em; }
+.oja { font-family: verdana,arial; font-size: 10px; text-decoration: none; color: #ffcc66; line-height: 1em; }
+.oji { font-family: verdana,arial; font-size: 10px; text-decoration: none; color: red; line-height: 1em; }
+.owa { font-family: verdana,arial; font-size: 10px; text-decoration: none; color: #ffcc66; line-height: 1em; }
+.owi { font-family: verdana,arial; font-size: 10px; text-decoration: none; color: red; line-height: 1em; }
+
+.search { font-family: verdana,arial; font-size: 10px; background-color: Black; width: 110px; font-weight: bold; text-align: center; color: Silver; padding: 1 0 0 0; border-width: 0 0 0 0; margin: 0 0 0 0; }
