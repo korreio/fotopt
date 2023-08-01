@@ -27,7 +27,7 @@ You're now ready to make your changes! Feel free to ask for help; everyone is a 
 At this point, you should switch back to your master branch and make sure it's up to date with foto@pt's master branch:
 
 ```sh
-git remote add upstream git@github.com:original/foto@pt.git
+git remote add upstream git@github.com:original/fotopt.git
 git checkout master
 git pull upstream master
 ```
