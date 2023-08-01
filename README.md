@@ -103,3 +103,11 @@ Even though foto@pt only existed for a short period, its influence was substanti
 The website may be long gone, but its memory lives on in the many friendships that were formed, the countless photos that were shared, and the vast knowledge that was exchanged. 
 
 In conclusion, foto@pt was a website that started as a simple project but quickly grew into something much larger and more influential. It created a community that shared, learned, and grew together. It was a true pioneer of its time and leaves a legacy that continues to inspire today.
+
+## Code
+
+This repository includes all the ASP code for the website. Please note that this code hasn't been tested for two decades and may contain some non-functional elements due to legacy issues or advancements in technology.
+
+Also included is a ".mdb" file for the Access Database, which is clean of any user data or photo content. Essentially, it's the database schema.
+
+Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your insights on the code.
