@@ -5,6 +5,7 @@ The website was first active in June 1999 and continued operation until Septembe
 
 The website had two URLs throughout its life:
 http://www.fotografia.em.pt/
+and
 http://www.fotopt.net
 
 ## Story and Context
