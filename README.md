@@ -106,12 +106,6 @@ In conclusion, foto@pt was a website that started as a simple project but quickl
 
 ## Code
 
-Certainly, here's the revised version:
-
-Sure, here's the revised version:
-
-## Code
-
 This repository includes all the ASP code for the website. Please note that this code hasn't been tested for two decades and may contain some non-functional elements due to legacy issues or advancements in technology.
 
 Also included is a ".mdb" file for the Access Database, which is clean of any user data or photo content. Essentially, it's the database schema.
