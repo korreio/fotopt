@@ -1,5 +1,3 @@
-# CONTRIBUTING.md
-
 ## Contributing to foto@pt - Fotografia em Português
 
 First off, thank you for considering contributing to foto@pt. It's people like you that make the foto@pt community such a great one.
