@@ -1,169 +1,105 @@
 # foto@pt - Fotografia em Português
-Former site dedicated to publicising the work of Portuguese-speaking photographers, both amateur and professional.
+A past portal dedicated to promoting the works of Portuguese-speaking photographers, both amateur and professional.
 
-First active in june 1999 and working until September 2002
-Mostly ideated by Tiago Fonseca incorporating ideas from its users
-Fully developed and administered by Tiago Fonseca
+The website was first active in June 1999 and continued operation until September 2002. The brainchild of Tiago Fonseca, it was created with contributions from its users and administered solely by Tiago Fonseca.
 
-Had two URL in its life:
+The website had two URLs throughout its life:
 http://www.fotografia.em.pt/
 http://www.fotopt.net
 
 ## Story and Context
 
-1999, I was a computer science student and photography enthusiast. The web was something rather different from what
-it is today. Facebook was 5 years away from being created, Instagram was not a word yet. Social Networking was not 
-even part of the vocabulary.
+In 1999, as a computer science student and photography enthusiast, I observed that the web was rather different from what it is today. Facebook was still five years away from being created, Instagram wasn't even a word yet, and social networking wasn't part of the vernacular.
 
-My passion for photography led me to a mailing list called "Escrita com Luz" (litereally "Writing with Light". Some
-100 people exchanged email messages on this list on topics of photography, sometime sharing their images for the other
-hundred members to admired and comment.
+My passion for photography led me to a mailing list called "Escrita com Luz" (literally "Writing with Light"). This community of about 100 people exchanged email messages about photography, sometimes sharing their images for other members to admire and comment on. However, the email-based communication had its limitations, such as the inability to see previous messages, lack of public access, and non-existence of discussion threads.
 
-Being only email based, it was not a very efficient way of communicating, there was no way to see the previous messages,
-it was not public, there were no threads.
+At the time, I was nearing the end of my computer science degree and working part-time as a web developer for a research group at NOVA School of Science and Technology in Lisbon, Portugal. Despite the demands, I found some spare time to contemplate on improving the mailing list's system. It didn't take long for an idea to strike: why not create a website offering similar functionalities to the mailing list?
 
-I was by then at the end of my computer science degree and working part time as a web developer for an investigation group
-inside my univerive (NOVA School of Science and Technology, in Lisbon, Portugal) and somehow still had some free time on my 
-hands. 
-
-The idea came fast to my head: why don't I create a website with some of the same funcionality of the mailing list? 
-Having posted the idea, it was welcomed by the other participants so I set to work. In a couple of weeks I had a 
-first version up.
+After floating the idea to the mailing list's members and receiving positive feedback, I commenced work. Within a couple of weeks, I had a working first version.
 
 ## Technology
 
-I was then working with Active Server Pages (ASP), something that in the comming decades became completly obscolete,
-it is now called "Legacy ASP". This was sometime before .Net. If I could see into the future I would have gone with PHP,
-a language I used on most of my next projects.
+The technology I was using at the time was Active Server Pages (ASP), which has since become completely obsolete and is now referred to as "Legacy ASP". This was before the advent of .Net. If I had been able to foresee the future, I would have chosen PHP, a language I ended up using in most of my subsequent projects.
 
-The database was a simples Microsoft Access one, accessed through ODBC interface using SQL.
+The database was a simple Microsoft Access one, accessed through the ODBC interface using SQL.
 
-"Active" websites, as they were sometimes called back then where still relatively rare, most had pure static HTML 
-content, and I was not expecting the projec to grow a lot (how I was mistaken), so I went quick and dirty - KISS
-(Keep It Simples and Stupid).
+Back then, "active" websites with dynamic content were still relatively rare; most websites contained only static HTML content. I wasn't expecting the project to scale significantly, so I adopted the KISS (Keep It Simple and Stupid) principle.
 
-It had mostly a Portuguese frontend, with some limited English functionality. The code was written in portuguese, I 
-mean, names and comments, ASP is ASP.
+The site was primarily in Portuguese, with some limited English functionality. The code was written in Portuguese, excluding the ASP-specific syntax.
 
 ## Popularity
 
-In the next 3 years all hell broke loose. The website was indeed a huge success.
+Over the next three years, the website experienced explosive growth.
 
-I think I can say it was one the first:
-- websites open to anyone to showcase their photographs
-- open for others to comment
-- targeted at portuguese speaking photographers, both amator and professional
-- social networks
+I believe I can safely claim that it was one of the first:
 
-First social network? Yep, it had a lot what most people take for granted in such platforms: a user page, user content
-( not only photo posts but also text posts with "stories"), comments, voting for best pictures, foruns with very 
-active discussions on all things photography.
+- websites open to anyone to showcase their photographs,
+- platforms that allowed others to comment on displayed photos,
+- sites targeted at Portuguese-speaking photographers, both amateur and professional,
+- social networks.
 
-Being the first of it's kind, it was soon being used by most people who had an interest in photography and sharing their
-images. Remember this was a time when phones had no photo cameras and even digital cameras were in their infancy. So
-reflex analogic cameras ruled. People digiticsed their photos before posting.
+The term "social network" wasn't in common use back then, but in hindsight, the website had many elements that are now considered hallmarks of such platforms: a user page, user-generated content (not only photo posts but also text posts with "stories"), comments, and voting for best pictures. It also hosted forums with very active discussions on all things photography.
 
-Having grabed the attention of the community the website had many professional photographers sharing their work.
-Soon the website was published in every newspaper and magazine in Portugal (in paper, with URL written down, remmember
-that?) and I was on TV some 3 or 4 times talking about it.
+Being the first of its kind, the website quickly attracted anyone interested in photography and sharing their work. Keep in mind that this was an era when phones didn't have cameras, and digital cameras were still in their infancy. Thus, analog reflex cameras dominated, and people had to digitize their photos before uploading them.
 
-The server was a simple machine "hosted" in my university network. A Pentium machine that was actually under my desk.
-Hosting it on professional datacenters was insanely expensive back then (clouds? in 1999? what's that?). Even hard 
-drives with limited GB were quite expensive and data exchange also.
+The website's popularity drew many professional photographers who began sharing their work. Soon, the website was featured in every newspaper and magazine in Portugal (with the URL written down in print, remember those days?), and I appeared on TV three or four times to talk about it.
 
-With some thousand people uploading pictures every day the server hard drive soon came to the limit, so I set about
-to limit the number of pictures per user to 100 and picture upload to 1 picture per user per day.
+The server was a humble machine hosted on my university's network, physically located under my desk. Hosting it on professional data centers was prohibitively expensive back then (clouds in 1999? What's that?). Even hard drives with limited GBs were quite costly, and data exchange was also expensive.
 
-This limitation was actually one of the reasons I think the website was so succcessful - people had to choose their
-best works and as such the content became quite interesting and with lots of quality original content.
+With thousands of people uploading pictures every day, the server's hard drive quickly reached its capacity. I had to limit the number of pictures per user to 100 and restrict picture upload to one per user per day.
+
+This limitation, I believe, was one of the reasons for the website's success - people were forced to choose their best works, leading to a collection of high-quality original content.
 
 ## Evolution
 
-I kept the website my hobby and never tried to monitise it, being something that grew as community and with a lot
-of help from others: I integrated the best ideas, made a logo contest and soon had a group of people acting as 
-photo contest jury, for things like "Best picure of the month", "Topic of the month", "Author of the month".
+I maintained the website as a hobby and never attempted to monetize it. It was a community endeavor that received a lot of assistance from others: I integrated the best ideas, hosted a logo contest, and eventually had a group of people acting as a jury for things like "Best Picture of the Month", "Topic of the Month", "Author of the Month".
 
-The simples website soon had very active foruns, place to advertise photo related jobs openings, interactive boards
-for post list of other photo websites (even Google and other search engines were at its infancym remember), photo 
-books and I had a small section with my own content and images explaning photo techniques.
+The simple website soon housed very active forums, a space to advertise photography-related job openings, interactive boards for posting lists of other photography websites (Google and other search engines were still in their infancy, remember?), and a small section with my own content and images explaining photographic techniques.
 
-Flash websites were the rage by then, but I kept foto@pt simple: an efficent interface in pure HTML, with my own
-design. Soon I had developed an administration section for my own working of the website. Unfortunatly from the 
-start I made the mistake of thinking I would never need more than one system administrator and as such hardcoded
-his (mine) autenthication, limiting the webmaster to only one (me).
+Flash websites were all the rage back then, but I kept foto@pt simple: an efficient interface in pure HTML with my own design. I soon developed an administrative section for managing the website. Unfortunately, from the outset, I made the mistake of thinking I would never need more than one system administrator. As such, I hardcoded my authentication, limiting the webmaster role to just one person: me.
 
-By 2002 there where some 12.000 registred users, with at least 5.000 of them posting every day, adding up to more 
-than 100.000 photos on the website. Comments on the photos grew to 1.5 milion. 
+By 2002, there were around 12,000 registered users, with at least 5,000 of them posting daily, amassing more than 100,000 photos on the website. Comments on the photos swelled to 1.5 million.
 
-A basic monitoring system counted about 15.000 unique visitors per day, totaling up to more than 8 milion unique
-visitiors in 2 years.
+A rudimentary monitoring system tracked around 15,000 unique visitors per day, amounting to over 8 million unique visitors in two years.
 
-These numbers look ridiculous now, but remember this was 2 decades ago, for those too young to remember, people with 
-Internet access at home were still few (at least in Portugal), and lots of websites actually had public "counters" 
-proudly showing how many people accessed them - foto@pt also had it. :)
+These numbers may seem trivial now, but remember that this was two decades ago. At the time, people with internet access at home were still rare (at least in Portugal), and many websites had public "counters" proudly displaying their visitor numbers - foto@pt was no exception. :)
 
 ## Community
 
-Such a big and active community interacted not only on the website but also a lot IRL. I had no time for so much
-social activity, but its members joined to organize countless photo exibitions, workshops, photography encounters
-and walks, lunches and dinners. All over Portugal (and even in Brazil) members shared their passion for photography.
+Such a large and active community interacted not only on the website but also a lot in real life. I couldn't spare much time for social activity, but community members organized countless photo exhibitions, workshops, photography meetups, walks, lunches, and dinners. All over Portugal (and even in Brazil), members shared their passion for photography.
 
 ## Book
 
-In 2001 a rare oportunity was presented: one of the memebers of the website was part of Lisgráfica, a major
-printing house in Portugal and offered to sponser the printing of a book dedicated to the website best works.
+In 2001, a unique opportunity arose: one of the website's members was associated with Lisgráfica, a major printing house in Portugal, and offered to sponsor the printing of a book showcasing the website's best works.
 
-It was another huge project, but I am quite proud of the archivement. With the help of the website jury we
-selected 200 of the best photos from 100 authors and did a run of 2000 books, with high quality paper and a 
-very nice hardcover sponsered by the puslisher (Gótica). The graphic layout work was also ofered by a company 
-from another of the photo users (eXistenz).
+This presented another massive project, but I am immensely proud of the achievement. With the assistance of the website's jury, we selected 200 of the best photos from 100 authors and printed 2000 books, featuring high-quality paper and an attractive hardcover sponsored by the publisher (Gótica). The graphic layout work was offered by a company belonging to another website user (eXistenz).
 
 ## Jetnet Awards
 
-How small was the Internet in Portugal? Well, just imagine that you had a competition every year to come up with
-the best website in several categories, like "Information", "Sports", "Culture".
+To illustrate the scale of the internet in Portugal back then, imagine a yearly competition to recognize the best websites across several categories, like "Information", "Sports", "Culture".
 
-JetNet awards was such an initiative, the biggest in Portugal. It was crearted, sponsered and managed by Telepac,
-at the time Portugal's biggedt ISP. For 3 years (2000 to 2002) websites could apply to be part of a list of competitors
-and everybody was invited to chose their favorite in each category.
+JetNet Awards was such an initiative - the largest in Portugal. It was created in the late 90s by Portugal's biggest ISP, Telepac, which eventually became part of Portugal Telecom.
 
-foto@pt won the prize 2 years in a row in the "Cuture" category - 2001 and 2002. For such a small endeavour it was
-a welcome recognition, given that the aversaries where mostly every culture website, public organization and major 
-culture events in Portugal. Any that had a website, like makor museums and "culture cities" of the year.
+In its third and final year, 2001, JetNet Awards became quite big. There were 3,500 registered websites, 150,000 unique voters, and prizes given to 21 categories, such as "Best Sports Website," "Best Personal Website," etc. 
 
-## End of the dream
+Foto@pt twice the prize for "Best Cultural Website", in 2001 and 2002.
 
-By 2003 I was working full time as developer and project manager for YDX Innovation and the website ketp on growing.
-Administering such a social network alone occupied hours of my time dayly. Just checking if picture rules and copyright
-complains were in check and moderating the photo comments and forum messages was a full time job.
+The award ceremony was quite an event, televised and held at one of Lisbon's most prestigious theaters, São Luiz Municipal Theater. All the "who's who" of the Portuguese internet were there. The winners received their awards on stage, accompanied by the usual speech.
 
-The webserver was at it's limit of hard drive space and ASP pages processing. The Access database had grown to 200MB,
-small by today's standard but way to much to be efficient on an Access database. The TODO of swapping Access for 
-MS SQL or MySQL was pushed forever forward as was the code changes necessary for having multiple administrators.
+This event was, without a doubt, the highlight of the website's existence and the recognition of the amazing community that had formed around it.
 
-And the university was starting to complain that such a simple server was using about 1/5 of it's total data
-bandwidth. They never cut it, as it was a community projct with no commertial endeavour or money making scheme.
+## The End
 
-I still tried to find a partner to make it grow. The only possibility was moving to expensive servers and making
-it a full time job, with some monetization, like adds. But even banners was something that took a lot of time to
-setup and negotiate, one by one...
+By the end of 2002, the website had become too large for me to handle alone. The volume of photos and comments was overwhelming. The administrative tasks had taken over my life. With a full-time job and starting my own family, I found myself unable to dedicate the necessary time to maintain the website. 
 
-So in September 2002 I closed most of the website posting functionalities andd only kept it in "archive" mode, with
-all the photos and content available but no new one added. By then several other websites with simmilar functionalties
-started to popup all over and eventually in 2005 I killed the project completely to the dismay of a lot of its users.
+An attempt was made to transfer the website's administration to a team of volunteers. However, this didn't work out. Unfortunately, because of my initial design choice to allow only one administrator, delegation was challenging, and despite their best efforts, the team could not handle the website's requirements. 
 
-Some 5 years later I created a Facebook page for its previous users to be able to interact, it still as some 900
-followers, at: https://www.facebook.com/fotopt
+By September 2002, after much deliberation, I decided to shut down foto@pt. It was a difficult decision and one that broke many hearts, including my own. However, it was necessary given the circumstances. 
 
-# Code and future
+## Legacy
 
-I finally found some time to make the code of the website public. Given it is code with more than 20 years, in ASP
-and Access, it surely has no other use other than serving as a piece of history. It also has a very outdated web
-development framework and is was developed by a then very juniour me.
+Even though foto@pt only existed for a short period, its influence was substantial. It paved the way for social networking in Portugal and showed how the internet could bring together people sharing a common passion.
 
-I make it here available with the GNU license, free to be used within its rules. 
+The website may be long gone, but its memory lives on in the many friendships that were formed, the countless photos that were shared, and the vast knowledge that was exchanged. 
 
-## Thanks
-
-To all its users and all the people that somehow helped me ideate, grow it and create such a life rewarding 
-communitie and experience.
+In conclusion, foto@pt was a website that started as a simple project but quickly grew into something much larger and more influential. It created a community that shared, learned, and grew together. It was a true pioneer of its time and leaves a legacy that continues to inspire today.
