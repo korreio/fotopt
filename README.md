@@ -106,6 +106,10 @@ In conclusion, foto@pt was a website that started as a simple project but quickl
 
 ## Code
 
+Please be aware that the codebase of foto@pt, while functional, is relatively simplistic and does not adhere to many modern website development standards. The project was created as a hobby by a young developer who was still learning the ropes, so there is not a clear separation between business logic and visualization code. However, it served its purpose well at the time, enabling a thriving community of photographers to share their work and engage with one another. 
+
+The code is presented "as is," in its original state from 2002, and is intended to provide a snapshot of early web development practices. Given the historical nature of the project, the codebase might serve as an interesting case study for those interested in the evolution of web technologies.
+
 This repository includes all the ASP code for the website. Please note that this code hasn't been tested for two decades and may contain some non-functional elements due to legacy issues or advancements in technology.
 
 Also included is a ".mdb" file for the Access Database, which is clean of any user data or photo content. Essentially, it's the database schema.
