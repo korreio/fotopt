@@ -106,7 +106,7 @@ In conclusion, foto@pt was a website that started as a simple project but quickl
 
 ## Code
 
-Please be aware that the codebase of foto@pt, while functional, is relatively simplistic and does not adhere to many modern website development standards. The project was created as a hobby by a young developer who was still learning the ropes, so there is not a clear separation between business logic and visualization code. However, it served its purpose well at the time, enabling a thriving community of photographers to share their work and engage with one another. 
+Please be aware that the codebase of foto@pt, while functional, is relatively simplistic and does not adhere to many modern website development standards. The project was created as a hobby by a young developer who was still learning the ropes, so there is not a clear separation between business logic and visualization code. However, it served its purpose well at the time, enabling a thriving community of photographers to share their work and engage with one another.
 
 The code is presented "as is," in its original state from 2002, and is intended to provide a snapshot of early web development practices. Given the historical nature of the project, the codebase might serve as an interesting case study for those interested in the evolution of web technologies.
 
@@ -114,7 +114,9 @@ This repository includes all the ASP code for the website. Please note that this
 
 Also included is a ".mdb" file for the Access Database, which is clean of any user data or photo content. Essentially, it's the database schema.
 
-Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your insights on the code.
+Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your technical observations or suggestions related to the code.
+
+You can also use the Discussions feature here on GitHub for questions, comments, or discussions about the project.
 
 If you're interested in engaging with the existing community or keeping up to date with the project's progress, please visit our [Facebook page](https://www.facebook.com/fotopt/). We look forward to hearing from you!
 
