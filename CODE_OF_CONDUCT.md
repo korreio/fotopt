@@ -1,5 +1,3 @@
-# CODE_OF_CONDUCT.md
-
 ## Contributor Code of Conduct
 
 As contributors and maintainers of foto@pt, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities.
