@@ -6,7 +6,7 @@ The website was first active in June 1999 and continued operation until Septembe
 The website had two URLs throughout its life:
 http://www.fotografia.em.pt/
 and
-http://www.fotopt.net
+http://www.fotopt.net (both deactivated)
 
 ## Story and Context
 
@@ -118,6 +118,6 @@ Also included is a ".mdb" file for the Access Database, which is clean of any us
 
 Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your insights on the code.
 
-If you're interested in engaging with the existing community or keeping up to date with the project's progress, please visit our [Facebook page](https://www.facebook.com/fotopt.net/). We look forward to hearing from you!
+If you're interested in engaging with the existing community or keeping up to date with the project's progress, please visit our [Facebook page](https://www.facebook.com/fotopt/). We look forward to hearing from you!
 
 Contributions to this small piece of history are also welcome. If you have stories, insights, or memories to share, we encourage you to contribute to preserving and enriching the narrative of this pioneering project.
