@@ -20,7 +20,7 @@ After floating the idea to the mailing list's members and receiving positive fee
 
 ## Technology
 
-The technology I was using at the time was Active Server Pages (ASP), which has since become completely obsolete and is now referred to as "Legacy ASP". This was before the advent of .Net. If I had been able to foresee the future, I would have chosen PHP, a language I ended up using in most of my subsequent projects.
+The technology I was using at the time was Active Server Pages (ASP), which has since become completely obsolete and is now referred to as "Legacy ASP". This was before the advent of Microsoft .Net. If I had been able to foresee the future, I would have chosen PHP, a language I ended up using in most of my subsequent projects and is still alive and kicking.
 
 The database was a simple Microsoft Access one, accessed through the ODBC interface using SQL.
 
@@ -33,7 +33,6 @@ The site was primarily in Portuguese, with some limited English functionality. T
 Over the next three years, the website experienced explosive growth.
 
 I believe I can safely claim that it was one of the first:
-
 - websites open to anyone to showcase their photographs,
 - platforms that allowed others to comment on displayed photos,
 - sites targeted at Portuguese-speaking photographers, both amateur and professional,
@@ -55,13 +54,13 @@ This limitation, I believe, was one of the reasons for the website's success - p
 
 I maintained the website as a hobby and never attempted to monetize it. It was a community endeavor that received a lot of assistance from others: I integrated the best ideas, hosted a logo contest, and eventually had a group of people acting as a jury for things like "Best Picture of the Month", "Topic of the Month", "Author of the Month".
 
-The simple website soon housed very active forums, a space to advertise photography-related job openings, interactive boards for posting lists of other photography websites (Google and other search engines were still in their infancy, remember?), and a small section with my own content and images explaining photographic techniques.
+The simple website soon housed very active forums, a space to advertise photography-related job openings, interactive boards for posting lists of other photography websites (Google and other search engines were still in their infancy, remember?), and a small section with my own content explaining photographic techniques.
 
 Flash websites were all the rage back then, but I kept foto@pt simple: an efficient interface in pure HTML with my own design. I soon developed an administrative section for managing the website. Unfortunately, from the outset, I made the mistake of thinking I would never need more than one system administrator. As such, I hardcoded my authentication, limiting the webmaster role to just one person: me.
 
 By 2002, there were around 12,000 registered users, with at least 5,000 of them posting daily, amassing more than 100,000 photos on the website. Comments on the photos swelled to 1.5 million.
 
-A rudimentary monitoring system tracked around 15,000 unique visitors per day, amounting to over 8 million unique visitors in two years.
+A rudimentary monitoring system tracked around 15,000 unique visitors per day, amounting to over 8 million unique visitors in three years.
 
 These numbers may seem trivial now, but remember that this was two decades ago. At the time, people with internet access at home were still rare (at least in Portugal), and many websites had public "counters" proudly displaying their visitor numbers - foto@pt was no exception. :)
 
@@ -77,7 +76,7 @@ This presented another massive project, but I am immensely proud of the achievem
 
 ## Jetnet Awards
 
-To illustrate the scale of the internet in Portugal back then, imagine a yearly competition to recognize the best websites across several categories, like "Information", "Sports", "Culture".
+To illustrate the small scale of the internet in Portugal back then, imagine a yearly competition to recognize the best websites across several categories, like "Information", "Sports", "Culture".
 
 JetNet Awards was such an initiative - the largest in Portugal. It was created in the late 90s by Portugal's biggest ISP, Telepac, which eventually became part of Portugal Telecom.
 
@@ -91,15 +90,15 @@ This event was, without a doubt, the highlight of the website's existence and th
 
 ## The End
 
-By the end of 2002, the website had become too large for me to handle alone. The volume of photos and comments was overwhelming. The administrative tasks had taken over my life. With a full-time job and starting my own family, I found myself unable to dedicate the necessary time to maintain the website. 
+By the end of 2002, the website had become too large for me to handle alone. The volume of photos and comments was overwhelming. The administrative tasks had taken over my life. With a full-time job, I found myself unable to dedicate the necessary time to maintain the website. 
 
-An attempt was made to transfer the website's administration to a team of volunteers. However, this didn't work out. Unfortunately, because of my initial design choice to allow only one administrator, delegation was challenging, and despite their best efforts, the team could not handle the website's requirements. 
+An attempt was made to transfer the website's administration to a team of volunteers. However, this didn't work out. Unfortunately, because of my initial design choice to allow only one administrator, delegation was challenging.
 
 By September 2002, after much deliberation, I decided to shut down foto@pt. It was a difficult decision and one that broke many hearts, including my own. However, it was necessary given the circumstances. 
 
 ## Legacy
 
-Even though foto@pt only existed for a short period, its influence was substantial. It paved the way for social networking in Portugal and showed how the internet could bring together people sharing a common passion.
+Even though foto@pt only existed for a short period, its influence was substantial. It helped pave the way for social networking in Portugal and showed how the internet could bring together people sharing a common passion.
 
 The website may be long gone, but its memory lives on in the many friendships that were formed, the countless photos that were shared, and the vast knowledge that was exchanged. 
 
