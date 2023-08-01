@@ -111,3 +111,5 @@ This repository includes all the ASP code for the website. Please note that this
 Also included is a ".mdb" file for the Access Database, which is clean of any user data or photo content. Essentially, it's the database schema.
 
 Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your insights on the code.
+
+Contribution to this small history is also welcome.
