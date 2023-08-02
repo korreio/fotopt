@@ -9,6 +9,20 @@ http://www.fotografia.em.pt/
 and
 http://www.fotopt.net (both deactivated)
 
+## Table of Contents
+
+- [Story and Context](#story-and-context)
+  - [Origins](#origins)
+  - [Technology](#technology)
+  - [Popularity](#popularity)
+  - [Evolution](#evolution)
+- [Community](#community)
+- [Public Code (GNU GPL License)](#public-code-gnu-gpl-license)
+- [What I Would Have Done Differently](#what-i-would-have-done-differently)
+- [Public Code](#public-code)
+- [Community and Contact](community-and-contact)
+- [Screenshots](#screenshots)
+
 ## Story and Context
 
 In 1999, as a computer science student and photography enthusiast, I observed that the web was rather different from what it is today. Facebook was still five years away from being created, Instagram wasn't even a word yet, and social networking wasn't part of the vernacular.
@@ -105,27 +119,25 @@ The website may be long gone, but its memory lives on in the many friendships th
 
 In conclusion, foto@pt was a website that started as a simple project but quickly grew into something much larger and more influential. It created a community that shared, learned, and grew together. It was a true pioneer of its time and leaves a legacy that continues to inspire today.
 
+Certainly, here's a condensed version of the section:
+
 ## What I Would Have Done Differently
 
-Reflecting on the development of foto@pt, there are several things I would have done differently with the benefit of two decades of experience as a software developer, project manager, and product manager. It's important to remember that this was a hobby project, undertaken in my free time while I was studying and starting my career as a developer at YDX Innovation. 
+Looking back on the development of foto@pt, there are several lessons I've learned over the past two decades as a software developer, project manager, and product manager:
 
-1. **Language Choice:** I would have chosen PHP instead of ASP. At the time, ASP seemed like a good choice, but it has since become obsolete. PHP, on the other hand, has stood the test of time and has become one of my favorite web development languages.
+1. **Language Choice:** I would have chosen PHP over ASP for its longevity and versatility.
+2. **Database System:** A more robust database system like Microsoft SQL Server or MySQL would have been a better choice to handle the project's success.
+3. **Administrative Area:** A multi-administrator area would have allowed shared responsibility as the project grew.
+4. **Code Separation:** Separating the business and presentation layers of the project would have improved maintainability and scalability.
+5. **Scalability Planning:** More thought into scalability from the outset could have better prepared the project for its unexpected success.
+6. **Community Management:** Implementing robust community management tools and guidelines from the start would have helped manage the active user base.
+7. **Monetization Strategy:** Even though the project wasn't intended for monetization, a sustainable financial model could have supported its growth.
+8. **Internationalization of Code:** Writing the code in English, including file names, functions, and variables, would have facilitated easier shared work.
+9. **Code Comments:** More comments in the code would have made it easier for others to understand, aiding in development and reuse.
 
-2. **Database System:** I would have opted for a more robust database system, such as Microsoft SQL Server or MySQL. I chose Access because it was the cheap and easy solution at the time, but I didn't anticipate the project's success. When the Access file reached 200MB, it was at the limit of the server and technology speed at the time to serve so many simultaneous accesses.
+These reflections are not regrets but valuable lessons from a pioneering project that helped shape the future of web development.
 
-3. **Administrative Area:** I would have developed a proper multi-administrator area. This would have allowed the burden of web mastering the project to be shared, which would have been particularly useful as the project grew in size and complexity.
-
-4. **Code Separation:** I would have ensured a proper separation of the business and presentation layers of the project and code. This would have made the code more maintainable and scalable.
-
-5. **Scalability Planning:** Given the project's unexpected success, I would have put more thought into scalability from the outset. This would have involved considering how to handle a large number of users and data, and planning for potential growth.
-
-6. **Community Management:** The community aspect of foto@pt was one of its greatest strengths, but also one of its biggest challenges. With the benefit of hindsight, I would have implemented more robust community management tools and guidelines from the start to help manage the active user base.
-
-7. **Monetization Strategy:** While the project was a labor of love and not intended for monetization, considering a sustainable financial model could have helped support the website's growth and longevity.
-
-Remember, this project was developed between 1999-2002, a time when web technology was very different. These reflections are not so much regrets as they are lessons learned from a pioneering project that paved the way for future developments in the field.
-
-## Public Code (GNU GPL License)
+## Public Code
 
 The code is presented "as is," in its original state from 2003, and is intended to provide a snapshot of early web development practices. Given the historical nature of the project, the codebase might serve as an interesting case study for those interested in the evolution of web technologies.
 
@@ -135,7 +147,7 @@ Also included is a ".mdb" file for the Access Database, which is clean of any us
 
 Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your technical observations or suggestions related to the code.
 
-## Community 
+## Community and Contact
 
 You can use the Discussions feature here on GitHub for questions, comments, or discussions about the project.
 
