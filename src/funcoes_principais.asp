@@ -19,8 +19,7 @@ end if
 
 ' Inicio Base de Dados
 Set dbConnection = Server.CreateObject("ADODB.Connection")
-'dbConnection.Open "Data Source=d:\databases\foto.mdb;Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:Database Password=f0t0pt_nova;"
-dbConnection.Open "Data Source=c:\databases\foto.mdb;Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:Database Password=f0t0pt_nova;"
+dbConnection.Open "Data Source=c:\databases\foto.mdb;Provider=Microsoft.Jet.OLEDB.4.0;"
 
 ContarVisitas()
 
@@ -38,11 +37,11 @@ menuDestaques(0) = Array("EVENTOS FOTO@PT", 		"eventos_fotopt.asp")
 menuDestaques(1) = Array("ARQUIVO", 				"arquivo/arquivo.asp")
 menuDestaques(2) = Array("LIVRO DE VISITAS", 		"guestbook_paises.asp")
 menuDestaques(3) = Array("AGENDA DE EVENTOS", 		"eventos_tipo.asp")
-menuDestaques(4) = Array("OPINIÕES SOBRE MATERIAL", "opiniao_temas.asp")
+menuDestaques(4) = Array("OPINIï¿½ES SOBRE MATERIAL", "opiniao_temas.asp")
 menuDestaques(5) = Array("HISTORIAL",		 		"historial.asp")
 
 Dim menuMembros(2)
-menuMembros(0) = Array("LOGIN (AUTENTICAÇÃO)", 	"login.asp")
+menuMembros(0) = Array("LOGIN (AUTENTICAï¿½ï¿½O)", 	"login.asp")
 menuMembros(1) = Array("FICHAS DE MEMBROS", 	"membros.asp")
 
 Dim menuInformacao(7)
@@ -50,7 +49,7 @@ menuInformacao(0) = Array("MINI CURSO DE FOTOGRAFIA", 	"tecnica/curso/indice.asp
 menuInformacao(1) = Array("BIBLIOGRAFIA", 				"livros_tipo.asp")
 menuInformacao(2) = Array("LISTA DE LINKS", 			"links_tipo.asp")
 menuInformacao(3) = Array("FOTOGRAFAR", 				"tecnica/fotografar.asp")
-menuInformacao(4) = Array("LABORATÓRIO", 				"tecnica/laboratorio.asp")
+menuInformacao(4) = Array("LABORATï¿½RIO", 				"tecnica/laboratorio.asp")
 menuInformacao(5) = Array("BIOGRAFIAS", 				"historia/biografias.asp")
 menuInformacao(6) = Array("MAILING LISTS", 				"mailinglist.asp")
 
@@ -63,8 +62,8 @@ Dim menuPrincipal(7)
 menuPrincipal(0) = Array("GALERIAS", 		"escolha_galeria_membros.asp",  7, menuGaleria)
 menuPrincipal(1) = Array("ARQUIVO", 		"arquivo/arquivo.asp", 			6, menuDestaques)
 menuPrincipal(2) = Array("MEMBROS", 		"membros.asp", 					2, menuMembros)
-menuPrincipal(3) = Array("INFORMAÇÃO", 		"tecnica/curso/indice.asp", 	7, menuInformacao)
-menuPrincipal(4) = Array("ÚTEIS", 			"sitemap.asp", 					3, menuUteis)
+menuPrincipal(3) = Array("INFORMAï¿½ï¿½O", 		"tecnica/curso/indice.asp", 	7, menuInformacao)
+menuPrincipal(4) = Array("ï¿½TEIS", 			"sitemap.asp", 					3, menuUteis)
 %>
 
 <% 
@@ -73,13 +72,13 @@ sub Cabecalho(titulo, semTags)
 %>
 <html>
 <head>
-	<title>foto@pt - Fotografia em Português - <% =titulo %></title>
+	<title>foto@pt - Fotografia em Portuguï¿½s - <% =titulo %></title>
 	<meta name"robots" content="index, follow">
 	<meta name="owner" content="webmaster@fotopt.net">
 	<meta name="author" content="Tiago Fonseca">
 	<% if semTags = False then %>
-		<meta name="description" content="Dedicado à divulgação de trabalhos de fotógrafos, amadores e profissionais, de expressão portuguesa. Exibiting works by portuguese speeking, both amator and professional, photographers.">
-		<meta name="keywords" content="portugal fotografia artistica fotografias portuguesas foto artística fotos artísticas fotografo portugues fotógrafo português fotógrafos portugueses amadores profissionais fotografos brasileiros galeria nus nu nú nús paisagem retrato galerias arte fotográfica tecnicas fotograficas eventos fotojornalismo portuguese photography brasilian photos landscape photo nude photographies nudes portrait photojournalism photographer gallery photographic artwork galleries">
+		<meta name="description" content="Dedicado ï¿½ divulgaï¿½ï¿½o de trabalhos de fotï¿½grafos, amadores e profissionais, de expressï¿½o portuguesa. Exibiting works by portuguese speeking, both amator and professional, photographers.">
+		<meta name="keywords" content="portugal fotografia artistica fotografias portuguesas foto artï¿½stica fotos artï¿½sticas fotografo portugues fotï¿½grafo portuguï¿½s fotï¿½grafos portugueses amadores profissionais fotografos brasileiros galeria nus nu nï¿½ nï¿½s paisagem retrato galerias arte fotogrï¿½fica tecnicas fotograficas eventos fotojornalismo portuguese photography brasilian photos landscape photo nude photographies nudes portrait photojournalism photographer gallery photographic artwork galleries">
 	<% end if %>
 	<% if refresh_url <> "" then %><meta http-equiv="refresh" content="0;url=<% =refresh_url %>"><% end if %>
 	<link rel="stylesheet" href="<% =url_base %>style.css" TYPE="text/css">
@@ -309,7 +308,7 @@ sub AutenticarMembro(membro)
 	end if
 	
 	if login = 0 then
-		Menu 3, 0, "AUTENTICAÇÃO FALHOU"
+		Menu 3, 0, "AUTENTICAï¿½ï¿½O FALHOU"
 	%>
 		<font size="+1" color="white" face="arial">Esta opera&ccedil;&atilde;o s&oacute; pode ser realizada por um utilizador autenticado</font>
 		<br>
@@ -320,7 +319,7 @@ sub AutenticarMembro(membro)
 		FimPagina()
 		response.end
 	elseif (membro <> -1) and (clng(membro) <> clng(login)) and (session("login") <> 2) then
-		Menu 3, 0, "AUTENTICAÇÃO FALHOU"
+		Menu 3, 0, "AUTENTICAï¿½ï¿½O FALHOU"
 	%>
 		<font size="+1" color="white" face="arial">Esta opera&ccedil;&atilde;o s&oacute; pode ser realizada pelo pr&oacute;prio autor</font>
 		<br>
@@ -341,9 +340,9 @@ end sub ' AutenticarMembro
 <%
 sub AutenticarJuri()
 	if VerificarJuri() = False then
-		Menu 3, 0, "AUTENTICAÇÃO FALHOU"
+		Menu 3, 0, "AUTENTICAï¿½ï¿½O FALHOU"
 	%>
-		<font size="+1" color="white" face="arial">Esta opera&ccedil;&atilde;o s&oacute; pode ser realizada por membro do júri!</font>
+		<font size="+1" color="white" face="arial">Esta opera&ccedil;&atilde;o s&oacute; pode ser realizada por membro do jï¿½ri!</font>
 	<%
 		FimPagina()
 		response.end
@@ -354,7 +353,7 @@ end sub ' AutenticarJuri
 <%
 sub AutenticarWebmaster()
 	if session("login") <> 2 then
-		Menu 3, 0, "AUTENTICAÇÃO FALHOU"
+		Menu 3, 0, "AUTENTICAï¿½ï¿½O FALHOU"
 	%>
 		<font size="+1" color="white" face="arial">Esta opera&ccedil;&atilde;o s&oacute; pode ser realizada pelo webmaster!</font>
 	<%
