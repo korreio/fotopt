@@ -1219,3 +1219,68 @@ This is to try to prevent "quick incursions" by new members who only come here t
 
 - The categories formerly chosen by the jury and the photo of the month have today become a section of the site archive (HIGHLIGHTS-ARCHIVE) as they have been deactivated for a month.
 - Since there are no longer any highlight categories, the photos that appear on the home page are now randomly chosen from the most visited by members during the entire existence of the site.
+
+## [10.04.2002]
+
+### Announcement
+
+- Start using the new address of foto@pt, WWW.FOTOPT.NET.
+
+## [23.04.2002]
+
+### Update
+
+- The old email of the Webmaster (webmaster@www.fotografia.em.pt) ceased to be valid today, only the new one (webmaster@fotopt.net) can be used now.
+
+## [30.04.2002]
+
+### Announcement
+
+- Foto@pt is one of the 3 sites nominated to receive the JetNet 2002 award in the field of Culture! Thank you very much to all who voted.
+
+## [03.05.2002]
+
+### Update
+
+- The first phase of the CAIS-Foto@pt Contest is completed.
+
+## [07.05.2002]
+
+### Update
+
+- About 10% of accesses to foto@pt are still made with the old address, which will soon cease to be valid. All members are requested to update their personal pages, bookmarks, and email signatures with the new site address - http://www.fotopt.net - thank you.
+- Each member now has the option to choose whether comments, not yet moderated, on their photos and their member profile are shown to other members or not. If you decide to show them right away, you can still remove them later. You can change this option by going to your member profile and pressing CHANGE DATA - the option is in SPECIAL OPTIONS. If you don't change the option, everything will continue to work as it currently does. Note: whichever option does not mean that comments are automatically approved, but rather that until they are moderated by the author of the photo, they can also be read by other members.
+
+## [13.05.2002]
+
+### Update
+
+- Although the forum is not yet active (I promise that I am doing my best to reactivate it as soon as possible, but it has been complicated...) I created another debate topic titled "ANNOUNCEMENTS" today - it will serve for site administrators to make announcements to members and announce news - typically without the possibility of response, except by email.
+
+## [16.05.2002]
+
+### Announcement
+
+- Important notice for participants in the 3rd Exhibition of photographs by foto@pt members.
+
+## [29.05.2002]
+
+### Announcement
+
+- Foto@pt won the JetNet 2002 award, in the field of Culture. Thank you very much to all who voted!
+
+## [04.07.2002]
+
+### Announcement
+
+- Important information for all members and visitors - don't forget to read this announcement.
+
+## [11.07.2002]
+
+### Announcement
+
+- IMPORTANT - I draw the attention of all members that, as already mentioned, the site will close for holidays during the rest of this month and until the end of August. Therefore, it will be impossible to log in and create new registrations during this period, which WILL START TOMORROW (day 12/7/2002) at 6:00 PM (Portugal time).
+
+### Update
+
+- REGISTRATIONS SUSPENDED - I decided to suspend the registration of new members already (for holidays), as it makes no sense to register and not be able to access the site tomorrow.
