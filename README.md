@@ -174,7 +174,7 @@ For direct inquiries or more personal discussions, feel free to reach out to me 
 
 ## Screenshots
 
-From the [Wayback Machine](https://web.archive.org/). 
+Screenshots obtained at the [Wayback Machine](https://web.archive.org/). 
 Missing some images and CSS.
 
 <table>
