@@ -71,7 +71,7 @@ This limitation, I believe, was one of the reasons for the website's success - p
 
 I maintained the website as a hobby and never attempted to monetize it. It was a community endeavor that received a lot of assistance from others: I integrated the best ideas, hosted a logo contest, and eventually had a group of people acting as a jury for things like "Best Picture of the Month", "Topic of the Month", "Author of the Month".
 
-The simple website soon housed very active forums, a space to advertise photography-related job openings, interactive boards for posting lists of other photography websites (Google and other search engines were still in their infancy, remember?), and a small section with my own content explaining photographic techniques.
+The simple website soon housed very active forums, a space to advertise photography-related job openings, interactive boards for posting lists of other photography websites, and a small section with my own content explaining photographic techniques.
 
 Flash websites were all the rage back then, but I kept foto@pt simple: an efficient interface in pure HTML with my own design. I soon developed an administrative section for managing the website. Unfortunately, from the outset, I made the mistake of thinking I would never need more than one system administrator. As such, I hardcoded my authentication, limiting the webmaster role to just one person: me.
 
