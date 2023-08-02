@@ -174,22 +174,24 @@ For direct inquiries or more personal discussions, feel free to reach out to me 
 
 ## Screenshots
 
-From the WaybackMachine. Missing some images and CSS.
+From the [Wayback Machine](https://web.archive.org/). 
+Missing some images and CSS.
 
 <table>
   <tr>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/48df9409-8379-4b7a-a9dd-f6364f8fcdb9" alt="Homepage" width="300"/><br>Homepage</td>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/6e0bd5f9-f8cb-41d7-ad6c-e3c4214859a6" alt="Sitemap" width="300"/><br>Sitemap</td>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/31829eed-0a01-4a83-aec5-7135f2abcb89" alt="Login" width="300"/><br>Login</td>
+    <td valign="top">Homepage<br><img src="https://github.com/korreio/fotopt/assets/97610322/48df9409-8379-4b7a-a9dd-f6364f8fcdb9" alt="Homepage" width="300"/></td>
+    <td valign="top">Sitemap<br><img src="https://github.com/korreio/fotopt/assets/97610322/6e0bd5f9-f8cb-41d7-ad6c-e3c4214859a6" alt="Sitemap" width="300"/></td>
+    <td valign="top">Login<br><img src="https://github.com/korreio/fotopt/assets/97610322/31829eed-0a01-4a83-aec5-7135f2abcb89" alt="Login" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/e3bcd420-8bea-479d-ac98-090397860831" alt="Photographer search" width="300"/><br>Photographer search</td>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/c93bcf47-0f04-4cad-91db-e1db3b67b20c" alt="Photographer galery page" width="300"/><br>Photographer galery page</td>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/12d8b288-0d74-4c6a-94db-2e21831b2844" alt="JetNet 2001 Info" width="300"/><br>JetNet 2001 Info</td>
+    <td valign="top">Photographer search<br><img src="https://github.com/korreio/fotopt/assets/97610322/e3bcd420-8bea-479d-ac98-090397860831" alt="Photographer search" width="300"/></td>
+    <td valign="top">Photographer galery page<br><img src="https://github.com/korreio/fotopt/assets/97610322/c93bcf47-0f04-4cad-91db-e1db3b67b20c" alt="Photographer galery page" width="300"/></td>
+    <td valign="top">JetNet 2001 Info<br><img src="https://github.com/korreio/fotopt/assets/97610322/12d8b288-0d74-4c6a-94db-2e21831b2844" alt="JetNet 2001 Info" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/0ce11404-dd34-4cad-b7fc-2746520c1bb5" alt="FAQ" width="300"/><br>FAQ</td>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/a9aba44a-12e7-48dd-a14c-f6bc0e85cb8b" alt="Events list" width="300"/><br>Events list</td>
-    <td><img src="https://github.com/korreio/fotopt/assets/97610322/efb84031-5423-4c9d-8687-ca0904c1bef6" alt="Changelog and news" width="300"/><br>Changelog and news</td>
+    <td valign="top">FAQ<br><img src="https://github.com/korreio/fotopt/assets/97610322/0ce11404-dd34-4cad-b7fc-2746520c1bb5" alt="FAQ" width="300"/></td>
+    <td valign="top">Events list<br><img src="https://github.com/korreio/fotopt/assets/97610322/a9aba44a-12e7-48dd-a14c-f6bc0e85cb8b" alt="Events list" width="300"/></td>
+    <td valign="top">Changelog and news<br><img src="https://github.com/korreio/fotopt/assets/97610322/efb84031-5423-4c9d-8687-ca0904c1bef6" alt="Changelog and news" width="300"/></td>
   </tr>
 </table>
+
