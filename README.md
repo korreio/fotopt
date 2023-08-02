@@ -121,3 +121,10 @@ You can also use the Discussions feature here on GitHub for questions, comments,
 If you're interested in engaging with the existing community or keeping up to date with the project's progress, please visit our [Facebook page](https://www.facebook.com/fotopt/). We look forward to hearing from you!
 
 Contributions to this small piece of history are also welcome. If you have stories, insights, or memories to share, we encourage you to contribute to preserving and enriching the narrative of this pioneering project.
+
+## Screenshot
+
+From the WaybackMachine. Missing some images and CSS.
+
+Homepage
+<img width="964" alt="Screenshot 2023-08-02 at 13 30 28" src="https://github.com/korreio/fotopt/assets/97610322/48df9409-8379-4b7a-a9dd-f6364f8fcdb9">
