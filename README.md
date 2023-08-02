@@ -176,39 +176,20 @@ For direct inquiries or more personal discussions, feel free to reach out to me 
 
 From the WaybackMachine. Missing some images and CSS.
 
-### Homepage
-
-<img width="964" alt="Screenshot 2023-08-02 at 13 30 28" src="https://github.com/korreio/fotopt/assets/97610322/48df9409-8379-4b7a-a9dd-f6364f8fcdb9">
-
-### Sitemap
-
-<img width="774" alt="Screenshot 2023-08-02 at 13 38 12" src="https://github.com/korreio/fotopt/assets/97610322/6e0bd5f9-f8cb-41d7-ad6c-e3c4214859a6">
-
-### Login
-
-<img width="771" alt="Screenshot 2023-08-02 at 13 33 37" src="https://github.com/korreio/fotopt/assets/97610322/31829eed-0a01-4a83-aec5-7135f2abcb89">
-
-### Photographer search
-
-<img width="793" alt="Screenshot 2023-08-02 at 13 34 00" src="https://github.com/korreio/fotopt/assets/97610322/e3bcd420-8bea-479d-ac98-090397860831">
-
-### Photographer galery page
-
-<img width="830" alt="Screenshot 2023-08-02 at 13 40 46" src="https://github.com/korreio/fotopt/assets/97610322/c93bcf47-0f04-4cad-91db-e1db3b67b20c">
-
-### JetNet 2001 Info
-
-<img width="902" alt="Screenshot 2023-08-02 at 13 34 57" src="https://github.com/korreio/fotopt/assets/97610322/12d8b288-0d74-4c6a-94db-2e21831b2844">
-
-### FAQ
-
-<img width="858" alt="Screenshot 2023-08-02 at 13 36 08" src="https://github.com/korreio/fotopt/assets/97610322/0ce11404-dd34-4cad-b7fc-2746520c1bb5">
-
-### Events list
-
-<img width="1108" alt="Screenshot 2023-08-02 at 13 38 57" src="https://github.com/korreio/fotopt/assets/97610322/a9aba44a-12e7-48dd-a14c-f6bc0e85cb8b">
-
-### Changelog and news
-
-<img width="1014" alt="Screenshot 2023-08-02 at 13 39 40" src="https://github.com/korreio/fotopt/assets/97610322/efb84031-5423-4c9d-8687-ca0904c1bef6">
-
+<table>
+  <tr>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/48df9409-8379-4b7a-a9dd-f6364f8fcdb9" alt="Homepage" width="300"/><br>Homepage</td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/6e0bd5f9-f8cb-41d7-ad6c-e3c4214859a6" alt="Sitemap" width="300"/><br>Sitemap</td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/31829eed-0a01-4a83-aec5-7135f2abcb89" alt="Login" width="300"/><br>Login</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/e3bcd420-8bea-479d-ac98-090397860831" alt="Photographer search" width="300"/><br>Photographer search</td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/c93bcf47-0f04-4cad-91db-e1db3b67b20c" alt="Photographer galery page" width="300"/><br>Photographer galery page</td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/12d8b288-0d74-4c6a-94db-2e21831b2844" alt="JetNet 2001 Info" width="300"/><br>JetNet 2001 Info</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/0ce11404-dd34-4cad-b7fc-2746520c1bb5" alt="FAQ" width="300"/><br>FAQ</td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/a9aba44a-12e7-48dd-a14c-f6bc0e85cb8b" alt="Events list" width="300"/><br>Events list</td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/efb84031-5423-4c9d-8687-ca0904c1bef6" alt="Changelog and news" width="300"/><br>Changelog and news</td>
+  </tr>
+</table>
