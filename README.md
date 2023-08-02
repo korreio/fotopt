@@ -1,7 +1,8 @@
 # foto@pt - Fotografia em Português
-A past portal dedicated to promoting the works of Portuguese-speaking photographers, both amateur and professional.
 
-The website was first active in June 1999 and continued operation until September 2002. The brainchild of Tiago Fonseca, it was created with contributions from its users, but designed, developed and administered solely by Tiago Fonseca.
+"foto@pt" was a trailblazing website launched in 1999, dedicated to promoting the works of Portuguese-speaking photographers. It was one of the first social networks, allowing users to post and comment on photos. The website quickly grew in popularity, winning the "Best Cultural Website" at the JetNet Awards in 2001 and 2002. Despite its deactivation in 2003, "foto@pt" left a lasting legacy as a pioneer of social networking and online photography communities.
+
+The brainchild of Tiago Fonseca, it was created with contributions from its users, but designed, developed and administered solely by Tiago Fonseca.
 
 The website had two URLs throughout its life:
 http://www.fotografia.em.pt/
@@ -58,7 +59,7 @@ The simple website soon housed very active forums, a space to advertise photogra
 
 Flash websites were all the rage back then, but I kept foto@pt simple: an efficient interface in pure HTML with my own design. I soon developed an administrative section for managing the website. Unfortunately, from the outset, I made the mistake of thinking I would never need more than one system administrator. As such, I hardcoded my authentication, limiting the webmaster role to just one person: me.
 
-By 2002, there were around 12,000 registered users, with at least 5,000 of them posting daily, amassing more than 100,000 photos on the website. Comments on the photos swelled to 1.5 million.
+By 2003, there were around 12,000 registered users, with at least 5,000 of them posting daily, amassing more than 100,000 photos on the website. Comments on the photos swelled to 1.5 million.
 
 A rudimentary monitoring system tracked around 15,000 unique visitors per day, amounting to over 8 million unique visitors in three years.
 
@@ -94,7 +95,7 @@ By the end of 2002, the website had become too large for me to handle alone. The
 
 An attempt was made to transfer the website's administration to a team of volunteers. However, this didn't work out. Unfortunately, because of my initial design choice to allow only one administrator, delegation was challenging.
 
-By September 2002, after much deliberation, I decided to shut down foto@pt. It was a difficult decision and one that broke many hearts, including my own. However, it was necessary given the circumstances. 
+In 2003, after much deliberation, I decided to shut down foto@pt. It was a difficult decision and one that broke many hearts, including my own. However, it was necessary given the circumstances. 
 
 ## Legacy
 
@@ -108,7 +109,7 @@ In conclusion, foto@pt was a website that started as a simple project but quickl
 
 Please be aware that the codebase of foto@pt, while functional, is relatively simplistic and does not adhere to many modern website development standards. The project was created as a hobby by a young developer who was still learning the ropes, so there is not a clear separation between business logic and visualization code. However, it served its purpose well at the time, enabling a thriving community of photographers to share their work and engage with one another.
 
-The code is presented "as is," in its original state from 2002, and is intended to provide a snapshot of early web development practices. Given the historical nature of the project, the codebase might serve as an interesting case study for those interested in the evolution of web technologies.
+The code is presented "as is," in its original state from 2003, and is intended to provide a snapshot of early web development practices. Given the historical nature of the project, the codebase might serve as an interesting case study for those interested in the evolution of web technologies.
 
 This repository includes all the ASP code for the website. Please note that this code hasn't been tested for two decades and may contain some non-functional elements due to legacy issues or advancements in technology.
 
