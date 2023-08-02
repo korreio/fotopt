@@ -20,7 +20,7 @@ After floating the idea to the mailing list's members and receiving positive fee
 
 ## Technology
 
-The technology I was using at the time was Active Server Pages (ASP), which has since become completely obsolete and is now referred to as "Legacy ASP". This was before the advent of Microsoft .Net. If I had been able to foresee the future, I would have chosen PHP, a language I ended up using in most of my subsequent projects and is still alive and kicking.
+The technology I was using at the time was Active Server Pages (ASP), which has since become completely obsolete and is now referred to as "Classic ASP". This was before the advent of Microsoft .Net. If I had been able to foresee the future, I would have chosen PHP, a language I ended up using in most of my subsequent projects and is still alive and kicking.
 
 The database was a simple Microsoft Access one, accessed through the ODBC interface using SQL.
 
