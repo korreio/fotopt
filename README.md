@@ -125,7 +125,7 @@ Reflecting on the development of foto@pt, there are several things I would have 
 
 Remember, this project was developed between 1999-2002, a time when web technology was very different. These reflections are not so much regrets as they are lessons learned from a pioneering project that paved the way for future developments in the field.
 
-## Code provided
+## Public Code (GNU GPL License)
 
 The code is presented "as is," in its original state from 2003, and is intended to provide a snapshot of early web development practices. Given the historical nature of the project, the codebase might serve as an interesting case study for those interested in the evolution of web technologies.
 
@@ -135,11 +135,15 @@ Also included is a ".mdb" file for the Access Database, which is clean of any us
 
 Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your technical observations or suggestions related to the code.
 
-You can also use the Discussions feature here on GitHub for questions, comments, or discussions about the project.
+## Community 
+
+You can use the Discussions feature here on GitHub for questions, comments, or discussions about the project.
 
 If you're interested in engaging with the existing community or keeping up to date with the project's progress, please visit our [Facebook page](https://www.facebook.com/fotopt/). We look forward to hearing from you!
 
 Contributions to this small piece of history are also welcome. If you have stories, insights, or memories to share, we encourage you to contribute to preserving and enriching the narrative of this pioneering project.
+
+For direct inquiries or more personal discussions, feel free to reach out to me at [tiago@korreio.net](mailto:tiago@korreio.net). I'm always open to engaging in meaningful conversations about this project and its legacy.
 
 ## Screenshots
 
