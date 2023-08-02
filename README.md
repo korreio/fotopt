@@ -1,5 +1,4 @@
-# foto@pt - Fotografia em Português 
-(Photography in Portuguese)
+# foto@pt - Fotografia em Português
 A past portal dedicated to promoting the works of Portuguese-speaking photographers, both amateur and professional.
 
 The website was first active in June 1999 and continued operation until September 2002. The brainchild of Tiago Fonseca, it was created with contributions from its users, but designed, developed and administered solely by Tiago Fonseca.
