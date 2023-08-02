@@ -126,39 +126,39 @@ Contributions to this small piece of history are also welcome. If you have stori
 
 From the WaybackMachine. Missing some images and CSS.
 
-Homepage
+### Homepage
 
 <img width="964" alt="Screenshot 2023-08-02 at 13 30 28" src="https://github.com/korreio/fotopt/assets/97610322/48df9409-8379-4b7a-a9dd-f6364f8fcdb9">
 
-Sitemap
+### Sitemap
 
 <img width="774" alt="Screenshot 2023-08-02 at 13 38 12" src="https://github.com/korreio/fotopt/assets/97610322/6e0bd5f9-f8cb-41d7-ad6c-e3c4214859a6">
 
-Login
+### Login
 
 <img width="771" alt="Screenshot 2023-08-02 at 13 33 37" src="https://github.com/korreio/fotopt/assets/97610322/31829eed-0a01-4a83-aec5-7135f2abcb89">
 
-Photographer search
+### Photographer search
 
 <img width="793" alt="Screenshot 2023-08-02 at 13 34 00" src="https://github.com/korreio/fotopt/assets/97610322/e3bcd420-8bea-479d-ac98-090397860831">
 
-Photographer galery page
+### Photographer galery page
 
 <img width="830" alt="Screenshot 2023-08-02 at 13 40 46" src="https://github.com/korreio/fotopt/assets/97610322/c93bcf47-0f04-4cad-91db-e1db3b67b20c">
 
-JetNet 2001 Info
+### JetNet 2001 Info
 
 <img width="902" alt="Screenshot 2023-08-02 at 13 34 57" src="https://github.com/korreio/fotopt/assets/97610322/12d8b288-0d74-4c6a-94db-2e21831b2844">
 
-FAQ
+### FAQ
 
 <img width="858" alt="Screenshot 2023-08-02 at 13 36 08" src="https://github.com/korreio/fotopt/assets/97610322/0ce11404-dd34-4cad-b7fc-2746520c1bb5">
 
-Events list
+### Events list
 
 <img width="1108" alt="Screenshot 2023-08-02 at 13 38 57" src="https://github.com/korreio/fotopt/assets/97610322/a9aba44a-12e7-48dd-a14c-f6bc0e85cb8b">
 
-Changelog and news
+### Changelog and news
 
 <img width="1014" alt="Screenshot 2023-08-02 at 13 39 40" src="https://github.com/korreio/fotopt/assets/97610322/efb84031-5423-4c9d-8687-ca0904c1bef6">
 
