@@ -112,7 +112,7 @@ JetNet Awards was such an initiative - the largest in Portugal. It was created i
 
 In its third and final year, 2001, JetNet Awards became quite big. There were 3,500 registered websites, 150,000 unique voters, and prizes given to 21 categories, such as "Best Sports Website," "Best Personal Website," etc. 
 
-Foto@pt twice the prize for "Best Cultural Website", in 2001 and 2002.
+Foto@pt won twice the prize for "Best Cultural Website", in 2001 and 2002.
 
 The award ceremony was quite an event, televised and held at one of Lisbon's most prestigious theaters, São Luiz Municipal Theater. All the "who's who" of the Portuguese internet were there. The winners received their awards on stage, accompanied by the usual speech.
 
