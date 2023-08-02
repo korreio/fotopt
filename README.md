@@ -105,9 +105,27 @@ The website may be long gone, but its memory lives on in the many friendships th
 
 In conclusion, foto@pt was a website that started as a simple project but quickly grew into something much larger and more influential. It created a community that shared, learned, and grew together. It was a true pioneer of its time and leaves a legacy that continues to inspire today.
 
-## Code
+## What I Would Have Done Differently
 
-Please be aware that the codebase of foto@pt, while functional, is relatively simplistic and does not adhere to many modern website development standards. The project was created as a hobby by a young developer who was still learning the ropes, so there is not a clear separation between business logic and visualization code. However, it served its purpose well at the time, enabling a thriving community of photographers to share their work and engage with one another.
+Reflecting on the development of foto@pt, there are several things I would have done differently with the benefit of two decades of experience as a software developer, project manager, and product manager. It's important to remember that this was a hobby project, undertaken in my free time while I was studying and starting my career as a developer at YDX Innovation. 
+
+1. **Language Choice:** I would have chosen PHP instead of ASP. At the time, ASP seemed like a good choice, but it has since become obsolete. PHP, on the other hand, has stood the test of time and has become one of my favorite web development languages.
+
+2. **Database System:** I would have opted for a more robust database system, such as Microsoft SQL Server or MySQL. I chose Access because it was the cheap and easy solution at the time, but I didn't anticipate the project's success. When the Access file reached 200MB, it was at the limit of the server and technology speed at the time to serve so many simultaneous accesses.
+
+3. **Administrative Area:** I would have developed a proper multi-administrator area. This would have allowed the burden of web mastering the project to be shared, which would have been particularly useful as the project grew in size and complexity.
+
+4. **Code Separation:** I would have ensured a proper separation of the business and presentation layers of the project and code. This would have made the code more maintainable and scalable.
+
+5. **Scalability Planning:** Given the project's unexpected success, I would have put more thought into scalability from the outset. This would have involved considering how to handle a large number of users and data, and planning for potential growth.
+
+6. **Community Management:** The community aspect of foto@pt was one of its greatest strengths, but also one of its biggest challenges. With the benefit of hindsight, I would have implemented more robust community management tools and guidelines from the start to help manage the active user base.
+
+7. **Monetization Strategy:** While the project was a labor of love and not intended for monetization, considering a sustainable financial model could have helped support the website's growth and longevity.
+
+Remember, this project was developed between 1999-2002, a time when web technology was very different. These reflections are not so much regrets as they are lessons learned from a pioneering project that paved the way for future developments in the field.
+
+## Code provided
 
 The code is presented "as is," in its original state from 2003, and is intended to provide a snapshot of early web development practices. Given the historical nature of the project, the codebase might serve as an interesting case study for those interested in the evolution of web technologies.
 
