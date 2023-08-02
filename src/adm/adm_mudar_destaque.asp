@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="topo.asp" -->
 <td bgcolor="gray" width="100%" align="left"><font size="-1" color="black" face="arial">&nbsp;MUDAR OU APAGAR DESTAQUE</font></td>
 <!-- #include file="fim_topo.asp" -->
@@ -15,7 +21,7 @@ Set destaqueRes = dbConnection.Execute(SQL)
 
 <table border="0" cellpadding="3" cellspacing="0">
 	<tr>
-		<td><font size="-1" color="#FFCC66" face="arial"><b>SECÇÃO: </b></font></td>
+		<td><font size="-1" color="#FFCC66" face="arial"><b>SECï¿½ï¿½O: </b></font></td>
 		<td>
 			<select name="seccao">
 			<option <% if destaqueRes("seccao") = -1 then %>selected<% end if %> value="-1">TODAS</option>
@@ -24,10 +30,10 @@ Set destaqueRes = dbConnection.Execute(SQL)
 			<option <% if destaqueRes("seccao") = 2 then %>selected<% end if %> value="2">Destaques</option>
 			<option <% if destaqueRes("seccao") = 3 then %>selected<% end if %> value="3">Membros</option>
 			<option <% if destaqueRes("seccao") = 4 then %>selected<% end if %> value="4">Concursos</option>
-			<option <% if destaqueRes("seccao") = 5 then %>selected<% end if %> value="5">Informação</option>
+			<option <% if destaqueRes("seccao") = 5 then %>selected<% end if %> value="5">Informaï¿½ï¿½o</option>
 			<option <% if destaqueRes("seccao") = 6 then %>selected<% end if %> value="6">Classificados</option>
-			<option <% if destaqueRes("seccao") = 7 then %>selected<% end if %> value="7">Opinião</option>
-			<option <% if destaqueRes("seccao") = 8 then %>selected<% end if %> value="8">Úteis</option>
+			<option <% if destaqueRes("seccao") = 7 then %>selected<% end if %> value="7">Opiniï¿½o</option>
+			<option <% if destaqueRes("seccao") = 8 then %>selected<% end if %> value="8">ï¿½teis</option>
 			</select>
 		</td>
 	</tr>

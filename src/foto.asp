@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="galeria_seleccao.asp" -->
 
@@ -60,7 +66,7 @@ meses = Array("Janeiro", "Fevereiro", "Mar&ccedil;o", "Abril", "Maio", "Junho", 
 <% 
 if fotoRes.eof then 
 
-Menu 1, GaleriaSubSeccao(tipo, id), "FOTO NÃO EXISTE"
+Menu 1, GaleriaSubSeccao(tipo, id), "FOTO Nï¿½O EXISTE"
 %>
 	<font size="+1" color="white" face="arial">A fotografia com esse ID deixou de existir h&aacute; instantes.</font>
 	<br>
@@ -188,7 +194,7 @@ else
 
 		if fotoRes("moderar") <> True then
 			OpcaoMenu "COMENTAR", "inserir_comentario.asp?onde=foto&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, -1, False, False
-			OpcaoMenu "LER COMENTÁRIOS", "comentarios.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+			OpcaoMenu "LER COMENTï¿½RIOS", "comentarios.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 		end if
 
 		if tipo = "" then
@@ -197,7 +203,7 @@ else
 			OpcaoMenu "GALERIA", "galeria.asp?primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, False, False, -1, False, False
 		end if
 
-		OpcaoMenu "MOSTRAR MENÚS", "foto.asp?menus=mos&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+		OpcaoMenu "MOSTRAR MENï¿½S", "foto.asp?menus=mos&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 	else
 		if fotoSeguinte <> 0 then
 			OpcaoMenu "<b>>> FOTO SEGUINTE</b>", "foto.asp?foto=" & fotoSeguinte & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num + 1, True, False, -1, False, False
@@ -208,15 +214,15 @@ else
 
 		if fotoRes("moderar") <> True then
 			OpcaoMenu "COMENTAR FOTO", "inserir_comentario.asp?onde=foto&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, -1, False, False
-			OpcaoMenu "LER COMENTÁRIOS", "comentarios.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+			OpcaoMenu "LER COMENTï¿½RIOS", "comentarios.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 		end if
 
 		if not cronicasRes.eof then
-			OpcaoMenu "LER CRÓNICA", "cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+			OpcaoMenu "LER CRï¿½NICA", "cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 		end if
 	
 		if fotoRes("moderar") <> True then
-	'		OpcaoMenu "INSERIR OU ALTERAR CRÓNICA", "inserir_cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
+	'		OpcaoMenu "INSERIR OU ALTERAR CRï¿½NICA", "inserir_cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
 
 			if (session("login") <> 0) then
 				SQL = "SELECT id FROM preferidas_fotos WHERE foto = " & foto & " AND autor = " & session("login")
@@ -233,7 +239,7 @@ else
 				SQL = "SELECT foto FROM foto_mes_proposta WHERE foto = " & foto & " AND mes = " & mes & " AND ano = " & ano
 				Set fotomesRes = dbConnection.Execute(SQL)
 				if not fotomesRes.eof then
-	'				OpcaoMenu "VOTAR COMO FOTO DO MÊS", "votar_fotomes.asp?foto=" & foto, False, True, -1, False, False
+	'				OpcaoMenu "VOTAR COMO FOTO DO Mï¿½S", "votar_fotomes.asp?foto=" & foto, False, True, -1, False, False
 				end if
 			end if
 		end if
@@ -244,10 +250,10 @@ else
 				OpcaoMenu "VER GALERIA DESTE AUTOR", "lista_temas.asp?autor=" & autorRes("id"), False, False, -1, False, False
 			end if
 		else
-			OpcaoMenu "VOLTAR À GALERIA", "galeria.asp?primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, False, False, -1, False, False
+			OpcaoMenu "VOLTAR ï¿½ GALERIA", "galeria.asp?primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, False, False, -1, False, False
 		end if
 
-		OpcaoMenu "ESCONDER MENÚS", "foto.asp?menus=esc&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+		OpcaoMenu "ESCONDER MENï¿½S", "foto.asp?menus=esc&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 
 		if session("ficha") <> "com" then
 			OpcaoMenu "FICHA DE FOTO COMPLETA", "foto.asp?ficha=com&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
@@ -258,10 +264,10 @@ else
 		OpcaoMenu "MUDAR DADOS OU APAGAR FOTO", "mudar_foto.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
 		OpcaoMenu "MUDAR IMAGEM", "mudar_imagem.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
 		OpcaoMenu "REFAZER THUMBNAIL", "adm/refazer_thumb.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, True
-		OpcaoMenu "INSERIR EM GALERIA DE JÚRI", "juri/inserir_juri.asp?foto=" & foto, False, False, -1, True, False
+		OpcaoMenu "INSERIR EM GALERIA DE Jï¿½RI", "juri/inserir_juri.asp?foto=" & foto, False, False, -1, True, False
 		
 		if tipo = "juri" then
-			OpcaoMenu "REMOVER DA GALERIA DE JÚRI", "juri/apagar_juri.asp?foto=" & foto & "&tema=" & id, False, False, -1, True, False
+			OpcaoMenu "REMOVER DA GALERIA DE Jï¿½RI", "juri/apagar_juri.asp?foto=" & foto & "&tema=" & id, False, False, -1, True, False
 		end if
 	end if
 
@@ -273,9 +279,9 @@ else
 		end if
 	else
 		if tipo <> "" then
-			titulo = "sem título" & " (" & int(numOutrasFotoRes("num")) + 1 & "/" & int(numFotoRes("num")) & ")"
+			titulo = "sem tï¿½tulo" & " (" & int(numOutrasFotoRes("num")) + 1 & "/" & int(numFotoRes("num")) & ")"
 		else
-			titulo = "sem título"
+			titulo = "sem tï¿½tulo"
 		end if
 	end if
 
@@ -322,10 +328,10 @@ else
 			<% if fotoRes("moderar") = True then %>
 				<tr><td><font color="white" size="-1" face="arial"><b>ESTADO<br>PENDENTE: </b></font></td>
 				<td>
-					<font color="red" size="-1" face="arial"><b>FOTO À ESPERA DE APROVAÇÃO PELO WEBMASTER.</b></font><br>
+					<font color="red" size="-1" face="arial"><b>FOTO ï¿½ ESPERA DE APROVAï¿½ï¿½O PELO WEBMASTER.</b></font><br>
 					<font color="white" size="-1" face="arial">
 						Para evitar abusos, as fotos de membros novos, (com 7 ou menos fotos na sua galeria),<br>
-						só serão visíveis pelos outros membros depois de aprovadas, o que poderá levar até 3 dias.
+						sï¿½ serï¿½o visï¿½veis pelos outros membros depois de aprovadas, o que poderï¿½ levar atï¿½ 3 dias.
 					</font>
 				</td></tr>
 			<% end if %>
@@ -334,7 +340,7 @@ else
 				<% if session("login") = 2 then %>
 					<td><a href="autor.asp?autor=<% =fotoRes("autor") %>"><font color="red" size="-1" face="arial"><% =autorRes("nome") %></font></a></td></tr>
 				<% else %>
-					<td><font color="white" size="-1" face="arial"><i>anónimo</i> (até <% =day(fotoRes("data") + 7) & "/" & month(fotoRes("data") + 7) & "/" & year(fotoRes("data") + 7) & " às " & hour(fotoRes("data") + 7) & ":" & minute(fotoRes("data") + 7) %>)</font></td></tr>
+					<td><font color="white" size="-1" face="arial"><i>anï¿½nimo</i> (atï¿½ <% =day(fotoRes("data") + 7) & "/" & month(fotoRes("data") + 7) & "/" & year(fotoRes("data") + 7) & " ï¿½s " & hour(fotoRes("data") + 7) & ":" & minute(fotoRes("data") + 7) %>)</font></td></tr>
 				<% end if %>
 			<% else %>
 				<td><a href="autor.asp?autor=<% =fotoRes("autor") %>"><font color="white" size="-1" face="arial"><% =autorRes("nome") %></font></a></td></tr>
@@ -374,7 +380,7 @@ else
 				<tr><td><font size="-1" color="white" face="arial"><b>FILTROS: </b></font></td><td><font size="-1" color="white" face="arial"><% =fotoRes("filtros") %></font></td></tr>
 			<% end if %>
 			<% if fotoRes("flash") <> "" then %>
-				<tr><td><font size="-1" color="white" face="arial"><b>ILUMINAÇÃO: </b></font></td><td><font size="-1" color="white" face="arial"><% =fotoRes("flash") %></font></td></tr>
+				<tr><td><font size="-1" color="white" face="arial"><b>ILUMINAï¿½ï¿½O: </b></font></td><td><font size="-1" color="white" face="arial"><% =fotoRes("flash") %></font></td></tr>
 			<% end if %>
 			<tr><td colspan="2" height="4"></td></tr>
 			<% if fotoRes("abertura") <> "" then %>
@@ -466,7 +472,7 @@ else
 				Set cronicaRes = dbConnection.Execute(SQL)
 				%>
 				<table border="0" cellpadding="1" cellspacing="0" bordercolor="gray" width="700">
-				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>CRÓNICA: </b></font>&nbsp;&nbsp;<font size="-2" color="silver" face="arial">(escrita a <% =day(cronicaRes("data")) %>/<% =month(cronicaRes("data")) %>/<% =year(cronicaRes("data")) %>)</font></td></tr>
+				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>CRï¿½NICA: </b></font>&nbsp;&nbsp;<font size="-2" color="silver" face="arial">(escrita a <% =day(cronicaRes("data")) %>/<% =month(cronicaRes("data")) %>/<% =year(cronicaRes("data")) %>)</font></td></tr>
 				<tr><td></td></tr>
 				<tr><td><font size="-1" color="white" face="arial"><% =Enter2Br(cronicaRes("texto")) %></font></td></tr>
 				</table>
@@ -475,7 +481,7 @@ else
 		<% if (cronicaEmDestaque = True) or (not fotomesDadosRes.eof) or (not temamesRes.eof) or (not galeriaMesRes.eof) then %>
 			<tr><td>
 				<table border="0" cellpadding="1" cellspacing="0">
-				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>PRÉMIOS: </b></font></td></tr>
+				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>PRï¿½MIOS: </b></font></td></tr>
 					<% if not cronicaRes.eof then %>
 						<% if not cronicaDestaqueRes.eof then %>
 							<tr><td><font size="-1" color="white" face="arial"><b>CR&Oacute;NICA M&Ecirc;S:</b></font></td><td><a href="cronica.asp?foto=<% =foto %>&primeira=<% =primeira %>&tema=<% =tema %>&tipo=<% =tipo %>&id=<% =id %>&num=<% =num %>"><font size="-1" color="white" face="arial"><% =meses(cronicaDestaqueRes("mes") - 1) %> de <% =cronicaDestaqueRes("ano") %></font></a></td></tr>
@@ -596,7 +602,7 @@ else
 	</table>
 
 	<br>
-	<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorização dos mesmos.</font>
+	<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorizaï¿½ï¿½o dos mesmos.</font>
 	</div>
 
 	<% if ((fotoAnterior <> 0) or (fotoSeguinte <> 0)) and (session("menus") <> "esc") then %>

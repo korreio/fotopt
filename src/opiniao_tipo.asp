@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -21,13 +27,13 @@ end if
 
 <%
 if ordem = "nome" then
-	OpcaoMenu "ORDENAR POR CLASSIFICAÇÃO", "opiniao_tipo.asp?ordem=class&tipo=" & tipo, False, False, -1, False, False
+	OpcaoMenu "ORDENAR POR CLASSIFICAï¿½ï¿½O", "opiniao_tipo.asp?ordem=class&tipo=" & tipo, False, False, -1, False, False
 else
 	OpcaoMenu "ORDENAR POR NOMES", "opiniao_tipo.asp?ordem=nome&tipo=" & tipo, False, False, -1, False, False
 end if
 OpcaoMenu "VER OUTROS ITEMS", "opiniao_temas.asp?ordem=" & ordem & "&tipo=" & tipo, False, False, -1, False, False
 OpcaoMenu "INSERIR ITEM", "inserir_opiniao_artigo.asp?ordem=" & ordem & "&tipo=" & tipo, False, True, -1, False, False
-Menu 2, 5, "OPINIÕES SOBRE MATERIAL - " & grupoRes("nome") & " - " & tipoRes("nome")
+Menu 2, 5, "OPINIï¿½ES SOBRE MATERIAL - " & grupoRes("nome") & " - " & tipoRes("nome")
 %>
 
 <table border="1" cellpadding="5" cellspacing="0">

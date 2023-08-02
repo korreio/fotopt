@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="inicio_basedados.asp" -->
 
 <%
@@ -5,7 +11,7 @@ votacao = request("votacao")
 %>
 
 <!-- #include file="topo.asp" -->
-<td bgcolor="gray" width="100%" align="left"><font size="-1" color="black" face="arial">&nbsp;APROVAR VOTAÇÃO</font></td>
+<td bgcolor="gray" width="100%" align="left"><font size="-1" color="black" face="arial">&nbsp;APROVAR VOTAï¿½ï¿½O</font></td>
 <!-- #include file="fim_topo.asp" -->
 <!-- #include file="autenticar_webmaster.asp" -->
 
@@ -15,7 +21,7 @@ dbConnection.Execute(SQL)
 %>
 
 <meta http-equiv="refresh" content="0;url=../votacoes.asp">
-<font size="+1" color="white" face="arial"><b>Votação aprovada com sucesso</b></font>
+<font size="+1" color="white" face="arial"><b>Votaï¿½ï¿½o aprovada com sucesso</b></font>
 
 <!-- #include file="fim_autenticacao.asp" -->
 <!-- #include file="fim_basedados.asp" -->

@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 
 <% 
@@ -9,71 +15,71 @@ Menu 4, 4, "VAMOS CUIDAR DAS FOTOGRAFIAS"
 </font><br><br>
 
 <font size="-1" color="white" face="Arial">
-Foi para mim bastante desagradável ter perdido, por "descuido ou desconhecimento," uns slides que tinha tirado numa 
-viagem, que fiz há uns largos anos. Esse seres vivos elementares (fungos) tinham começado por se apoderar da cor, 
+Foi para mim bastante desagradï¿½vel ter perdido, por "descuido ou desconhecimento," uns slides que tinha tirado numa 
+viagem, que fiz hï¿½ uns largos anos. Esse seres vivos elementares (fungos) tinham comeï¿½ado por se apoderar da cor, 
 depois com um crescimento assustador tomaram conta de todo o negativo. E impotente para parar estes parasitas, assistia 
-à destruição de recordações e em sua substituição via crescer "raízes, tentáculos" que, depressa dominaram um espaço que, 
-antes era para mim, a recordação de momentos agradáveis.
+ï¿½ destruiï¿½ï¿½o de recordaï¿½ï¿½es e em sua substituiï¿½ï¿½o via crescer "raï¿½zes, tentï¿½culos" que, depressa dominaram um espaï¿½o que, 
+antes era para mim, a recordaï¿½ï¿½o de momentos agradï¿½veis.
 <br><br>
-É claro que mais tarde voltei a fotografar, os mesmos motivos, as mesmas paisagens, os mesmos assuntos. Mas nunca consegui 
-tirar a mesma fotografia. Tinha perdido para sempre o tempo, o espaço, as sensações, a luz, o prazer que, tinha sentido 
-quando pela primeira vez, pressionei o botão da minha velha máquina.
+ï¿½ claro que mais tarde voltei a fotografar, os mesmos motivos, as mesmas paisagens, os mesmos assuntos. Mas nunca consegui 
+tirar a mesma fotografia. Tinha perdido para sempre o tempo, o espaï¿½o, as sensaï¿½ï¿½es, a luz, o prazer que, tinha sentido 
+quando pela primeira vez, pressionei o botï¿½o da minha velha mï¿½quina.
 <br><br>
-Mas não são só factores biológicos, que nos devem preocupar. Também o tempo é importante para a degradação da fotografia.
-E se admiramos uma fotografia quando  revelamos um negativo, mais a contemplamos passados alguns anos, já que ela faz parte 
-da nossa história e todo o nosso passado.
+Mas nï¿½o sï¿½o sï¿½ factores biolï¿½gicos, que nos devem preocupar. Tambï¿½m o tempo ï¿½ importante para a degradaï¿½ï¿½o da fotografia.
+E se admiramos uma fotografia quando  revelamos um negativo, mais a contemplamos passados alguns anos, jï¿½ que ela faz parte 
+da nossa histï¿½ria e todo o nosso passado.
 <br><br>
-O Desvanecimento, a perda de pormenor, o amarelecimento da imagem, são inevitáveis ao fim de muitos anos, mas podemos 
+O Desvanecimento, a perda de pormenor, o amarelecimento da imagem, sï¿½o inevitï¿½veis ao fim de muitos anos, mas podemos 
 preservar a imagem, e torna-la mais resistente ao tempo.
 <br><br>
-Também a natureza dos corantes, a exposição à luz, a temperatura, a humidade, a própria poluição atmosférica, são agentes 
-agressores aos nossos pedacinhos de papel, que contêm recordações, muitas vezes a nossa própria vida, ou a vida de outros.
+Tambï¿½m a natureza dos corantes, a exposiï¿½ï¿½o ï¿½ luz, a temperatura, a humidade, a prï¿½pria poluiï¿½ï¿½o atmosfï¿½rica, sï¿½o agentes 
+agressores aos nossos pedacinhos de papel, que contï¿½m recordaï¿½ï¿½es, muitas vezes a nossa prï¿½pria vida, ou a vida de outros.
 <br><br>
-Chamo simplisticamente a estes factores, os causadores da deterioração das nossas fotografias, mas isto acontece pelas 
-transformações físicas e químicas que ocorrem nas fotografias, por diversos motivos, mas essencialmente pelo uso abusivo a 
-exposições ambientais negativas, dos materiais que usamos para as arquivar, dos próprios utensílios que temos junto a elas, 
-das prateleiras de madeira que temos nas estantes. E o resultado é sempre perda de contraste e qualidade na imagem.
+Chamo simplisticamente a estes factores, os causadores da deterioraï¿½ï¿½o das nossas fotografias, mas isto acontece pelas 
+transformaï¿½ï¿½es fï¿½sicas e quï¿½micas que ocorrem nas fotografias, por diversos motivos, mas essencialmente pelo uso abusivo a 
+exposiï¿½ï¿½es ambientais negativas, dos materiais que usamos para as arquivar, dos prï¿½prios utensï¿½lios que temos junto a elas, 
+das prateleiras de madeira que temos nas estantes. E o resultado ï¿½ sempre perda de contraste e qualidade na imagem.
 <br><br>
-Comecemos por identificar as eventuais causas da deterioração. E começava por considerar quatro grandes grupos, a saber:
+Comecemos por identificar as eventuais causas da deterioraï¿½ï¿½o. E comeï¿½ava por considerar quatro grandes grupos, a saber:
 </font>
 
 <br><br>
 <font color="white" face="Arial"><b>1. O homem, o fotografo, o manipulador das fotografias</b></font>
 <font size="-1" color="white" face="Arial">
 <ul>
-<li>A principal causa são as <b>impressões digitais</b>, mostrando ausência de cuidado na manipulação das fotografias, quando se 
+<li>A principal causa sï¿½o as <b>impressï¿½es digitais</b>, mostrando ausï¿½ncia de cuidado na manipulaï¿½ï¿½o das fotografias, quando se 
 podia anular esta causa, apenas com umas simples luvas.
-<li>A <b>ferrugem de clipes</b>, que inicialmente nem é perceptível, mas com o tempo se torna uma das causas principais de degradação 
-da fotografia, indiciando uma forma incorrecta de arrumação e arquivo das fotos. 
-<li><b>Manchas amarelas</b>, que surgem pelo contacto com a madeira ou cartões demasiados grossos (materiais que absorvem facilmente 
-humidade) e que muitas vezes utilizamos para separar as fotografias. Este é um método  incorrecto de arrumação ou de arquivo.
-<li><b>Abrasão</b> ou arranque de minúsculas camadas de cor, provocadas pela incorrecta e desastrada limpeza da superfície das fotografias, 
+<li>A <b>ferrugem de clipes</b>, que inicialmente nem ï¿½ perceptï¿½vel, mas com o tempo se torna uma das causas principais de degradaï¿½ï¿½o 
+da fotografia, indiciando uma forma incorrecta de arrumaï¿½ï¿½o e arquivo das fotos. 
+<li><b>Manchas amarelas</b>, que surgem pelo contacto com a madeira ou cartï¿½es demasiados grossos (materiais que absorvem facilmente 
+humidade) e que muitas vezes utilizamos para separar as fotografias. Este ï¿½ um mï¿½todo  incorrecto de arrumaï¿½ï¿½o ou de arquivo.
+<li><b>Abrasï¿½o</b> ou arranque de minï¿½sculas camadas de cor, provocadas pela incorrecta e desastrada limpeza da superfï¿½cie das fotografias, 
 ou negativos.
 </ul>
 </font>
 
-<font color="white" face="Arial"><b>2. As condições ambientais</b></font>
+<font color="white" face="Arial"><b>2. As condiï¿½ï¿½es ambientais</b></font>
 <font size="-1" color="white" face="Arial">
 <ul>
-<li><b>Amarelecimento da imagem</b>, causa mais comum a  exposição excessiva ao sol.
-<li><b>Desvanecimento</b>, da imagem  e alterações da cor, exposição a humidade e exposição à luz.
-<li><b>Deformações físicas</b>, ondulação do papel fotográfico, ambientes secos, ou sucessivas alterações de humidade e temperatura.
-A humidade relativa acima dos 50%, causa facilmente a deterioração dos materiais fotográficos, e claro quer os negativos quer as fotografias, não são excepção. Mais grave ainda se essa mesma humidade relativa exceder os 65%, neste caso pode mesmo contar com o aparecimento de organismos como os bolores e parasitas.
+<li><b>Amarelecimento da imagem</b>, causa mais comum a  exposiï¿½ï¿½o excessiva ao sol.
+<li><b>Desvanecimento</b>, da imagem  e alteraï¿½ï¿½es da cor, exposiï¿½ï¿½o a humidade e exposiï¿½ï¿½o ï¿½ luz.
+<li><b>Deformaï¿½ï¿½es fï¿½sicas</b>, ondulaï¿½ï¿½o do papel fotogrï¿½fico, ambientes secos, ou sucessivas alteraï¿½ï¿½es de humidade e temperatura.
+A humidade relativa acima dos 50%, causa facilmente a deterioraï¿½ï¿½o dos materiais fotogrï¿½ficos, e claro quer os negativos quer as fotografias, nï¿½o sï¿½o excepï¿½ï¿½o. Mais grave ainda se essa mesma humidade relativa exceder os 65%, neste caso pode mesmo contar com o aparecimento de organismos como os bolores e parasitas.
 
 <br><br>
 <center>
 <table border="1" cellpadding="3" cellspacing="0">
 <tr>
 	<td><font size="-1" color="white" face="Arial">Entre 0% e 30%</font></td>
-	<td><font size="-1" color="white" face="Arial">O ambiente está seco</font></td>
+	<td><font size="-1" color="white" face="Arial">O ambiente estï¿½ seco</font></td>
 </tr>
 <tr>
 	<td><font size="-1" color="white" face="Arial">Entre 30% e 60%</font></td>
-	<td><font size="-1" color="white" face="Arial">O ambiente apresenta condições normais</font></td>
+	<td><font size="-1" color="white" face="Arial">O ambiente apresenta condiï¿½ï¿½es normais</font></td>
 </tr>
 <tr>
 	<td><font size="-1" color="white" face="Arial">Entre 60% e 100%</font></td>
-	<td><font size="-1" color="white" face="Arial">O ambiente é húmido</font></td>
+	<td><font size="-1" color="white" face="Arial">O ambiente ï¿½ hï¿½mido</font></td>
 </tr>
 </table>
 </center>
@@ -81,35 +87,35 @@ A humidade relativa acima dos 50%, causa facilmente a deterioração dos materiais
 <br>
 No local onde usualmente arquivas os seus negativos e fotografias, a humidade relativa deve situar-se entre os 30% e 40%.
 No entanto existem materiais (como por exemplo acetato) que devem estar em locais mais secos. A melhor maneira de conseguir 
-manter os níveis de humidade relativa, é adquirir um desumidificador, (e acredite que vale o investimento) existem dois 
+manter os nï¿½veis de humidade relativa, ï¿½ adquirir um desumidificador, (e acredite que vale o investimento) existem dois 
 tipos de desumidificadores bastantes eficazes:
 
 	<br><br>
 	<ul>
-	<li><b>Desumidificador por refrigeração</b>, cujo sistema funciona e consiste em fazer entrar o ar por duas serpentinas, a fria arrefecendo 
-	o ar, a quente aquecendo o ar. Desta relação resulta a descida da humidade e a subida da temperatura.
-	<li><b>Desumidificador químico</b>, talvez mais acessível em termos económicos, este desumidificador, utiliza produtos que absorvem a humidade, em 
-	seguida o secante é seco através de ar quente.
+	<li><b>Desumidificador por refrigeraï¿½ï¿½o</b>, cujo sistema funciona e consiste em fazer entrar o ar por duas serpentinas, a fria arrefecendo 
+	o ar, a quente aquecendo o ar. Desta relaï¿½ï¿½o resulta a descida da humidade e a subida da temperatura.
+	<li><b>Desumidificador quï¿½mico</b>, talvez mais acessï¿½vel em termos econï¿½micos, este desumidificador, utiliza produtos que absorvem a humidade, em 
+	seguida o secante ï¿½ seco atravï¿½s de ar quente.
 	</ul>
 	
 <br>
-Não podemos esquecer os <b>sacos de gel de sílica</b>, vendidos em farmácias, e que depois de absorverem a humidade, são secos próximos de uma fonte de 
-calor. A mudança de cor da sílica indica-nos a sua saturação em absorver mais humidade.
+Nï¿½o podemos esquecer os <b>sacos de gel de sï¿½lica</b>, vendidos em farmï¿½cias, e que depois de absorverem a humidade, sï¿½o secos prï¿½ximos de uma fonte de 
+calor. A mudanï¿½a de cor da sï¿½lica indica-nos a sua saturaï¿½ï¿½o em absorver mais humidade.
 </ul>
 </font>
 
-<font color="white" face="Arial"><b>3. Os factores biológicos</b></font>
+<font color="white" face="Arial"><b>3. Os factores biolï¿½gicos</b></font>
 <font size="-1" color="white" face="Arial">
 <ul>
-<li><b>Parasitas</b>, <b>Insectos</b>, <b>Roedores</b>, estes são os agentes principais a combater nos locais onde guardamos e arquivamos as fotografias.
-<li><b>Fungos</b>, resultantes da elevada percentagem de humidade relativa no ar. De salientar o "bolor" "traças"
+<li><b>Parasitas</b>, <b>Insectos</b>, <b>Roedores</b>, estes sï¿½o os agentes principais a combater nos locais onde guardamos e arquivamos as fotografias.
+<li><b>Fungos</b>, resultantes da elevada percentagem de humidade relativa no ar. De salientar o "bolor" "traï¿½as"
 </ul>
 </font>
 
-<font color="white" face="Arial"><b>3. As deficiências no processamento</b></font>
+<font color="white" face="Arial"><b>3. As deficiï¿½ncias no processamento</b></font>
 <font size="-1" color="white" face="Arial">
 <ul>
-<li>Amarelecimento geral da fotografia, acumulação de poeiras e outros detritos, sem a sua remoção atempada.
+<li>Amarelecimento geral da fotografia, acumulaï¿½ï¿½o de poeiras e outros detritos, sem a sua remoï¿½ï¿½o atempada.
 </ul>
 </font>
 

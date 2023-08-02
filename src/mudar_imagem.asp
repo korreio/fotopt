@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <% 
@@ -27,13 +33,13 @@ Set autorRes = dbConnection.Execute(SQL)
 <form enctype="multipart/form-data" action="mudar_imagem_res.asp" method="post">
 
 <font size="-1" color="white" face="arial">
-Esta opção serve para trocar uma imagem por outra semelhante, mantendo todos os dados relativos à fotografia.<br>
-Serve por exemplo quando resolve mudar ligeiramente o tamanho ou a resolução da foto, ou alterar o contraste 
-da foto, meter margens, ou porque fez uma digitalização melhor.<br>
+Esta opï¿½ï¿½o serve para trocar uma imagem por outra semelhante, mantendo todos os dados relativos ï¿½ fotografia.<br>
+Serve por exemplo quando resolve mudar ligeiramente o tamanho ou a resoluï¿½ï¿½o da foto, ou alterar o contraste 
+da foto, meter margens, ou porque fez uma digitalizaï¿½ï¿½o melhor.<br>
 </font>
 <font size="-1" color="#FFCC66" face="arial"><b>
-A troca só será terá efeito depois do webmaster confirmar a semelhança das imagens, para evitar 
-a troca de fotografias por outras completamente diferentes. Isto poderá levar alguns dias, e até lá continuará a
+A troca sï¿½ serï¿½ terï¿½ efeito depois do webmaster confirmar a semelhanï¿½a das imagens, para evitar 
+a troca de fotografias por outras completamente diferentes. Isto poderï¿½ levar alguns dias, e atï¿½ lï¿½ continuarï¿½ a
 ver a imagem anterior.</b></font>
 <br><br>
 

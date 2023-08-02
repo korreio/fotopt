@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -39,7 +45,7 @@ if numFotosEventosRes("num") >= maxFotos then
 	<font size="-1" color="white" face="arial">
 		Atingiu o limite de fotografias que pode ter neste evento. Para colocar novas fotos ter&aacute; que apagar uma, ou mais, das que j&aacute; foram inseridas.
 		<br><br>
-		O m&aacute;ximo de fotos que pode ter por evento é <font color="#FFCC66"><b><% =maxFotos %></b></font>.
+		O m&aacute;ximo de fotos que pode ter por evento ï¿½ <font color="#FFCC66"><b><% =maxFotos %></b></font>.
 		Este limite foi imposto por raz&otilde;es de ordem log&iacute;stica (espa&ccedil;o que as fotos ocupam).
 	</font>
 <%

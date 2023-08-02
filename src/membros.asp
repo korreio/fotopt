@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <% 
@@ -14,11 +20,11 @@ letra = Array("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "
 %>
 
 <font size="-1" color="white" face="arial">Actualmente existem <b><% =autorRes("num") %></b> membros, para ver e alterar
-informa&ccedil;&otilde;es referentes<br> a um membro navegue até a sua ficha usando as opções abaixo:</font><br><br>
+informa&ccedil;&otilde;es referentes<br> a um membro navegue atï¿½ a sua ficha usando as opï¿½ï¿½es abaixo:</font><br><br>
 
 <table cellpadding="10" cellspacing="0" border="1">
 <tr><td>
-	<font color="white" face="arial"><b>MEMBROS COM NOME COMEÇADO COM:</b></font><br><br>
+	<font color="white" face="arial"><b>MEMBROS COM NOME COMEï¿½ADO COM:</b></font><br><br>
 	<% for i = 0 to 25 %>
 		<a href="ver_membros.asp?letra=<% =letra(i) %>"><font color="#FFCC66" face="verdana, arial"><b><% =letra(i) %></b></font></a>
 	<% next %>
@@ -40,8 +46,8 @@ informa&ccedil;&otilde;es referentes<br> a um membro navegue até a sua ficha usa
 	</form>
 	</table>
 	<br><br>
-	<a href="procurar_membros.asp"><font size="-1" color="#FFCC66" face="verdana, arial"><b>BUSCA AVANÇADA</b></font></a>
-	&nbsp;<font size="-2" color="silver" face="verdana, arial">(com regiões e profissões)</font><br>
+	<a href="procurar_membros.asp"><font size="-1" color="#FFCC66" face="verdana, arial"><b>BUSCA AVANï¿½ADA</b></font></a>
+	&nbsp;<font size="-2" color="silver" face="verdana, arial">(com regiï¿½es e profissï¿½es)</font><br>
 </td></tr>
 </table>
 

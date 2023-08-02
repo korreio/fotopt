@@ -1,7 +1,13 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 
 <% 
-Menu 4, 5, "REVELAÇÃO DE NEGATIVOS A PRETO E BRANCO"
+Menu 4, 5, "REVELAï¿½ï¿½O DE NEGATIVOS A PRETO E BRANCO"
 %>
 
 <font size="-1" color="white" face="Arial">
@@ -37,7 +43,7 @@ em &aacute;gua &agrave; temperatura aconselhada pelas suas instruc&ccedil;&otild
 aconselh&aacute;vel ter um frasco para guardar o qu&iacute;mico j&aacute; preparado pois provalvelmente n&atilde;o ir&aacute; 
 ser usado todo. Os reveladores l&iacute;quidos podem ainda ser usados de duas maneiras: <br>
 &nbsp;&nbsp;em stock - significa que por exemplo 1 litro de revelador pode ser reutilizado mais que uma vez.<br>
-&nbsp;&nbsp;diluidos - o precesso é o mesmo dos reveladores liquidos.<br>
+&nbsp;&nbsp;diluidos - o precesso ï¿½ o mesmo dos reveladores liquidos.<br>
 Conselho: Quando preparar um qu&iacute;mico em p&oacute; deve faze-lo com alguma entecedencia, eu normalmente preparo 
 o revelador um dia antes de o utilizar. Quando vou guarda-lo no frasco utilizo um filtro de m&aacute;quina de caf&eacute;
 para filtrar o l&iacute;quido obtido. Assim garanto que nenhum pedaco de p&oacute; por diluir ira provocar danos no filme.<br><br>
@@ -52,7 +58,7 @@ uniforme. &Eacute; altamente recomendavel a sua utiliza&ccedil;&atilde;o.<br><br
 
 <font size="+1" color="white" face="Arial">M&eacute;todo</font><br>
 Antes de iniciar a revela&ccedil;&atilde;o propriamente dita &eacute; aconselhavel preparar as quantidades necess&aacute;rias 
-de qu&iacute;micos a utilizar. Essa quimica deve ser utilizada a 20º. &Eacute; esta a temperatura indicada, outras 
+de qu&iacute;micos a utilizar. Essa quimica deve ser utilizada a 20ï¿½. &Eacute; esta a temperatura indicada, outras 
 temperaturas podem ser utilizadas, normalmente superiores de forma a diminuir o tempo de revela&ccedil;ao. Chamo a 
 atencao que o aumento da temperatura provoca aumento de gr&atilde;o no filme. &Eacute; conveniente ter as quimicas 
 todas a mesma temperatura de forma a nao provocar choques t&Eacute;rmicos na superf&iacute;cie do filme. NUNCA UTILIZAR 
@@ -70,8 +76,8 @@ luz e bobinar o filme. Cortar o filme de modo a separa-lo da seu involucro, colo
 A partir daqui toda a revela&ccedil;&atilde;o pode ser feita com a luz acesa.<br><br>
 
 <b>Pre-lavagem</b> - tem como funcao libertar o filme de uma camada de protec&ccedil;&atilde;o e prepara-lo para ser 
-revelado. Para tal devemos colocar agua a +- 20º no tanque, agitar e deitar fora. Alguns filmes, como o Ilford, tem 
-essa camada de protecao colorida, por isso é natural que a &aacute;gua saia azul ou verde. Repetir o processo ate 
+revelado. Para tal devemos colocar agua a +- 20ï¿½ no tanque, agitar e deitar fora. Alguns filmes, como o Ilford, tem 
+essa camada de protecao colorida, por isso ï¿½ natural que a &aacute;gua saia azul ou verde. Repetir o processo ate 
 que a &aacute;gua saia transparente.<br><br>
 
 <b>Revela&ccedil;&atilde;o</b> - come&ccedil;a no instante em que o revelador entra em contacto com o filme. Segundo 
@@ -87,10 +93,10 @@ durante o tempo descrito nas suas instrucoes e agitado como o revelador.<br><br>
 
 <b>Lavagem</b> - ap&oacute;s a fixacao o filme ja pode estar em contacto com a luz. A fase da lavagem e t&atilde;o 
 importante como outra qualquer. Eu pessoalmente de inverno aque&ccedil;o &aacute;gua para fazer a lavagem. Faco do 
-seguinte modo: 2,5 litros de agua aquecidos a 25º, coloco 0,5l de &aacute;gua no tanque, agito durante 1 minuto e 
+seguinte modo: 2,5 litros de agua aquecidos a 25ï¿½, coloco 0,5l de &aacute;gua no tanque, agito durante 1 minuto e 
 deixo reposar 4 minutos, repito a operacao 5 vezes. De ver&atilde;o deixo em &aacute;gua corrente durante 20 minutos.<br><br>
 
-<b>Agente molhante</b> - aplico a +-25º durante 1 minuto.<br><br>
+<b>Agente molhante</b> - aplico a +-25ï¿½ durante 1 minuto.<br><br>
 
 <b>Secagem</b> - ap&oacute;s o agente molhante N&Atilde;O ESCORRO O FILME, colocando a secar preso por uma das pontas num 
 local arejado mas sem poeiras pelo ar. Uma hora depois esta pronto para imprimir. (Nota do Tiago: como a minha &aacute;gua

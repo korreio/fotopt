@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="textutil.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
@@ -64,7 +70,7 @@ if erro <> 0 then
 	<% elseif erro = 7 then %>
 		<font size="+1" color="white" face="arial">
 			O <b>nome no site</b> que escolheu j&aacute; existe - para que os membros<br>
-			não sejam confundidos são proibidas inscrições com nomes iguais.
+			nï¿½o sejam confundidos sï¿½o proibidas inscriï¿½ï¿½es com nomes iguais.
 		</font>
 	<% end if %>
 	<br>
@@ -80,7 +86,7 @@ elseif (nome_real = "") or (nome = "") or (email = "") then
 elseif password1 <> password2 then
 	Menu 3, 2, "MUDAR DADOS DE MEMBRO"
 %>
-	<font size="+1" color="white" face="arial">Password confirmada incorrectamente, ambas têm que ser iguais</font>
+	<font size="+1" color="white" face="arial">Password confirmada incorrectamente, ambas tï¿½m que ser iguais</font>
 	<br>
 	<font size="+1" color="white" face="arial">prima o botao <b>back</b> no browser e corrija</font>	
 <%

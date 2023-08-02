@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 <!-- #include file="topo.asp" -->
 <td bgcolor="gray" width="100%" align="left"><font size="-1" color="black" face="arial">&nbsp;MUDAR DESTAQUE</font></td>
@@ -13,13 +19,13 @@ data = request("data")
 
 if not isdate(data) then
 %>
-	<font size="+1" color="white" face="arial">A data não é válida.</font>
+	<font size="+1" color="white" face="arial">A data nï¿½o ï¿½ vï¿½lida.</font>
 	<br>
 	<font size="+1" color="white" face="arial">prima o botao <b>back</b> no browser e complete a informa&ccedil;&atilde;o.</font>	
 <%
 elseif (texto = "") or (data = "") then
 %>
-	<font size="+1" color="white" face="arial">Os campos <b>texto</b> e <b>data</b> são obrigat&oacute;rios.</font>
+	<font size="+1" color="white" face="arial">Os campos <b>texto</b> e <b>data</b> sï¿½o obrigat&oacute;rios.</font>
 	<br>
 	<font size="+1" color="white" face="arial">prima o botao <b>back</b> no browser e complete a informa&ccedil;&atilde;o.</font>	
 <%

@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -14,7 +20,7 @@ meses = Array("JANEIRO", "FEVEREIRO", "MAR&Ccedil;O", "ABRIL", "MAIO", "JUNHO", 
 %>
 
 <% 
-Menu 2, 3, "EM DESTAQUE ESTE MÊS"
+Menu 2, 3, "EM DESTAQUE ESTE Mï¿½S"
 %>
 
 <table border="1" cellpadding="20" cellspacing="0">

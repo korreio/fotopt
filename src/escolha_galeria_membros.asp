@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="ordem_galeria.asp" -->
 
@@ -19,7 +25,7 @@ nome = replace(request("nome"), " ", "%")
 if nome <> "" then
 	SQL = "SELECT distinct(autor.id), autor.nome FROM autor INNER JOIN foto ON autor.id = foto.autor WHERE autor.nome LIKE '%" & nome & "%' "
 	if letra = "O" then
-		SQL = SQL & "OR nome LIKE 'Ó%' "
+		SQL = SQL & "OR nome LIKE 'ï¿½%' "
 	end if
 	SQL = SQL & "AND autor.id ORDER by nome"
 	Set autorRes = dbConnection.Execute(SQL)
@@ -32,7 +38,7 @@ if letra <> "" then
 	else
 		SQL = "SELECT distinct(autor.id), autor.nome FROM autor INNER JOIN foto ON autor.id = foto.autor WHERE autor.nome LIKE '" & letra & "%' "
 		if letra = "O" then
-			SQL = SQL & "OR nome LIKE 'Ó%' "
+			SQL = SQL & "OR nome LIKE 'ï¿½%' "
 		end if
 		SQL = SQL & "AND autor.id ORDER by nome"
 		Set autorRes = dbConnection.Execute(SQL)
@@ -76,11 +82,11 @@ Menu 1, 1, "GALERIAS DE MEMBROS"
   <tr>
     <td colspan="5">
 		<% if letra = "TODOS" then %>
-			<font color="white" face="arial"><b>AUTORES COM NOMES COMEÇADOS COM</b></font> <font size="-2" color="white" face="arial">(s&oacute; quem j&aacute; enviou fotos)</font>
+			<font color="white" face="arial"><b>AUTORES COM NOMES COMEï¿½ADOS COM</b></font> <font size="-2" color="white" face="arial">(s&oacute; quem j&aacute; enviou fotos)</font>
 		<% elseif nome <> "" then %>
 			<font color="white" face="arial"><b>AUTORES CUJO NOME CONTEM "<% =replace(nome, "%", " ") %>"</b></font> <font size="-2" color="white" face="arial">(s&oacute; quem j&aacute; enviou fotos)</font>
 		<% else %>
-			<font color="white" face="arial"><b>AUTORES COM NOMES COMEÇADOS COM &quot;<% =letra %>&quot; </b></font> <font size="-2" color="white" face="arial">(s&oacute; quem j&aacute; enviou fotos)</font>
+			<font color="white" face="arial"><b>AUTORES COM NOMES COMEï¿½ADOS COM &quot;<% =letra %>&quot; </b></font> <font size="-2" color="white" face="arial">(s&oacute; quem j&aacute; enviou fotos)</font>
 		<% end if %>
 		<br>
 		
@@ -107,7 +113,7 @@ Menu 1, 1, "GALERIAS DE MEMBROS"
   <% if letra <> "TODOS" then %>
   <tr>
     <td colspan="5">
-		<font color="white" face="arial"><b>AUTORES COM NOME COMEÇADO COM:</b></font><br><font size="-2" color="white" face="arial">(de um total de <% =numAutores %> autores com <% =numFotosRes("num") %> fotos inseridas)</font>
+		<font color="white" face="arial"><b>AUTORES COM NOME COMEï¿½ADO COM:</b></font><br><font size="-2" color="white" face="arial">(de um total de <% =numAutores %> autores com <% =numFotosRes("num") %> fotos inseridas)</font>
 		<br><br>
 
 		<% for i = 0 to 25 %>
@@ -131,6 +137,6 @@ Menu 1, 1, "GALERIAS DE MEMBROS"
 </table>
 
 <br>
-<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorização dos mesmos.</font>
+<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorizaï¿½ï¿½o dos mesmos.</font>
 
 <% FimPagina() %>

@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -36,10 +42,10 @@ meses = Array("JANEIRO", "FEVEREIRO", "MAR&Ccedil;O", "ABRIL", "MAIO", "JUNHO", 
 
 <% 
 OpcaoMenu "VER GALERIA DESTE AUTOR", "lista_temas.asp?autor=" & autorRes("id"), False, False, -1, False, False
-OpcaoMenu "LER COMENTÁRIOS AO AUTOR", "comentarios_autor.asp?primeira=&id=" & autor & "&tema=" & tema, False, False, -1, False, False
+OpcaoMenu "LER COMENTï¿½RIOS AO AUTOR", "comentarios_autor.asp?primeira=&id=" & autor & "&tema=" & tema, False, False, -1, False, False
 OpcaoMenu "FOTOS PREFERIDAS", "galeria.asp?tipo=preferidas&id=" & autorRes("id") & "&tema=0", False, False, -1, False, False
 OpcaoMenu "AUTORES PREFERIDOS", "lista_autores_preferidos.asp?autor=" & autor, False, True, autor, False, False
-OpcaoMenu "CONTRIBUIÇÃO DO MEMBRO", "autor_pormenor.asp?autor=" & autor, False, False, -1, False, True
+OpcaoMenu "CONTRIBUIï¿½ï¿½O DO MEMBRO", "autor_pormenor.asp?autor=" & autor, False, False, -1, False, True
 OpcaoMenu "LINK PARA ESTA FICHA", "link_aqui.asp?autor=" & autor, False, False, -1, False, False
 OpcaoMenu "INSERIR, MUDAR OU APAGAR RETRATO", "inserir_retrato.asp?autor=" & autor, False, True, autor, False, False
 if (session("login") <> 2) then
@@ -59,7 +65,7 @@ OpcaoMenu "RECUPERAR PASSWORD", "recuperar_password.asp?autor=" & autor, False, 
 OpcaoMenu "ALTERAR DADOS", "adm/adm_mudar_autor.asp?autor=" & autorRes("id"), False, False, -1, False, True
 OpcaoMenu "MUDAR ESTADO OU APAGAR", "adm/adm_estado_autor.asp?autor=" & autorRes("id"), False, False, -1, False, True
 OpcaoMenu "INSERIR MENSAGEM", "adm/inserir_mensagem.asp?autor=" & autorRes("id"), False, False, -1, False, True
-OpcaoMenu "JÚRI, CLASSIFICAR", "juri/juri_inserir_autor_mes.asp?autor=" & autor, False, False, -1, True, False
+OpcaoMenu "Jï¿½RI, CLASSIFICAR", "juri/juri_inserir_autor_mes.asp?autor=" & autor, False, False, -1, True, False
 Menu 3, 2, autorRes("nome") 
 %>
 
@@ -95,7 +101,7 @@ Menu 3, 2, autorRes("nome")
 						NORMAL
 					<% end if %>
 				</td></tr>
-				<tr><td><font size="-1" color="red" face="arial"><b>ÚLTIMO&nbsp;LOGIN: </b></font></td><td><font size="-1" color="white" face="arial"><% =day(autorRes("ultima_data")) %>/<% =month(autorRes("ultima_data")) %>/<% =year(autorRes("ultima_data")) %>&nbsp;<% =hour(autorRes("ultima_data")) %>:<% =minute(autorRes("ultima_data")) %>:<% =second(autorRes("ultima_data")) %></font></td></tr>
+				<tr><td><font size="-1" color="red" face="arial"><b>ï¿½LTIMO&nbsp;LOGIN: </b></font></td><td><font size="-1" color="white" face="arial"><% =day(autorRes("ultima_data")) %>/<% =month(autorRes("ultima_data")) %>/<% =year(autorRes("ultima_data")) %>&nbsp;<% =hour(autorRes("ultima_data")) %>:<% =minute(autorRes("ultima_data")) %>:<% =second(autorRes("ultima_data")) %></font></td></tr>
 				<% if not mesmoSSUIRes.eof then %>
 					<tr>
 						<td><font size="-1" color="red" face="arial"><b>MESMO&nbsp;SSUID: </b></font></td>

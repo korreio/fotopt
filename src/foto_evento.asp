@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="galeria_seleccao_evento.asp" -->
 
@@ -63,7 +69,7 @@ meses = Array("Janeiro", "Fevereiro", "Mar&ccedil;o", "Abril", "Maio", "Junho", 
 <% 
 if fotoRes.eof then 
 
-Menu 2, 1, "FOTO NÃO EXISTE"
+Menu 2, 1, "FOTO Nï¿½O EXISTE"
 %>
 	<font size="+1" color="white" face="arial">A fotografia com esse ID deixou de existir h&aacute; instantes.</font>
 	<br>
@@ -141,11 +147,11 @@ else
 		if fotoRes("moderar") <> True then
 	'		OpcaoMenu "COMENTAR", "inserir_comentario_evento.asp?onde=foto&foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, True, -1, False, False
 		end if
-		OpcaoMenu "LER COMENTÁRIOS", "comentarios_evento.asp?foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
+		OpcaoMenu "LER COMENTï¿½RIOS", "comentarios_evento.asp?foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
 
 		OpcaoMenu "GALERIA", "galeria_evento.asp?primeira=" & primeira & "&evento=" & evento, False, False, -1, False, False
 
-		OpcaoMenu "MOSTRAR MENÚS", "foto_evento.asp?menus=mos&foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
+		OpcaoMenu "MOSTRAR MENï¿½S", "foto_evento.asp?menus=mos&foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
 	else
 		if fotoSeguinte <> 0 then
 			OpcaoMenu "<b>>> FOTO SEGUINTE</b>", "foto_evento.asp?foto=" & fotoSeguinte & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num + 1, True, False, -1, False, False
@@ -157,11 +163,11 @@ else
 		if fotoRes("moderar") <> True then
 	'		OpcaoMenu "COMENTAR FOTO", "inserir_comentario_evento.asp?onde=foto&foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, True, -1, False, False
 		end if
-		OpcaoMenu "LER COMENTÁRIOS", "comentarios_evento.asp?foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
+		OpcaoMenu "LER COMENTï¿½RIOS", "comentarios_evento.asp?foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
 
-		OpcaoMenu "VOLTAR À GALERIA", "galeria_evento.asp?primeira=" & primeira & "&evento=" & evento, False, False, -1, False, False
+		OpcaoMenu "VOLTAR ï¿½ GALERIA", "galeria_evento.asp?primeira=" & primeira & "&evento=" & evento, False, False, -1, False, False
 
-		OpcaoMenu "ESCONDER MENÚS", "foto_evento.asp?menus=esc&foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
+		OpcaoMenu "ESCONDER MENï¿½S", "foto_evento.asp?menus=esc&foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
 
 		if session("ficha") <> "com" then
 			OpcaoMenu "FICHA DE FOTO COMPLETA", "foto_evento.asp?ficha=com&foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
@@ -181,9 +187,9 @@ else
 		end if
 	else
 		if tipo <> "" then
-			titulo = "sem título" & " (" & int(numOutrasFotoRes("num")) + 1 & "/" & int(numFotoRes("num")) & ")"
+			titulo = "sem tï¿½tulo" & " (" & int(numOutrasFotoRes("num")) + 1 & "/" & int(numFotoRes("num")) & ")"
 		else
-			titulo = "sem título"
+			titulo = "sem tï¿½tulo"
 		end if
 	end if
 
@@ -226,10 +232,10 @@ else
 			<% if fotoRes("moderar") = True then %>
 				<tr><td><font color="white" size="-1" face="arial"><b>ESTADO<br>PENDENTE: </b></font></td>
 				<td>
-					<font color="red" size="-1" face="arial"><b>FOTO À ESPERA DE APROVAÇÃO PELO WEBMASTER.</b></font><br>
+					<font color="red" size="-1" face="arial"><b>FOTO ï¿½ ESPERA DE APROVAï¿½ï¿½O PELO WEBMASTER.</b></font><br>
 					<font color="white" size="-1" face="arial">
 						Para evitar abusos, as fotos de membros novos, (com menos de 7 fotos na sua galeria principal),	<br>
-						só serão visíveis pelos outros membros depois de aprovadas, o que poderá levar até 3 dias.
+						sï¿½ serï¿½o visï¿½veis pelos outros membros depois de aprovadas, o que poderï¿½ levar atï¿½ 3 dias.
 					</font>
 				</td></tr>
 			<% end if %>
@@ -291,7 +297,7 @@ else
 	</table>
 
 	<br>
-	<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorização dos mesmos.</font>
+	<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorizaï¿½ï¿½o dos mesmos.</font>
 	</div>
 
 	<% if ((fotoAnterior <> 0) or (fotoSeguinte <> 0)) and (session("menus") <> "esc") then %>

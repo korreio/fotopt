@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="ordem_galeria.asp" -->
 
@@ -59,7 +65,7 @@ Menu 1, 2, "GALERIAS DE MEMBROS DESTACADOS"
 %>
 
 <font size="-1" color="white" face="arial">
-	Membros antigamente escolhidos pelo <a href="arquivo/juri.asp">júri</a> que existia no site.
+	Membros antigamente escolhidos pelo <a href="arquivo/juri.asp">jï¿½ri</a> que existia no site.
 </font><br><br>
 
 <table border="1" cellspacing="0" cellpadding="10">
@@ -89,7 +95,7 @@ Menu 1, 2, "GALERIAS DE MEMBROS DESTACADOS"
 
   <tr>
     <td colspan="5">
-		<font color="white" face="arial"><b>AUTORES COM MENÇÃO HONROSA</b></font>
+		<font color="white" face="arial"><b>AUTORES COM MENï¿½ï¿½O HONROSA</b></font>
 		<br>
 		
 		<table border="0" cellspacing="0" cellpadding="0"><tr>
@@ -113,6 +119,6 @@ Menu 1, 2, "GALERIAS DE MEMBROS DESTACADOS"
 </table>
 
 <br>
-<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorização dos mesmos.</font>
+<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorizaï¿½ï¿½o dos mesmos.</font>
 
 <% FimPagina() %>

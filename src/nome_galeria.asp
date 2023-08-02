@@ -1,4 +1,10 @@
 <%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
+<%
 Dim meses
 meses = Array("JANEIRO", "FEVEREIRO", "MAR&Ccedil;O", "ABRIL", "MAIO", "JUNHO", "JULHO", _
 		  "AGOSTO", "SETEMBRO", "OUTUBRO", "NOVEMBRO", "DEZEMBRO")
@@ -40,7 +46,7 @@ elseif tipo = "preferidas_autor" then
 	SQL = "SELECT nome FROM autor WHERE id = " & id
 	Set autorRes = dbConnection.Execute(SQL)
 
-	nomeGaleria = "AS MELHORES FOTOS DE " & autorRes("nome") & " (SELECÇÂO DO AUTOR)"
+	nomeGaleria = "AS MELHORES FOTOS DE " & autorRes("nome") & " (SELECï¿½ï¿½O DO AUTOR)"
 elseif tipo = "novas" then
 	SQL = "SELECT nome FROM assunto WHERE id = " & id
 	Set assuntoRes = dbConnection.Execute(SQL)
@@ -48,7 +54,7 @@ elseif tipo = "novas" then
 	if id = 0 then
 		nomeGaleria = "FOTOGRAFIAS NOVAS"
 	elseif id < 0 then
-		nomeGaleria = "FOTOGRAFIAS ANÓNIMAS NOVAS"
+		nomeGaleria = "FOTOGRAFIAS ANï¿½NIMAS NOVAS"
 	else
 		nomeGaleria = "FOTOGRAFIAS NOVAS - '" & assuntoRes("nome") & "'"
 	end if
@@ -61,13 +67,13 @@ elseif tipo = "data" then
 	if id = "hoje" then
 		nomeGaleria = "FOTOGRAFIAS INSERIDAS HOJE"
 	elseif id = "24horas" then
-		nomeGaleria = "FOTOGRAFIAS INSERIDAS NAS ÚLTIMAS 24 HORAS"
+		nomeGaleria = "FOTOGRAFIAS INSERIDAS NAS ï¿½LTIMAS 24 HORAS"
 	elseif id = "24anonimas" then
-		nomeGaleria = "FOTOGRAFIAS ANÓNIMAS INSERIDAS NAS ÚLTIMAS 24 HORAS"
+		nomeGaleria = "FOTOGRAFIAS ANï¿½NIMAS INSERIDAS NAS ï¿½LTIMAS 24 HORAS"
 	elseif id = "ontem" then
 		nomeGaleria = "FOTOGRAFIAS INSERIDAS ONTEM"
 	elseif id = "ultimos" then
-		nomeGaleria = "FOTOGRAFIAS INSERIDAS NA ÚLTIMA SEMANA"
+		nomeGaleria = "FOTOGRAFIAS INSERIDAS NA ï¿½LTIMA SEMANA"
 	elseif id = "mes" then
 		nomeGaleria = "FOTOGRAFIAS INSERIDAS ESTE M&Ecirc;S"
 	elseif id = "mespassado" then

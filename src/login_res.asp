@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="sqltext.asp" -->
 
@@ -246,7 +252,7 @@ else
 		<font color="white" face="arial"><% =numFotosRes("num") %> <b><a href="galeria.asp?tipo=novas&id=0">FOTO<% if numFotosRes("num") <> 1 then %>S<% end if %> NOVA<% if numFotosRes("num") <> 1 then %>S<% end if %></a></b></font><br>
 		<font color="white" face="arial"><% =numComentFotosRes("num") %> <b><a href="novidades_comentarios.asp">NOVO<% if numComentFotosRes("num") <> 1 then %>S<% end if %> COMENT&Aacute;RIO<% if numComentFotosRes("num") <> 1 then %>S<% end if %> A FOTOS</a></b></font><br>
 		<% if not fotoRes.eof then %>
-			<font size="-1" color="#FFCC66" face="arial">&nbsp;&nbsp;Comentários a fotos suas, por moderar:</font>
+			<font size="-1" color="#FFCC66" face="arial">&nbsp;&nbsp;Comentï¿½rios a fotos suas, por moderar:</font>
 			<% do while not fotoRes.eof %>
 				<font size="-2" color="white" face="arial">&nbsp;<a href="comentarios.asp?foto=<% =fotoRes("id") %>"><% =fotoRes("id") %></a></font>
 				<% fotoRes.MoveNext %>
@@ -255,7 +261,7 @@ else
 		<% end if %>
 		<font color="white" face="arial"><% =numComentAutorRes("num") %> <b><a href="novidades_comentarios.asp">NOVO<% if numComentAutorRes("num") <> 1 then %>S<% end if %> COMENT&Aacute;RIO<% if numComentAutorRes("num") <> 1 then %>S<% end if %> A AUTORES</a></b></font><br>
 		<% if not numComentEsteAutorRes.eof then %>
-			&nbsp;&nbsp;<a href="comentarios_autor.asp?id=<% =autorRes("id") %>"><font size="-1" color="#FFCC66" face="arial">Tem comentários de autor por moderar</font></a><br>
+			&nbsp;&nbsp;<a href="comentarios_autor.asp?id=<% =autorRes("id") %>"><font size="-1" color="#FFCC66" face="arial">Tem comentï¿½rios de autor por moderar</font></a><br>
 		<% end if %>
 		<font color="white" face="arial"><% =numCronicasRes("num") %> <b>CR&Oacute;NICA<% if numCronicasRes("num") <> 1 then %>S<% end if %> NOVA<% if numCronicasRes("num") <> 1 then %>S<% end if %></b></font><br>
 		<% do while not cronicaRes.eof %>

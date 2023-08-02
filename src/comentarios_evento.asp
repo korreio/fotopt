@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -29,10 +35,10 @@ directoria = int(fotoRes("id") / 1000)
 %>
 
 <%
-OpcaoMenu "VOLTAR À GALERIA", "galeria_evento.asp?primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
+OpcaoMenu "VOLTAR ï¿½ GALERIA", "galeria_evento.asp?primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
 OpcaoMenu "VER A FOTO", "foto_evento.asp?foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, False, -1, False, False
-'OpcaoMenu "INSERIR, ALTERAR OU APAGAR COMENTÁRIO", "inserir_comentario_evento.asp?foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, True, -1, False, False
-Menu 2, 4, "COMENTÁRIOS"
+'OpcaoMenu "INSERIR, ALTERAR OU APAGAR COMENTï¿½RIO", "inserir_comentario_evento.asp?foto=" & foto & "&primeira=" & primeira & "&evento=" & evento & "&num=" & num, False, True, -1, False, False
+Menu 2, 4, "COMENTï¿½RIOS"
 %>
 
 <table border="0" cellpadding="0" cellspacing="10">

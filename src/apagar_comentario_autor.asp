@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -24,14 +30,14 @@ Menu 3, 2, "REMOVER COMENTARIO AUTOR"
 %>
 
 <font size="-1" color="white" face="arial">
-Esta op&ccedil;&atilde;o serve para remover este comentário,<br>
-depois de removido, não será possivel recuperá-lo.
+Esta op&ccedil;&atilde;o serve para remover este comentï¿½rio,<br>
+depois de removido, nï¿½o serï¿½ possivel recuperï¿½-lo.
 </font>
 
 <form action="apagar_comentario_autor_res.asp?comentario=<% =comentario %>&autor=<% =autor %>&primeira=<% =primeira %>&tema=<% =tema %>&tipo=<% =tipo %>&id=<% =id %>&num=<% =num %>" method=post>
 <table border="0" cellpadding="3" cellspacing="0">
-	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR DO<br>COMENTÁRIO:</b> </font></td><td><font size="-1" color="white" face="arial"><% =autorRes("nome") %></font></td></tr>
-	<tr><td></td><td><input type="Submit" value="Remover comentário"></td></tr>
+	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR DO<br>COMENTï¿½RIO:</b> </font></td><td><font size="-1" color="white" face="arial"><% =autorRes("nome") %></font></td></tr>
+	<tr><td></td><td><input type="Submit" value="Remover comentï¿½rio"></td></tr>
 </table>
 </form>
 

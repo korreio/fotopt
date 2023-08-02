@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="inicio_basedados.asp" -->
 
 <%
@@ -52,8 +58,8 @@ end if
 	<meta name"robots" content="index, follow">
 	<meta name="owner" content="info@fotopt.net">
 	<meta name="author" content="Tiago Fonseca">
-	<meta name="description" content="Exibiting works by portuguese speeking, both amator and professional, photographers. Dedicado à divulgação de trabalhos de fotógrafos, amadores e profissionais, de expressão portuguesa.">
-	<meta name="keywords" content="portuguese photography brasilian photos landscape photo nude photographies nudes portrait photojournalism photographer gallery photographic artwork galleries portugal fotografia artistica fotografias portuguesas foto artística fotos artísticas fotografo portugues fotógrafo português fotógrafos portugueses amadores profissionais fotografos brasileiros galeria nus nu nú nús paisagem retrato galerias arte fotográfica tecnicas fotograficas eventos fotojornalismo">
+	<meta name="description" content="Exibiting works by portuguese speeking, both amator and professional, photographers. Dedicado ï¿½ divulgaï¿½ï¿½o de trabalhos de fotï¿½grafos, amadores e profissionais, de expressï¿½o portuguesa.">
+	<meta name="keywords" content="portuguese photography brasilian photos landscape photo nude photographies nudes portrait photojournalism photographer gallery photographic artwork galleries portugal fotografia artistica fotografias portuguesas foto artï¿½stica fotos artï¿½sticas fotografo portugues fotï¿½grafo portuguï¿½s fotï¿½grafos portugueses amadores profissionais fotografos brasileiros galeria nus nu nï¿½ nï¿½s paisagem retrato galerias arte fotogrï¿½fica tecnicas fotograficas eventos fotojornalismo">
 </head>
 
 <frameset frameborder="no" border="0" framespacing=0 cols="110,*">

@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 
 <% 
@@ -8,81 +14,81 @@ Menu 4, 4, "RUDIMENTOS DA FOTOGRAFIA"
 <tr><td>
 
 <font size="-1" color="white" face="Arial">
-Embora muitas máquinas façam quase tudo automaticamente, é importante em fotografia, compreender como as coisas se passam. 
-Para quem quer aprender fotografia é recomendável uma máquina que tenha a opção de regular manualmente as seguintes variáveis:
-velocidade de obturação, abertura do diafragma, focagem. Caso contrário a máquina fará ela própria as escolhas que entender 
-adequadas e isso impedirá a pessoa de experimentar e compreender a fotografia.
+Embora muitas mï¿½quinas faï¿½am quase tudo automaticamente, ï¿½ importante em fotografia, compreender como as coisas se passam. 
+Para quem quer aprender fotografia ï¿½ recomendï¿½vel uma mï¿½quina que tenha a opï¿½ï¿½o de regular manualmente as seguintes variï¿½veis:
+velocidade de obturaï¿½ï¿½o, abertura do diafragma, focagem. Caso contrï¿½rio a mï¿½quina farï¿½ ela prï¿½pria as escolhas que entender 
+adequadas e isso impedirï¿½ a pessoa de experimentar e compreender a fotografia.
 <br><br>
-Os 3 factores referidos anteriormente: velocidade de obturação, abertura do diafragma, focagem, são tudo o que você 
-precisa operar para controlar uma máquina fotográfica. Falaremos deles.
+Os 3 factores referidos anteriormente: velocidade de obturaï¿½ï¿½o, abertura do diafragma, focagem, sï¿½o tudo o que vocï¿½ 
+precisa operar para controlar uma mï¿½quina fotogrï¿½fica. Falaremos deles.
 <br><br>
 
 <font size="-1" color="#FFCC66" face="Arial"><b>Como funciona a fotografia?</b></font>
 <br>
-O elemento central da fotografia é o filme (o rolo). O rolo que nós colocámos dentro da máquina não apanha luz, 
-até ao momento em que tiramos uma fotografia, nesse momento o rolo sofre uma acção química que decorre da acção da 
-luz que incide sobre ele (através da máquina fotográfica). Diz-se que o rolo fica impressionado. 
-É muito importante que ao rolo chegue uma certa quantidade de luz, a correcta, nem de mais nem de menos. 
+O elemento central da fotografia ï¿½ o filme (o rolo). O rolo que nï¿½s colocï¿½mos dentro da mï¿½quina nï¿½o apanha luz, 
+atï¿½ ao momento em que tiramos uma fotografia, nesse momento o rolo sofre uma acï¿½ï¿½o quï¿½mica que decorre da acï¿½ï¿½o da 
+luz que incide sobre ele (atravï¿½s da mï¿½quina fotogrï¿½fica). Diz-se que o rolo fica impressionado. 
+ï¿½ muito importante que ao rolo chegue uma certa quantidade de luz, a correcta, nem de mais nem de menos. 
 <br><br>
 
-<font size="-1" color="#FFCC66" face="Arial"><b>Como é regulada a quantidade de luz que chega ao filme quando você tira uma fotografia?</b></font>
+<font size="-1" color="#FFCC66" face="Arial"><b>Como ï¿½ regulada a quantidade de luz que chega ao filme quando vocï¿½ tira uma fotografia?</b></font>
 <br>
-A luz entra pela objectiva e a sua quantidade é regulada por 2 variáveis: a abertura do diafragma e a velocidade de obturação.
-É muito provável que a sua máquina faça isso automaticamente, mas existem bons motivos para que você escolha fazê-lo manualmente: 
+A luz entra pela objectiva e a sua quantidade ï¿½ regulada por 2 variï¿½veis: a abertura do diafragma e a velocidade de obturaï¿½ï¿½o.
+ï¿½ muito provï¿½vel que a sua mï¿½quina faï¿½a isso automaticamente, mas existem bons motivos para que vocï¿½ escolha fazï¿½-lo manualmente: 
 <br><br>
-O filme permanece normalmente na escuridão, excepto durante um curto período (no qual você tira 1 fotografia) em que a 
-máquina abre um orifício, o diafragma, deixando passar a luz que vai impressionar o filme. Esse orifício pode ter 
-uma abertura maior ou menor. Ao valor dessa abertura chama-se abertura do diafragma. A abertura do diafragma é regulável pelo fotógrafo.
+O filme permanece normalmente na escuridï¿½o, excepto durante um curto perï¿½odo (no qual vocï¿½ tira 1 fotografia) em que a 
+mï¿½quina abre um orifï¿½cio, o diafragma, deixando passar a luz que vai impressionar o filme. Esse orifï¿½cio pode ter 
+uma abertura maior ou menor. Ao valor dessa abertura chama-se abertura do diafragma. A abertura do diafragma ï¿½ regulï¿½vel pelo fotï¿½grafo.
 <br><br>
-O tempo durante o qual o diafragma está aberto (deixando passar a luz), chama-se tempo de exposição. O tempo de exposição 
-é regulável pelo fotógrafo. Em seguida chamamos exposição à quantidade de luz que atinge o filme (quando tiramos 1 fotografia). 
-Ao regularmos a abertura do diafragma e o tempo de exposição estamos a controlar a exposição. Chamamos exposição correcta à quantidade 
-de luz que faz com que a fotografia apareça ok, isto é, nem clara de mais, nem escura demais.
+O tempo durante o qual o diafragma estï¿½ aberto (deixando passar a luz), chama-se tempo de exposiï¿½ï¿½o. O tempo de exposiï¿½ï¿½o 
+ï¿½ regulï¿½vel pelo fotï¿½grafo. Em seguida chamamos exposiï¿½ï¿½o ï¿½ quantidade de luz que atinge o filme (quando tiramos 1 fotografia). 
+Ao regularmos a abertura do diafragma e o tempo de exposiï¿½ï¿½o estamos a controlar a exposiï¿½ï¿½o. Chamamos exposiï¿½ï¿½o correcta ï¿½ quantidade 
+de luz que faz com que a fotografia apareï¿½a ok, isto ï¿½, nem clara de mais, nem escura demais.
 <br><br>
-O nosso objectivo é conseguir uma exposição correcta, ou seja, fazer com que a quantidade de luz que chega ao filme seja a 
-adequada para produzir uma boa fotografia. 	Quando a quantidade de luz recebida pelo filme é inferior à adequada obtém-se uma 
-fotografia escura demais (fotografia subexposta). Quando a quantidade de luz recebida pelo filme é superior à adequada obtém-se 
+O nosso objectivo ï¿½ conseguir uma exposiï¿½ï¿½o correcta, ou seja, fazer com que a quantidade de luz que chega ao filme seja a 
+adequada para produzir uma boa fotografia. 	Quando a quantidade de luz recebida pelo filme ï¿½ inferior ï¿½ adequada obtï¿½m-se uma 
+fotografia escura demais (fotografia subexposta). Quando a quantidade de luz recebida pelo filme ï¿½ superior ï¿½ adequada obtï¿½m-se 
 uma fotografia clara demais (fotografia sobreexposta).
 <br><br>
-O valor da exposição é determinado pelo par de valores abertura do diafragma - tempo de exposição. De uma maneira simples, pode dizer-se, 
-como conclusão, que, se você diminui o tempo de exposição, tem que aumentar a abertura do diafragma para obter uma exposição correcta. E vice-versa.
+O valor da exposiï¿½ï¿½o ï¿½ determinado pelo par de valores abertura do diafragma - tempo de exposiï¿½ï¿½o. De uma maneira simples, pode dizer-se, 
+como conclusï¿½o, que, se vocï¿½ diminui o tempo de exposiï¿½ï¿½o, tem que aumentar a abertura do diafragma para obter uma exposiï¿½ï¿½o correcta. E vice-versa.
 <br><br>
 
 <font size="-1" color="#FFCC66" face="Arial"><b>A Focagem</b></font>
 <br>
-A focagem pode ser feita automaticamente (no caso de utilizar uma máquina com autofocus, ou manualmente, se usar uma máquina manual.
-A melhor opção é usar uma máquina que lhe permita a si escolher se pretende focar em manual ou em autofocus.
+A focagem pode ser feita automaticamente (no caso de utilizar uma mï¿½quina com autofocus, ou manualmente, se usar uma mï¿½quina manual.
+A melhor opï¿½ï¿½o ï¿½ usar uma mï¿½quina que lhe permita a si escolher se pretende focar em manual ou em autofocus.
 <br><br>
-Actualmente cada vez são mais as máquinas que só permitem trabalhar em autofocus. Para aprender fotografia, é importante trabalhar com uma 
-máquina cuja focagem é manual. Infelizmente, a opção de poder trabalhar em autofocus ou em manual aparece, hoje em dia, por vezes, só 
-nas máquinas de topo de gama dos fabricantes.
+Actualmente cada vez sï¿½o mais as mï¿½quinas que sï¿½ permitem trabalhar em autofocus. Para aprender fotografia, ï¿½ importante trabalhar com uma 
+mï¿½quina cuja focagem ï¿½ manual. Infelizmente, a opï¿½ï¿½o de poder trabalhar em autofocus ou em manual aparece, hoje em dia, por vezes, sï¿½ 
+nas mï¿½quinas de topo de gama dos fabricantes.
 <br><br>
-No caso de usar uma máquina que tenha autofocus ela fará tudo e você não fará nada, no caso de usar uma máquina em que a 
-focagem seja manual, então você terá um anel na sua lente, que ao ser rodado lhe permitirá escolher qual a distância para que está a focar.
+No caso de usar uma mï¿½quina que tenha autofocus ela farï¿½ tudo e vocï¿½ nï¿½o farï¿½ nada, no caso de usar uma mï¿½quina em que a 
+focagem seja manual, entï¿½o vocï¿½ terï¿½ um anel na sua lente, que ao ser rodado lhe permitirï¿½ escolher qual a distï¿½ncia para que estï¿½ a focar.
 <br><br>
-Numa qualquer fotografia, existem objectos colocados a diferentes distâncias.Tomemos o seguinte exemplo: quer-se fotografar 
-uma rapariga, que está a 5 metros de distância da nossa máquina, na mesma fotografia aparecem também um cão, que está a 1 metro 
-de distância, e um prédio, a 30 metros de distância. Suponhamos que é você que está a fazer a focagem. Então, na sua máquina, você rodará o 
-anel de focagem até que no visor da máquina a rapariga apareça com uma imagem nítida. Por questões que têm que ver com leis da Física 
-então, nessa altura, o cão e o prédio não aparecerão nítidos. E será sempre assim!O que é que isto quer dizer?
+Numa qualquer fotografia, existem objectos colocados a diferentes distï¿½ncias.Tomemos o seguinte exemplo: quer-se fotografar 
+uma rapariga, que estï¿½ a 5 metros de distï¿½ncia da nossa mï¿½quina, na mesma fotografia aparecem tambï¿½m um cï¿½o, que estï¿½ a 1 metro 
+de distï¿½ncia, e um prï¿½dio, a 30 metros de distï¿½ncia. Suponhamos que ï¿½ vocï¿½ que estï¿½ a fazer a focagem. Entï¿½o, na sua mï¿½quina, vocï¿½ rodarï¿½ o 
+anel de focagem atï¿½ que no visor da mï¿½quina a rapariga apareï¿½a com uma imagem nï¿½tida. Por questï¿½es que tï¿½m que ver com leis da Fï¿½sica 
+entï¿½o, nessa altura, o cï¿½o e o prï¿½dio nï¿½o aparecerï¿½o nï¿½tidos. E serï¿½ sempre assim!O que ï¿½ que isto quer dizer?
 <br><br>
-Quer dizer que você focou, como pretendia, para a distância a que se encontrava o objecto que pretendia, a rapariga, a 5 metros. Sendo assim, 
-os outros 2 objectos, por estarem a distâncias diferentes daquela que você focou, 1 metro e 30 metros respectivemente, ficarão desfocados. 
-Assim, resumindo, há sempre que decidir qual o objecto que queremos focado, focar esse, e ter consciência de que os outros, colocados a 
-diferentes distâncias, aparecerão desfocados.
+Quer dizer que vocï¿½ focou, como pretendia, para a distï¿½ncia a que se encontrava o objecto que pretendia, a rapariga, a 5 metros. Sendo assim, 
+os outros 2 objectos, por estarem a distï¿½ncias diferentes daquela que vocï¿½ focou, 1 metro e 30 metros respectivemente, ficarï¿½o desfocados. 
+Assim, resumindo, hï¿½ sempre que decidir qual o objecto que queremos focado, focar esse, e ter consciï¿½ncia de que os outros, colocados a 
+diferentes distï¿½ncias, aparecerï¿½o desfocados.
 <br><br>
 
 <font size="-1" color="#FFCC66" face="Arial"><b>O Filme</b></font>
 <br>
-O filme, também conhecido por rolo fotográfico, é o suporte da sua fotografia. Existem diferentes tipos de filme. Antes de mais existem 
+O filme, tambï¿½m conhecido por rolo fotogrï¿½fico, ï¿½ o suporte da sua fotografia. Existem diferentes tipos de filme. Antes de mais existem 
 filmes para preto e branco e filmes para cor, filmes negativos para fotografia e slides, diapositivo. Os fabricantes de filmes mais conhecidos 
-são a Kodak, a Fuji, a Agfa e a Ilford.
+sï¿½o a Kodak, a Fuji, a Agfa e a Ilford.
 <br><br>
-A principal característica de um filme, (rolo), é a sua sensibilidade.A sensibilidade de um filme mede-se em ASA. Existem rolos de 25, 
+A principal caracterï¿½stica de um filme, (rolo), ï¿½ a sua sensibilidade.A sensibilidade de um filme mede-se em ASA. Existem rolos de 25, 
 50, 100, 200, 400, 800 e 3200 ASA. A sensibilidade do filme diz-nos qual a quantidade de luz que ele necessita para fazer uma boa fotografia.
 <br><br>
-A maior parte das pessoas usa rolos de 100 ASA. Um rolo de maior sensibilidade, por exemplo, de 400 ASA, é um rolo que não necessita de 
-tanta luz para fazer a mesma fotografia. Pode ser-nos útil um rolo destes, quando a luz ambiente que temos é demasiado pouca, para se usar 
+A maior parte das pessoas usa rolos de 100 ASA. Um rolo de maior sensibilidade, por exemplo, de 400 ASA, ï¿½ um rolo que nï¿½o necessita de 
+tanta luz para fazer a mesma fotografia. Pode ser-nos ï¿½til um rolo destes, quando a luz ambiente que temos ï¿½ demasiado pouca, para se usar 
 um rolo de 100 ASA.
 
 <br><br>

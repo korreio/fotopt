@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="inicio_basedados.asp" -->
 <!-- #include file="topo.asp" --></tr></table>
 
@@ -85,7 +91,7 @@ directoria2 = int(foto2Res("id") / 1000)
 </td>
 <td align="right" valign="top">
 	<div align="center">
-		<a target="_top" href="../"><img src="../Imagens/portugues.gif" width=19 height=125 border=0 alt="Versão Portuguesa"></a>
+		<a target="_top" href="../"><img src="../Imagens/portugues.gif" width=19 height=125 border=0 alt="Versï¿½o Portuguesa"></a>
 		<br>
 	</div>
 </td>

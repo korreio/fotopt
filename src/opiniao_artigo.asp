@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -25,9 +31,9 @@ tipo = clng(tipoRes("id"))
 
 <%
 OpcaoMenu "LISTA ITEMS", "opiniao_tipo.asp?ordem=" & ordem & "&tipo=" & tipo, False, False, -1, False, False
-OpcaoMenu "INSERIR OU MUDAR OPINIÃO", "inserir_opiniao.asp?ordem=" & ordem & "&artigo=" & artigo, False, True, -1, False, False
+OpcaoMenu "INSERIR OU MUDAR OPINIï¿½O", "inserir_opiniao.asp?ordem=" & ordem & "&artigo=" & artigo, False, True, -1, False, False
 OpcaoMenu "MUDAR OU APAGAR ARTIGO", "adm/adm_mudar_opiniao.asp?ordem=" & ordem & "&artigo=" & artigo, False, False, -1, False, True
-Menu 2, 5, "OPINIÕES SOBRE MATERIAL"
+Menu 2, 5, "OPINIï¿½ES SOBRE MATERIAL"
 %>
 
 <table border="3" cellpadding="5" cellspacing="0">
@@ -130,7 +136,7 @@ do while not opiniaoRes.eof
 				<font size="-1" color="white" face="arial"><% if opiniaoRes("contras") <> "-1" then %><% =Enter2Br(opiniaoRes("contras")) %><% end if %></font>
 			</td>
 			<td>
-				<font size="-1" color="#FFCC66" face="arial"><b>OPINIÃO:</b></font>&nbsp;&nbsp;
+				<font size="-1" color="#FFCC66" face="arial"><b>OPINIï¿½O:</b></font>&nbsp;&nbsp;
 				<% if classRes("valor") = 0 then %>
 					<img src="Imagens/errado.gif" width=18 height=15 border=0 alt="">
 				<% else %>

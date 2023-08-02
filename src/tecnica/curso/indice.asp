@@ -1,7 +1,13 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../../funcoes_principais.asp" -->
 <% 
 OpcaoMenu ">> SEGUINTE", "tecnica/curso/parte1.asp", False, False, -1, False, False
-Menu 4, 1, "FOTOGRAFIA BÁSICA EXEMPLO A EXEMPLO - ÍNDICE" 
+Menu 4, 1, "FOTOGRAFIA Bï¿½SICA EXEMPLO A EXEMPLO - ï¿½NDICE" 
 %>
 
 <font color="#FFCC66" face="arial"><b>FOTOGRAFIA B&Aacute;SICA EXEMPLO A EXEMPLO</b></font>

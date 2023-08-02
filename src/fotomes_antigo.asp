@@ -1,9 +1,15 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <% 
-OpcaoMenu "VER RESULTADOS DE OUTRO MÊS", "fotomes_antigo.asp", False, False, -1, False, False
-OpcaoMenu "RECALCULAR POSIÇÕES", "adm/fotomes_calc_pos.asp?mes=" & mes & "&ano=" & ano, False, False, -1, False, True
-Menu 4, 1, "FOTO DO MÊS ANTERIORES"
+OpcaoMenu "VER RESULTADOS DE OUTRO Mï¿½S", "fotomes_antigo.asp", False, False, -1, False, False
+OpcaoMenu "RECALCULAR POSIï¿½ï¿½ES", "adm/fotomes_calc_pos.asp?mes=" & mes & "&ano=" & ano, False, False, -1, False, True
+Menu 4, 1, "FOTO DO Mï¿½S ANTERIORES"
 %>
 
 <%

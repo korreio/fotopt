@@ -1,7 +1,13 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 
 <% 
-Menu 4, 4, "A MÁQUINA" 
+Menu 4, 4, "A Mï¿½QUINA" 
 %>
 
 <font size="-1" color="white" face="Arial">
@@ -10,45 +16,45 @@ Menu 4, 4, "A MÁQUINA"
 <br><br>
 
 <font size="-1" color="white" face="Arial">
-<font size="+1" color="white" face="Arial">Máquinas fotográficas</font><br>
-É recomendável uma máquina fotográfica reflex, 35mm. Os grandes fabricantes deste tipo de equipamento são: 
+<font size="+1" color="white" face="Arial">Mï¿½quinas fotogrï¿½ficas</font><br>
+ï¿½ recomendï¿½vel uma mï¿½quina fotogrï¿½fica reflex, 35mm. Os grandes fabricantes deste tipo de equipamento sï¿½o: 
 Nikon, Canon, Minolta, Pentax, Olympus.
 <br><br>
 
 <font size="+1" color="white" face="Arial">Objectivas</font><br>
-Podem ser de distância focal fixa (objectivas fixas) ou variável (zooms). Os fabricantes das máquinas fotográficas 
-também fabricam objectivas e normalmente vendem-nas logo em conjunto. 
+Podem ser de distï¿½ncia focal fixa (objectivas fixas) ou variï¿½vel (zooms). Os fabricantes das mï¿½quinas fotogrï¿½ficas 
+tambï¿½m fabricam objectivas e normalmente vendem-nas logo em conjunto. 
 <br><br>
-É conveniente ter um conjunto de objectivas, (lentes), adequado ao tipo de fotografia que pretendemos fazer. 
-A principal característica de uma objectiva é a sua distância focal, assim fala-se de objectivas fixas de 28mm, 
+ï¿½ conveniente ter um conjunto de objectivas, (lentes), adequado ao tipo de fotografia que pretendemos fazer. 
+A principal caracterï¿½stica de uma objectiva ï¿½ a sua distï¿½ncia focal, assim fala-se de objectivas fixas de 28mm, 
 35mm, 50mm, 70mm, 130mm, 210mm, 300mm, etc.
 <br><br>
-Existem também objectivas zoom, que são objectivas de distância focal variável, que permitem ao utilizador, 
-com uma só lente, seleccionar a distância focal que pretende, dispensando assim a utilização de diferentes várias 
-objectivas fixas. A utilização de objectivas zoom é mais económica e por isso é a opção mais comum. 
+Existem tambï¿½m objectivas zoom, que sï¿½o objectivas de distï¿½ncia focal variï¿½vel, que permitem ao utilizador, 
+com uma sï¿½ lente, seleccionar a distï¿½ncia focal que pretende, dispensando assim a utilizaï¿½ï¿½o de diferentes vï¿½rias 
+objectivas fixas. A utilizaï¿½ï¿½o de objectivas zoom ï¿½ mais econï¿½mica e por isso ï¿½ a opï¿½ï¿½o mais comum. 
 <br><br>
-Conforme a situação e o tipo de fotografia que pretendemos fazer assim deve ser a escolha da objectiva a utilizar.
+Conforme a situaï¿½ï¿½o e o tipo de fotografia que pretendemos fazer assim deve ser a escolha da objectiva a utilizar.
 <br><br>
 <b>As objectivas podem agrupar-se nas seguintes categorias</b>
 <ul type="disc">
-<li><b>Grandes Angulares</b> - as de distância focal menor que 50mm. "Afastam" os objectos mas permitem captar objectos num ângulo 
-mais largo que as outras objectivas.Usando uma lente de 28mm o ângulo coberto será maior que usando uma lente de 35mm.<br>
-<li><b>Normal</b> - distância focal igual a 50 mm. Corresponde aproximadamente ao nosso ângulo de visão.<br>
-<li><b>Teleobjectivas</b> - distância focal superior a 50mm. Aproximam objectos distantes (correspondem a ângulos de 
-visão mais estreitos). Uma teleobjectiva de 300 mm aproximará mais que uma de 210mm.
+<li><b>Grandes Angulares</b> - as de distï¿½ncia focal menor que 50mm. "Afastam" os objectos mas permitem captar objectos num ï¿½ngulo 
+mais largo que as outras objectivas.Usando uma lente de 28mm o ï¿½ngulo coberto serï¿½ maior que usando uma lente de 35mm.<br>
+<li><b>Normal</b> - distï¿½ncia focal igual a 50 mm. Corresponde aproximadamente ao nosso ï¿½ngulo de visï¿½o.<br>
+<li><b>Teleobjectivas</b> - distï¿½ncia focal superior a 50mm. Aproximam objectos distantes (correspondem a ï¿½ngulos de 
+visï¿½o mais estreitos). Uma teleobjectiva de 300 mm aproximarï¿½ mais que uma de 210mm.
 </ul>
-Um fotógrafo necessita de um conjunto de objectivas adequado às fotografias que pretende fazer, sendo assim, como exemplo:
+Um fotï¿½grafo necessita de um conjunto de objectivas adequado ï¿½s fotografias que pretende fazer, sendo assim, como exemplo:
 <br><br>
-Para <b>retrato</b> (rosto) é comum usar objectivas entre 70-130mm para fotos à distância, por exemplo em <b>desporto</b>,
-é comum usar-se objectivas com distâncias focais superiores a 200 mm, as grandes angulares podem ser muito úteis em 
-fotografias de <b>interiores</b> em que o espaço seja pouco e o fotógrafo tenha dificuldade em enquadrar todos os personagens na fotografia.
+Para <b>retrato</b> (rosto) ï¿½ comum usar objectivas entre 70-130mm para fotos ï¿½ distï¿½ncia, por exemplo em <b>desporto</b>,
+ï¿½ comum usar-se objectivas com distï¿½ncias focais superiores a 200 mm, as grandes angulares podem ser muito ï¿½teis em 
+fotografias de <b>interiores</b> em que o espaï¿½o seja pouco e o fotï¿½grafo tenha dificuldade em enquadrar todos os personagens na fotografia.
 <br><br>
-Para facilitar a vida de quem quer tirar fotografias, usam-se normalmente zooms, que são lentes de distância focal variável, 
-que assim, fazem as vezes de várias lentes. Por exemplo, se tiver uma zoom 35-70 pode utilizá-la como uma objectiva de 
-35 mm ou como uma de 50 ou 70mm. Isso tem a vantagem de ser mais económico e de evitar que se carregue uma data de objectivas diferentes.
+Para facilitar a vida de quem quer tirar fotografias, usam-se normalmente zooms, que sï¿½o lentes de distï¿½ncia focal variï¿½vel, 
+que assim, fazem as vezes de vï¿½rias lentes. Por exemplo, se tiver uma zoom 35-70 pode utilizï¿½-la como uma objectiva de 
+35 mm ou como uma de 50 ou 70mm. Isso tem a vantagem de ser mais econï¿½mico e de evitar que se carregue uma data de objectivas diferentes.
 <br><br>
-Assim uma opção boa para um fotógrafo amador pode ser uma zoom de 35-70mm (que possívelmente vem já 
-com a máquina) e uma outra de 70-210mm. Isso permite-lhe cobrir uma variedade razoável de situações.
+Assim uma opï¿½ï¿½o boa para um fotï¿½grafo amador pode ser uma zoom de 35-70mm (que possï¿½velmente vem jï¿½ 
+com a mï¿½quina) e uma outra de 70-210mm. Isso permite-lhe cobrir uma variedade razoï¿½vel de situaï¿½ï¿½es.
 </font>
 
 <% FimPagina() %>

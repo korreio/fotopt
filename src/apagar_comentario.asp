@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -28,8 +34,8 @@ Menu 1, GaleriaSubSeccao(tipo, id), "REMOVER COMENTARIO"
 %>
 
 <font size="-1" color="white" face="arial">
-Esta op&ccedil;&atilde;o serve para remover este comentário feito à sua foto,<br>
-depois de removido, não será possivel recuperar o comentário.
+Esta op&ccedil;&atilde;o serve para remover este comentï¿½rio feito ï¿½ sua foto,<br>
+depois de removido, nï¿½o serï¿½ possivel recuperar o comentï¿½rio.
 </font>
 
 <form action="apagar_comentario_res.asp?comentario=<% =comentario %>&foto=<% =fotoRes("id") %>&primeira=<% =primeira %>&tema=<% =tema %>&tipo=<% =tipo %>&id=<% =id %>&num=<% =num %>" method=post>
@@ -41,7 +47,7 @@ depois de removido, não será possivel recuperar o comentário.
 		<tr><td><font size="-1" color="#FFCC66" face="arial"><b>T&Iacute;TULO:</b> </font></td><td><font size="-1" color="white" face="arial"><i>sem t&iacute;tulo</i></font></td></tr>
 	<% end if %>
 	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR:</b> </font></td><td><font size="-1" color="white" face="arial"><% =autorRes("nome") %></font></td></tr>
-	<tr><td></td><td><input type="Submit" value="Remover comentário"></td></tr>
+	<tr><td></td><td><input type="Submit" value="Remover comentï¿½rio"></td></tr>
 </table>
 </form>
 

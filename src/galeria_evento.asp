@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="galeria_seleccao_evento.asp" -->
 <!-- #include file="ordem_galeria.asp" -->
@@ -98,10 +104,10 @@ end if
 <% 
 if not fotoRes.eof then
 	if paginaSeguinte <> 0 then
-		OpcaoMenu "<b>>> PÁGINA SEGUINTE</b>", "galeria_evento.asp?primeira=" & paginaSeguinte & "&evento=" & evento, True, False, -1, False, False
+		OpcaoMenu "<b>>> Pï¿½GINA SEGUINTE</b>", "galeria_evento.asp?primeira=" & paginaSeguinte & "&evento=" & evento, True, False, -1, False, False
 	end if
 	if paginaAnterior <> 0 then
-		OpcaoMenu "<b><< PÁGINA ANTERIOR</b>", "galeria_evento.asp?primeira=" & paginaAnterior & "&evento=" & evento, True, False, -1, False, False
+		OpcaoMenu "<b><< Pï¿½GINA ANTERIOR</b>", "galeria_evento.asp?primeira=" & paginaAnterior & "&evento=" & evento, True, False, -1, False, False
 	end if
 end if
 

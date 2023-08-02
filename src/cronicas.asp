@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -20,11 +26,11 @@ meses = Array("Janeiro", "Fevereiro", "Mar&ccedil;o", "Abril", "Maio", "Junho", 
 %>
 
 <%
-OpcaoMenu "GALERIA DE FOTOS COM CRÓNICAS", "galeria.asp?tipo=cronicas&id=" & tipo, False, False, -1, False, False
+OpcaoMenu "GALERIA DE FOTOS COM CRï¿½NICAS", "galeria.asp?tipo=cronicas&id=" & tipo, False, False, -1, False, False
 if tipo = "" then
-	Menu 1, 1, "CRÓNICAS NOVAS"
+	Menu 1, 1, "CRï¿½NICAS NOVAS"
 else
-	Menu 1, 1, "CRÓNICAS NOVAS - " & assuntoRes("nome")
+	Menu 1, 1, "CRï¿½NICAS NOVAS - " & assuntoRes("nome")
 end if
 %>
 

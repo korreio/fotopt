@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -11,10 +17,10 @@ Set esteMesRes = dbConnection.Execute(SQL)
 
 if not esteMesRes.eof then
 	if not ((mes = 3) and (ano = 2002)) then
-'		OpcaoMenu "PROPÔR FOTO FOTO PARA TÊMA DESTE MÊS", "inserir_foto_temames.asp", False, True, -1, False, False
+'		OpcaoMenu "PROPï¿½R FOTO FOTO PARA Tï¿½MA DESTE Mï¿½S", "inserir_foto_temames.asp", False, True, -1, False, False
 	end if
 end if
-Menu 4, 2, "TEMA DO MÊS"
+Menu 4, 2, "TEMA DO Mï¿½S"
 
 SQL = "SELECT * FROM tema_mes WHERE (mes < " & mes & " AND ano = " & ano & ") OR (ano < " & ano & ") ORDER BY id"
 Set temasPassadosRes = dbConnection.Execute(SQL)
@@ -30,12 +36,12 @@ meses = Array("JANEIRO", "FEVEREIRO", "MAR&Ccedil;O", "ABRIL", "MAIO", "JUNHO", 
 <font size="-1" color="white" face="arial">
 	Nesta sec&ccedil;&atilde;o eram sugeridos diversos temas fotogr&aacute;ficos - um para cada m&ecirc;s do ano. No fim de cada 
 	m&ecirc;s um j&uacute;ri destacava as melhores fotografias entre as escolhidas pelos autores. Este concurso deixou de existir,
-	estando apenas pendente os resultados do mês passado - "Rostos de Mulher".<br><br>
+	estando apenas pendente os resultados do mï¿½s passado - "Rostos de Mulher".<br><br>
 </font>
 
 <table border="1" cellpadding="5" cellspacing="0">
 <tr>
-	<td align="center"><font color="white" face="arial"><b>TEMA DESTE MÊS</b></font></td>
+	<td align="center"><font color="white" face="arial"><b>TEMA DESTE Mï¿½S</b></font></td>
 	<td align="center"><font color="white" face="arial"><b>AS&nbsp;FOTOS</b></font></td>
 	<td align="center"><font color="white" face="arial"><b>M&Ecirc;S</b></font></td>
 </tr>
@@ -67,7 +73,7 @@ if not esteMesRes.eof then
 				<font size="-1" color="#FFCC66" face="verdana, arial"><b><% =esteMesRes("nome") %></b></font>
 				<br><font size="-1" color="white" face="arial"><% =esteMesRes("descricao") %></font>
 			</td>
-			<td align="center" valign="middle"><font size="-1" color="#FFCC66" face="verdana, arial">Serão divulgados dentro de dias.</font></td>
+			<td align="center" valign="middle"><font size="-1" color="#FFCC66" face="verdana, arial">Serï¿½o divulgados dentro de dias.</font></td>
 			<td align="center"><font size="-2" color="#FFCC66" face="verdana, arial"><b><% =meses(clng(esteMesRes("mes")) - 1) %><br><% =esteMesRes("ano") %></b></font></td>
 		<% end if %>
 	</tr>
@@ -75,10 +81,10 @@ if not esteMesRes.eof then
 <% else %>
 	<tr>
 		<td><font size="-1" color="#FFCC66" face="verdana, arial"><b>
-			Durante este mês não haverá concurso do tema do mês (devido a vários problemas
-			de ordem técnica e de re-organização). O concurso recomeçará, no seu modo normal, 
-			ja para o mês que vem, altura em que serão divulgados todos os temas para este ano.
-			Peço desculpa pelo inconveniente.
+			Durante este mï¿½s nï¿½o haverï¿½ concurso do tema do mï¿½s (devido a vï¿½rios problemas
+			de ordem tï¿½cnica e de re-organizaï¿½ï¿½o). O concurso recomeï¿½arï¿½, no seu modo normal, 
+			ja para o mï¿½s que vem, altura em que serï¿½o divulgados todos os temas para este ano.
+			Peï¿½o desculpa pelo inconveniente.
 			</b></font></td>
 		<td align="center" valign="middle">&nbsp;</td>
 		<td align="center"><font size="-2" color="#FFCC66" face="verdana, arial"><b><% =meses(mes - 1) %><br><% =ano %></b></font></td>
@@ -90,7 +96,7 @@ if not esteMesRes.eof then
 	<br><br>
 	<table border="1" cellpadding="5" cellspacing="0">
 	<tr>
-		<td align="center"><font color="white" face="arial"><b>TEMAS DOS PRÓXIMOS MESES</b></font></td>
+		<td align="center"><font color="white" face="arial"><b>TEMAS DOS PRï¿½XIMOS MESES</b></font></td>
 		<td align="center"><font color="white" face="arial"><b>M&Ecirc;S</b></font></td>
 	</tr>
 	<% do while not temasFuturosRes.eof %>

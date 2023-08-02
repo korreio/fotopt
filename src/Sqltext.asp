@@ -1,10 +1,16 @@
 <%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
+<%
 function SqlTextMemo(s)
 	dim tmp
 	tmp = s
 
 	if not isnull(tmp) then
-		tmp = replace(tmp, "’", "'")
+		tmp = replace(tmp, "ï¿½", "'")
 		tmp = replace(tmp, "`", "'")
 		tmp = replace(tmp, "'", "''")
 		tmp = replace(tmp, "&quot;", """")

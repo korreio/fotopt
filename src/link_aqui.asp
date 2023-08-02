@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -13,7 +19,7 @@ Menu 3, 2, "LINK DIRECTO PARA FICHA PESSOAL"
 
 <form>
 <font color="#ffffff" size="-1" face="Arial">
-Criei esta sec&ccedil;&atilde;o para todos aqueles que têm p&aacute;ginas e 
+Criei esta sec&ccedil;&atilde;o para todos aqueles que tï¿½m p&aacute;ginas e 
 querem colocar um link directo para a sua ficha pessoal no foto@pt.
 <br><br>
 O link para aceder directamente &agrave; ficha de &quot;<% =autorRes("nome") %>&quot; &eacute;:<br>

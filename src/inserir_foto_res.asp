@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -152,9 +158,9 @@ if numFotosRes("num") >= maxFotos then
 elseif numFotosHoje = 0 then
 	Menu 1, 8, "INSERIR FOTOGRAFIA"
 %>
-	<font color="#FFCC66" face="arial"><b>ULTIMA FOTO INSERIDA HÁ MENOS DE 24 HORAS</b></font><br><br>
+	<font color="#FFCC66" face="arial"><b>ULTIMA FOTO INSERIDA Hï¿½ MENOS DE 24 HORAS</b></font><br><br>
 	<font size="-1" color="white" face="arial">
-	Só poderá inserir outra foto dentro de 
+	Sï¿½ poderï¿½ inserir outra foto dentro de 
 	<font color="#FFCC66"><b><% =hour(proximaFotoDentroDe) %> hora<% if hour(proximaFotoDentroDe) <> 1 then %>s<% end if %> e <% =minute(proximaFotoDentroDe) %> minuto<% if minute(proximaFotoDentroDe) <> 1 then %>s<% end if %></b></font>
 	(depois das
 	<% if minute(proximaFoto) < 10 then %>
@@ -164,7 +170,7 @@ elseif numFotosHoje = 0 then
 	<% end if %>
 	de <% =day(proximaFoto) %>/<% =month(proximaFoto) %>/<% =year(proximaFoto) %> - hora de Lisboa).
 	<br><br>
-	Cada membro só pode inserir uma fotografia de 24 em 24 horas, podendo no entanto remover a última e voltar a inseri-la quantas vezes for necessário.
+	Cada membro sï¿½ pode inserir uma fotografia de 24 em 24 horas, podendo no entanto remover a ï¿½ltima e voltar a inseri-la quantas vezes for necessï¿½rio.
 	<br><br>
 	Este limite foi imposto para aumentar a velocidade de navega&ccedil;&atilde;o no site e para permitir que
 	os membros tenham tempo de apreciar a maior parte das fotos inseridas.<br>

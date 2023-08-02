@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="ordem_galeria.asp" -->
 <!-- #include file="galeria_seleccao.asp" -->
@@ -104,12 +110,12 @@ end if
 <% 
 if not fotoRes.eof then
 	if paginaSeguinte <> 0 then
-		OpcaoMenu "<b>>> PÁGINA SEGUINTE</b>", "galeria.asp?primeira=" & paginaSeguinte & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, True, False, -1, False, False
+		OpcaoMenu "<b>>> Pï¿½GINA SEGUINTE</b>", "galeria.asp?primeira=" & paginaSeguinte & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, True, False, -1, False, False
 	end if
 	if paginaAnterior <> 0 then
-		OpcaoMenu "<b><< PÁGINA ANTERIOR</b>", "galeria.asp?primeira=" & paginaAnterior & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, True, False, -1, False, False
+		OpcaoMenu "<b><< Pï¿½GINA ANTERIOR</b>", "galeria.asp?primeira=" & paginaAnterior & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, True, False, -1, False, False
 	end if
-	OpcaoMenu "LISTA DE PÁGINAS", "lista.asp?tipo=" & tipo & "&primeira=" & primeira & "&id=" & id & "&tema=" & tema, False, False, -1, False, False
+	OpcaoMenu "LISTA DE Pï¿½GINAS", "lista.asp?tipo=" & tipo & "&primeira=" & primeira & "&id=" & id & "&tema=" & tema, False, False, -1, False, False
 end if
 
 if tipo = "autor" then 
@@ -136,7 +142,7 @@ if tipo = "juri" then
 	
 	if (clng(criadorRes("autor")) = session("login")) or (session("login") = 2) then
 		if criadorRes("tema_mes") = False then
-			OpcaoMenu "MUDAR OU APAGAR ESTA GALERIA DE JÚRI", "juri/juri_mudar_tema.asp?tema=" & id, False, False, -1, True, False
+			OpcaoMenu "MUDAR OU APAGAR ESTA GALERIA DE Jï¿½RI", "juri/juri_mudar_tema.asp?tema=" & id, False, False, -1, True, False
 		end if
 	end if
 end if
@@ -198,7 +204,7 @@ end if
 				<% if session("login") = 2 then %>
 					<br><font color="silver" face="arial" size="-2">(de </font><a href="autor.asp?autor=<% =autorRes("id") %>"><font color="red" face="arial" size="-2"><% =autorRes("nome") %></font></a><font color="silver" face="arial" size="-2"><% if (comentarioRes("num") > 0) and ((session("login") = 2) or (session("login") = fotoRes("autor"))) then %>, <a href="comentarios.asp?foto=<% =fotoRes("id") %>&primeira=<% =primeira %>&tema=<% =tema %>&tipo=<% =tipo %>&id=<% =id %>&num=<% =i + 1 %>"><font color="silver" face="arial" size="-2"><% =comentarioRes("num") %></font></a><% end if %>)</font>
 				<% else %>
-					<br><font color="silver" face="arial" size="-2">(de <i>anónimo</i><% if (comentarioRes("num") > 0) and ((session("login") = 2) or (session("login") = fotoRes("autor"))) then %>, <a href="comentarios.asp?foto=<% =fotoRes("id") %>&primeira=<% =primeira %>&tema=<% =tema %>&tipo=<% =tipo %>&id=<% =id %>&num=<% =i + 1 %>"><font color="silver" face="arial" size="-2"><% =comentarioRes("num") %></font></a><% end if %>)</font>
+					<br><font color="silver" face="arial" size="-2">(de <i>anï¿½nimo</i><% if (comentarioRes("num") > 0) and ((session("login") = 2) or (session("login") = fotoRes("autor"))) then %>, <a href="comentarios.asp?foto=<% =fotoRes("id") %>&primeira=<% =primeira %>&tema=<% =tema %>&tipo=<% =tipo %>&id=<% =id %>&num=<% =i + 1 %>"><font color="silver" face="arial" size="-2"><% =comentarioRes("num") %></font></a><% end if %>)</font>
 				<% end if %>
 			<% else %>
 				<br><font color="silver" face="arial" size="-2">(de </font><a href="autor.asp?autor=<% =autorRes("id") %>"><font color="silver" face="arial" size="-2"><% =autorRes("nome") %></font></a><font color="silver" face="arial" size="-2"><% if (comentarioRes("num") > 0) and ((session("login") = 2) or (session("login") = fotoRes("autor"))) then %>, <a href="comentarios.asp?foto=<% =fotoRes("id") %>&primeira=<% =primeira %>&tema=<% =tema %>&tipo=<% =tipo %>&id=<% =id %>&num=<% =i + 1 %>"><font color="silver" face="arial" size="-2"><% =comentarioRes("num") %></font></a><% end if %>)</font>

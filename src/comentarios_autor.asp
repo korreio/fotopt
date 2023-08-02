@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -37,9 +43,9 @@ else
 		OpcaoMenu "GALERIA DESTE AUTOR", "galeria.asp?tipo=autor&primeira=" & primeira & "&id=" & autor & "&tema=0", False, False, -1, False, False
 	end if
 end if
-OpcaoMenu "INSERIR COMENTÁRIO A ESTE AUTOR", "inserir_comentario_autor.asp?autor=" & autor & "&primeira=" & primeira & "&tema=" & tema, False, True, -1, False, False
-OpcaoMenu "APROVAR TODOS OS COMENTÁRIOS", "aprovar_comentario_autor_res.asp?comentario=-1&autor=" & autor & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, autor, False, False
-Menu 3, 2, "COMENTÁRIO A AUTOR - " & autorRes("nome")
+OpcaoMenu "INSERIR COMENTï¿½RIO A ESTE AUTOR", "inserir_comentario_autor.asp?autor=" & autor & "&primeira=" & primeira & "&tema=" & tema, False, True, -1, False, False
+OpcaoMenu "APROVAR TODOS OS COMENTï¿½RIOS", "aprovar_comentario_autor_res.asp?comentario=-1&autor=" & autor & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, autor, False, False
+Menu 3, 2, "COMENTï¿½RIO A AUTOR - " & autorRes("nome")
 %>
 
 <table border="1" cellpadding="4" cellspacing="0">
@@ -82,26 +88,26 @@ do while not comentarioRes.eof
 
 <br>
 <font size="-1" color="white" face="arial">
-	Nota: o autor comentado é o principal responsável por moderar o conteúdo dos comentários à sua ficha, 
-	sendo opção de cada membro mostrar ou não aos outros membros os comentários por aprovar (assinalados a
-	amarelo ou vermelho, conforme se visiveis por todos ou não).
+	Nota: o autor comentado ï¿½ o principal responsï¿½vel por moderar o conteï¿½do dos comentï¿½rios ï¿½ sua ficha, 
+	sendo opï¿½ï¿½o de cada membro mostrar ou nï¿½o aos outros membros os comentï¿½rios por aprovar (assinalados a
+	amarelo ou vermelho, conforme se visiveis por todos ou nï¿½o).
 </font>
 <% if session("login") = autor then %>
 	<br><br>
 	<font size="-1" color="white" face="arial">
 	<% if autorOpcoesRes("aprovacao") = 0 then %>
-		Atenção: clique na opção APAGAR para remover o comentário, sem hipótese de recuperação. Os comentários com
-		a opção APROVAR só aparecerão no site depois de aprovados por si, caso contrário só o autor comentado e o
-		comentador os verão. Pode aprovar todos os comentários de uma vez com a opção APROVAR TODOS OS COMENTÁRIOS.
+		Atenï¿½ï¿½o: clique na opï¿½ï¿½o APAGAR para remover o comentï¿½rio, sem hipï¿½tese de recuperaï¿½ï¿½o. Os comentï¿½rios com
+		a opï¿½ï¿½o APROVAR sï¿½ aparecerï¿½o no site depois de aprovados por si, caso contrï¿½rio sï¿½ o autor comentado e o
+		comentador os verï¿½o. Pode aprovar todos os comentï¿½rios de uma vez com a opï¿½ï¿½o APROVAR TODOS OS COMENTï¿½RIOS.
 		<br><br>
-		Se preferir pode escolher a opção de mostrar aos outros membros todos os comentários ainda não aprovados, para 
-		isso vá a sua ficha de membro, prima ALTERAR DADOS e mude as OPÇÕES ESPECIAIS.
+		Se preferir pode escolher a opï¿½ï¿½o de mostrar aos outros membros todos os comentï¿½rios ainda nï¿½o aprovados, para 
+		isso vï¿½ a sua ficha de membro, prima ALTERAR DADOS e mude as OPï¿½ï¿½ES ESPECIAIS.
 	<% else %>
-		Atenção: clique na opção APAGAR para remover o comentário, sem hipótese de recuperação. Pode aprovar todos os
-		comentários de uma vez com a opção APROVAR TODOS OS COMENTÁRIOS.
+		Atenï¿½ï¿½o: clique na opï¿½ï¿½o APAGAR para remover o comentï¿½rio, sem hipï¿½tese de recuperaï¿½ï¿½o. Pode aprovar todos os
+		comentï¿½rios de uma vez com a opï¿½ï¿½o APROVAR TODOS OS COMENTï¿½RIOS.
 		<br><br>
-		Se preferir pode escolher a opção de esconder dos outros membros todos os comentários ainda não aprovados, para isso 
-		vá a sua ficha de membro, prima ALTERAR DADOS e mude as OPÇÕES ESPECIAIS.
+		Se preferir pode escolher a opï¿½ï¿½o de esconder dos outros membros todos os comentï¿½rios ainda nï¿½o aprovados, para isso 
+		vï¿½ a sua ficha de membro, prima ALTERAR DADOS e mude as OPï¿½ï¿½ES ESPECIAIS.
 	<% end if %>
 	</font>
 <% end if %>

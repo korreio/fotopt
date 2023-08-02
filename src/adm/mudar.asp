@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="inicio_basedados.asp" -->
 <!-- #include file="autenticar_webmaster.asp" -->
 <!-- #include file="../textutil.asp" -->
@@ -24,13 +30,13 @@
 'SQL = "UPDATE contador SET visitas = '180' WHERE id = 1"
 'dbConnection.Execute(SQL)
 
-'SQL = "INSERT INTO debate_assunto (nome, descricao, total, hoje, data) VALUES ('técnica.arte', 'Temas, ...', '0', '0','" & date() & "')"
+'SQL = "INSERT INTO debate_assunto (nome, descricao, total, hoje, data) VALUES ('tï¿½cnica.arte', 'Temas, ...', '0', '0','" & date() & "')"
 'dbConnection.Execute(SQL)
 
 'SQL = "CREATE TABLE novidade (id COUNTER, texto MEMO, data DATE)"
 'dbConnection.Execute(SQL)
 
-'SQL = "INSERT INTO novidade (texto, data) VALUES ('Ampliação da página de <b>Novidades</b> e de <b>login</b>.', '" & date() & "')"
+'SQL = "INSERT INTO novidade (texto, data) VALUES ('Ampliaï¿½ï¿½o da pï¿½gina de <b>Novidades</b> e de <b>login</b>.', '" & date() & "')"
 'dbConnection.Execute(SQL)
 
 'SQL = "ALTER TABLE autor ADD COLUMN congelado YESNO"
@@ -39,7 +45,7 @@
 'SQL = "UPDATE comentario SET data = '6/23/99' WHERE id = 1"
 'dbConnection.Execute(SQL)
 
-'SQL = "INSERT INTO links (nome, link, tipo, autor, data) VALUES ('NúFoto - Núcleo de Fotografia da FCT/UNL', 'http://students.fct.unl.pt/nufoto/', '11', '2', '" & date() & "')"
+'SQL = "INSERT INTO links (nome, link, tipo, autor, data) VALUES ('Nï¿½Foto - Nï¿½cleo de Fotografia da FCT/UNL', 'http://students.fct.unl.pt/nufoto/', '11', '2', '" & date() & "')"
 'dbConnection.Execute(SQL)
 
 'SQL = "ALTER TABLE autor DROP COLUMN dadop_old"

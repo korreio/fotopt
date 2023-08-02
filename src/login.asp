@@ -1,7 +1,13 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <% 
-OpcaoMenu "TERMOS DO SERVIÇO", "info.asp", False, False, -1, False, False
+OpcaoMenu "TERMOS DO SERVIï¿½O", "info.asp", False, False, -1, False, False
 Menu 3, 1, "LOGIN" 
 %>
 
@@ -30,7 +36,7 @@ Menu 3, 1, "LOGIN"
 	<font size="-1" color="white" face="arial">Para ter acesso a todas as funcionalidades do site tem que fazer <i>login</i> (entrar):</font>
 	<br><br>
 	<font size="-1" color="#FFCC66" face="arial"><b>
-		NOTA: Site em modo reduzido de funcionamento, por tempo indeterminado não poderá inserir crónicas ou usar o forum.
+		NOTA: Site em modo reduzido de funcionamento, por tempo indeterminado nï¿½o poderï¿½ inserir crï¿½nicas ou usar o forum.
 	</b></font><br>
 	
 	<form action="login_res2.asp" method=post><table cellpadding="10" cellspacing="0" border="1">

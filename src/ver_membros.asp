@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -14,7 +20,7 @@ if tipo = "com_preferidas" then
 		SQL = "SELECT distinct(autor.id), autor.nome FROM autor INNER JOIN preferidas_fotos ON autor.id = preferidas_fotos.autor WHERE preferidas_fotos.foto = " & foto & " ORDER by nome"
 		Set autorRes = dbConnection.Execute(SQL)
 
-		titulo = "MEMBROS QUE TÊM A FOTO &quot;" & foto & "&quot; COMO PREFERIDA"
+		titulo = "MEMBROS QUE Tï¿½M A FOTO &quot;" & foto & "&quot; COMO PREFERIDA"
 	else
 		SQL = "SELECT distinct(autor.id), autor.nome FROM autor INNER JOIN preferidas_fotos ON autor.id = preferidas_fotos.autor ORDER by nome"
 		Set autorRes = dbConnection.Execute(SQL)
@@ -34,14 +40,14 @@ elseif tipo = "com_comentarios" then
 elseif letra <> "" then
 	SQL = "SELECT nome, id FROM autor WHERE nome LIKE '" & letra & "%' "
 	if letra = "O" then
-		SQL = SQL & "OR nome LIKE 'Ó%' "
+		SQL = SQL & "OR nome LIKE 'ï¿½%' "
 	end if
 	SQL = SQL & "ORDER by nome"
 	Set autorRes = dbConnection.Execute(SQL)
 
 	SQL = "SELECT count(*) AS num FROM autor WHERE nome LIKE '" & letra & "%' "
 	if letra = "O" then
-		SQL = SQL & "OR nome LIKE 'Ó%' "
+		SQL = SQL & "OR nome LIKE 'ï¿½%' "
 	end if
 	Set autorNumRes = dbConnection.Execute(SQL)
 	

@@ -1,6 +1,12 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <html>
 <head>
-	<title>foto@pt - Fotografia em Português</title>
+	<title>foto@pt - Fotografia em Portuguï¿½s</title>
 	<meta name"robots" content="noindex, nofollow">
 	<meta name="owner" content="info@fotopt.net">
 	<meta name="author" content="Tiago Fonseca">

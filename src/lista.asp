@@ -1,16 +1,22 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="ordem_galeria.asp" -->
 <!-- #include file="galeria_seleccao.asp" -->
 <!-- #include file="nome_galeria.asp" -->
 
 <%
-OpcaoMenu "VOLTAR PÁGINA ACTUAL", "galeria.asp?tipo=" & tipo & "&primeira=" & primeira & "&id=" & id & "&tema=" & tema, False, False, -1, False, False
+OpcaoMenu "VOLTAR Pï¿½GINA ACTUAL", "galeria.asp?tipo=" & tipo & "&primeira=" & primeira & "&id=" & id & "&tema=" & tema, False, False, -1, False, False
 if session("ordem") = "c" then
 	OpcaoMenu "ORDENAR POR ORDEM DECRESCENTE", "lista.asp?letra=" & letra & "&ordem=dec&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, False, False, -1, False, False
 else
 	OpcaoMenu "ORDENAR POR ORDEM CRESCENTE", "lista.asp?letra=" & letra & "&ordem=cre&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id, False, False, -1, False, False
 end if
-Menu 1, GaleriaSubSeccao(tipo, id), "PÁGINAS DA GALERIA DE " & nomeGaleria
+Menu 1, GaleriaSubSeccao(tipo, id), "Pï¿½GINAS DA GALERIA DE " & nomeGaleria
 %>
 
 <% 

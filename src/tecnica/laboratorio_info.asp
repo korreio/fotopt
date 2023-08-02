@@ -1,7 +1,13 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 
 <% 
-Menu 4, 5, "O LABORATÓRIO" 
+Menu 4, 5, "O LABORATï¿½RIO" 
 %>
 
 <font size="-1" color="white" face="Arial">
@@ -10,40 +16,40 @@ Menu 4, 5, "O LABORATÓRIO"
 <br><br>
 
 <font size="-1" color="white" face="Arial">
-Um laboratório de fotografia, tanto pode ser uma instalação muito sofisticada e construída de raíz para esse fim, 
-como uma divisão nas nossas casas. Muitos fotógrafos amadores revelam as suas fotografias na cozinha ou no quarto 
-de banho das suas moradias. Vamos ver que com um pouco de esforço, isso é perfeitamente possível. Basta que sejam 
-cumpridos dois ou três requisitos indespensáveis. Se houver uma divisão da casa que possa servir de laboratório 
+Um laboratï¿½rio de fotografia, tanto pode ser uma instalaï¿½ï¿½o muito sofisticada e construï¿½da de raï¿½z para esse fim, 
+como uma divisï¿½o nas nossas casas. Muitos fotï¿½grafos amadores revelam as suas fotografias na cozinha ou no quarto 
+de banho das suas moradias. Vamos ver que com um pouco de esforï¿½o, isso ï¿½ perfeitamente possï¿½vel. Basta que sejam 
+cumpridos dois ou trï¿½s requisitos indespensï¿½veis. Se houver uma divisï¿½o da casa que possa servir de laboratï¿½rio 
 permanente, tanto melhor.
 <br><br>
-<b>Os requisitos necessários são:</b>
+<b>Os requisitos necessï¿½rios sï¿½o:</b>
 <br><br>
-O laboratório deve estar (muito) bem <b>vedado à entrada de luz exterior.</b>
+O laboratï¿½rio deve estar (muito) bem <b>vedado ï¿½ entrada de luz exterior.</b>
 <br><br> 
-Bem, claro que este ponto todos compreendem. A película fotográfica estraga-se se for exposta à luz ambiente. 
-Para vedar a divisão da casa que se quer utilizar, é só puxar pela imaginação. Qualquer coisa vale. É preciso 
-é que realmente não haja a menor entrada de luz. De noite é muito mais fácil conseguir este objectivo, uma vez 
-que a luz exterior é de muito menor intensidade.
+Bem, claro que este ponto todos compreendem. A pelï¿½cula fotogrï¿½fica estraga-se se for exposta ï¿½ luz ambiente. 
+Para vedar a divisï¿½o da casa que se quer utilizar, ï¿½ sï¿½ puxar pela imaginaï¿½ï¿½o. Qualquer coisa vale. ï¿½ preciso 
+ï¿½ que realmente nï¿½o haja a menor entrada de luz. De noite ï¿½ muito mais fï¿½cil conseguir este objectivo, uma vez 
+que a luz exterior ï¿½ de muito menor intensidade.
 <br><br>
-Deve existir uma fonte de <b>água corrente</b>. Aqui está a razão de na maior parte das vezes se utilizar a cozinha ou o quarto de banho.
+Deve existir uma fonte de <b>ï¿½gua corrente</b>. Aqui estï¿½ a razï¿½o de na maior parte das vezes se utilizar a cozinha ou o quarto de banho.
 <br><br>
-Se possível, deve haver <b>separação entre a zona húmida e a zona seca</b>. A zona seca é a parte onde está instalado o 
-ampliador e se procede à impressão do papel, marginação, etc. A zona húmida é onde estão as tinas com os químicos 
-e a água corrente. Este requisito não é absolutamente indispensável, mas é altamente aconselhado, pois evita que 
-o papel e os negativos se salpiquem com gotículas de químicos e contribui para a limpeza geral do laboratório.
+Se possï¿½vel, deve haver <b>separaï¿½ï¿½o entre a zona hï¿½mida e a zona seca</b>. A zona seca ï¿½ a parte onde estï¿½ instalado o 
+ampliador e se procede ï¿½ impressï¿½o do papel, marginaï¿½ï¿½o, etc. A zona hï¿½mida ï¿½ onde estï¿½o as tinas com os quï¿½micos 
+e a ï¿½gua corrente. Este requisito nï¿½o ï¿½ absolutamente indispensï¿½vel, mas ï¿½ altamente aconselhado, pois evita que 
+o papel e os negativos se salpiquem com gotï¿½culas de quï¿½micos e contribui para a limpeza geral do laboratï¿½rio.
 <br><br>
-É indispensável a existência de uma <b>fonte de luz vermelha</b>. A película deve ser manuseada na escuridão total. Contudo o 
-papel fotográfico a preto e branco não é sensível à luz vermelha. Assim, é necessária iluminação desta cor, para se 
-poder trabalhar. (Não, não se imprimem fotografias no escuro, senão como é que se vê o que se está a fazer?)
+ï¿½ indispensï¿½vel a existï¿½ncia de uma <b>fonte de luz vermelha</b>. A pelï¿½cula deve ser manuseada na escuridï¿½o total. Contudo o 
+papel fotogrï¿½fico a preto e branco nï¿½o ï¿½ sensï¿½vel ï¿½ luz vermelha. Assim, ï¿½ necessï¿½ria iluminaï¿½ï¿½o desta cor, para se 
+poder trabalhar. (Nï¿½o, nï¿½o se imprimem fotografias no escuro, senï¿½o como ï¿½ que se vï¿½ o que se estï¿½ a fazer?)
 <br><br>
-<b>Ventilação</b>. Convém que o espaço a utilizar tenha ventilação, do tipo exaustor/extractor ou outra, por forma a evitar 
-a concentração dos produtos de revelação no ar. 
+<b>Ventilaï¿½ï¿½o</b>. Convï¿½m que o espaï¿½o a utilizar tenha ventilaï¿½ï¿½o, do tipo exaustor/extractor ou outra, por forma a evitar 
+a concentraï¿½ï¿½o dos produtos de revelaï¿½ï¿½o no ar. 
 <br><br>
-Convém que o local a utilizar seja o mais possível <b>isento de poeiras</b>.
+Convï¿½m que o local a utilizar seja o mais possï¿½vel <b>isento de poeiras</b>.
 <br><br>
-O <b>aquecimento</b> pode ser necessário de Inverno, pois as baixas temperaturas dificultam sobermaneira a revelação. Atenção 
-aos aquecedores de varas eléctricos que emitem luz em comprimentos de onda que não o vermelho e aos aquecedores "de ventoínha" 
-que levantam muito pó. De Verão também pode ser necessário arrefecer o laboratório, mas isso pode ser mais difícil.
+O <b>aquecimento</b> pode ser necessï¿½rio de Inverno, pois as baixas temperaturas dificultam sobermaneira a revelaï¿½ï¿½o. Atenï¿½ï¿½o 
+aos aquecedores de varas elï¿½ctricos que emitem luz em comprimentos de onda que nï¿½o o vermelho e aos aquecedores "de ventoï¿½nha" 
+que levantam muito pï¿½. De Verï¿½o tambï¿½m pode ser necessï¿½rio arrefecer o laboratï¿½rio, mas isso pode ser mais difï¿½cil.
 </font>
 
 <% FimPagina() %>

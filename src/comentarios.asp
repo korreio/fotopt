@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -52,15 +58,15 @@ directoria = int(fotoRes("id") / 1000)
 
 <%
 if tipo <> "" then
-	OpcaoMenu "VOLTAR À GALERIA", "galeria.asp?primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+	OpcaoMenu "VOLTAR ï¿½ GALERIA", "galeria.asp?primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 end if
 OpcaoMenu "VER A FOTO", "foto.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 if not cronicasRes.eof then
-	OpcaoMenu "LER CRÓNICA", "cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+	OpcaoMenu "LER CRï¿½NICA", "cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 end if
-OpcaoMenu "INSERIR, ALTERAR OU APAGAR COMENTÁRIO", "inserir_comentario.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, -1, False, False
-OpcaoMenu "APROVAR TODOS OS COMENTÁRIOS", "aprovar_comentario_res.asp?comentario=-1&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
-Menu 1, GaleriaSubSeccao(tipo, id), "COMENTÁRIOS"
+OpcaoMenu "INSERIR, ALTERAR OU APAGAR COMENTï¿½RIO", "inserir_comentario.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, -1, False, False
+OpcaoMenu "APROVAR TODOS OS COMENTï¿½RIOS", "aprovar_comentario_res.asp?comentario=-1&foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
+Menu 1, GaleriaSubSeccao(tipo, id), "COMENTï¿½RIOS"
 %>
 
 <table border="0" cellpadding="0" cellspacing="10">
@@ -81,7 +87,7 @@ Menu 1, GaleriaSubSeccao(tipo, id), "COMENTÁRIOS"
 			<% if session("login") = 2 then %>
 				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><a href="autor.asp?autor=<% =fotoRes("autor") %>"><font size="-1" color="red" face="arial"><% =autorRes("nome") %></font></a></td></tr>
 			<% else %>
-				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><font color="white" size="-1" face="arial"><i>anónimo</i> (até <% =day(fotoRes("data") + 7) & "/" & month(fotoRes("data") + 7) & "/" & year(fotoRes("data") + 7) & " às " & hour(fotoRes("data") + 7) & ":" & minute(fotoRes("data") + 7) %>)</font></td></tr>
+				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><font color="white" size="-1" face="arial"><i>anï¿½nimo</i> (atï¿½ <% =day(fotoRes("data") + 7) & "/" & month(fotoRes("data") + 7) & "/" & year(fotoRes("data") + 7) & " ï¿½s " & hour(fotoRes("data") + 7) & ":" & minute(fotoRes("data") + 7) %>)</font></td></tr>
 			<% end if %>
 		<% else %>
 			<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><a href="autor.asp?autor=<% =fotoRes("autor") %>"><font size="-1" color="white" face="arial"><% =autorRes("nome") %></font></a></td></tr>
@@ -151,26 +157,26 @@ do while not comentarioRes.eof
 
 <br>
 <font size="-1" color="white" face="arial">
-	Nota: o autor da foto é o principal responsável por moderar o conteúdo dos comentários às suas fotos,
-	sendo opção de cada membro mostrar ou não, aos outros membros, os comentários por aprovar (assinalados a
-	amarelo ou vermelho, conforme se visiveis por todos ou não).
+	Nota: o autor da foto ï¿½ o principal responsï¿½vel por moderar o conteï¿½do dos comentï¿½rios ï¿½s suas fotos,
+	sendo opï¿½ï¿½o de cada membro mostrar ou nï¿½o, aos outros membros, os comentï¿½rios por aprovar (assinalados a
+	amarelo ou vermelho, conforme se visiveis por todos ou nï¿½o).
 </font>
 <% if session("login") = fotoRes("autor") then %>
 	<br><br>
 	<font size="-1" color="white" face="arial">
 	<% if autorOpcoesRes("aprovacao") = 0 then %>
-		Atenção: clique na opção APAGAR para remover o comentário, sem hipótese de recuperação. Os comentários com
-		a opção APROVAR só aparecerão no site depois de aprovados por si, caso contrário só o autor da foto e o
-		comentador os verão. Pode aprovar todos os comentários de uma vez com a opção APROVAR TODOS OS COMENTÁRIOS.
+		Atenï¿½ï¿½o: clique na opï¿½ï¿½o APAGAR para remover o comentï¿½rio, sem hipï¿½tese de recuperaï¿½ï¿½o. Os comentï¿½rios com
+		a opï¿½ï¿½o APROVAR sï¿½ aparecerï¿½o no site depois de aprovados por si, caso contrï¿½rio sï¿½ o autor da foto e o
+		comentador os verï¿½o. Pode aprovar todos os comentï¿½rios de uma vez com a opï¿½ï¿½o APROVAR TODOS OS COMENTï¿½RIOS.
 		<br><br>
-		Se preferir pode escolher a opção de mostrar aos outros membros todos os comentários ainda não aprovados, para isso
-		vá a sua ficha de membro, prima ALTERAR DADOS e mude as OPÇÕES ESPECIAIS.
+		Se preferir pode escolher a opï¿½ï¿½o de mostrar aos outros membros todos os comentï¿½rios ainda nï¿½o aprovados, para isso
+		vï¿½ a sua ficha de membro, prima ALTERAR DADOS e mude as OPï¿½ï¿½ES ESPECIAIS.
 	<% else %>
-		Atenção: clique na opção APAGAR para remover o comentário, sem hipótese de recuperação. Pode aprovar todos os
-		comentários de uma vez com a opção APROVAR TODOS OS COMENTÁRIOS. 
+		Atenï¿½ï¿½o: clique na opï¿½ï¿½o APAGAR para remover o comentï¿½rio, sem hipï¿½tese de recuperaï¿½ï¿½o. Pode aprovar todos os
+		comentï¿½rios de uma vez com a opï¿½ï¿½o APROVAR TODOS OS COMENTï¿½RIOS. 
 		<br><br>
-		Se preferir pode escolher a opção de esconder dos outros membros todos os comentários ainda não aprovados, para isso 
-		vá a sua ficha de membro, prima ALTERAR DADOS e mude as OPÇÕES ESPECIAIS.
+		Se preferir pode escolher a opï¿½ï¿½o de esconder dos outros membros todos os comentï¿½rios ainda nï¿½o aprovados, para isso 
+		vï¿½ a sua ficha de membro, prima ALTERAR DADOS e mude as OPï¿½ï¿½ES ESPECIAIS.
 	<% end if %>
 	</font>
 <% end if %>

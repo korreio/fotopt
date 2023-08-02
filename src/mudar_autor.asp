@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -35,19 +41,19 @@ Set paisRes = dbConnection.Execute(SQL)
 				<% end if %>
 			</select>
 			<font size="-1" color="white" face="arial">(obrig)</font><br>
-			<font size="-2" color="white" face="arial">(Obrigatório escrever o nome <b>real</b> completo, não abreviado)</font>
+			<font size="-2" color="white" face="arial">(Obrigatï¿½rio escrever o nome <b>real</b> completo, nï¿½o abreviado)</font>
 		</td>
 	</tr>
 	<tr>
-		<td><font color="#FFCC66" size="-1" face="arial"><b>NOME NO SITE:<br><font color="white" size="-2">(NOME ARTÍSTICO)</font></font></td>
+		<td><font color="#FFCC66" size="-1" face="arial"><b>NOME NO SITE:<br><font color="white" size="-2">(NOME ARTï¿½STICO)</font></font></td>
 		<td>
 			<input maxlength="255" value="<% =autorRes("nome") %>" size="40" type="Text" name="nome"> <font size="-1" color="white" face="arial">(obrig)</font><br>
-			<font size="-2" color="white" face="arial">(Nome pelo qual será identificado perante os outros membros, pode ser igual ao nome completo)</font>
+			<font size="-2" color="white" face="arial">(Nome pelo qual serï¿½ identificado perante os outros membros, pode ser igual ao nome completo)</font>
 		</td>
 	</tr>
 	<tr><td><br></td><td></td></tr>	
-	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>PASSWORD:</b></font><br><font face="arial" color="white" size="-2">(PALAVRA CHAVE)</font></td><td><input maxlength="255" value="" size="15" type="password" name="password1"> <font size="-1" color="white" face="arial">(deixar em branco para não alterar a actual)</font></td></tr>
-	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>CONFIRMAR<br>PASSWORD: </b></font></td><td><input maxlength="255" value="" size="15" type="password" name="password2"> <font size="-1" color="white" face="arial">(deixar em branco para não alterar a actual)</font></td></tr>
+	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>PASSWORD:</b></font><br><font face="arial" color="white" size="-2">(PALAVRA CHAVE)</font></td><td><input maxlength="255" value="" size="15" type="password" name="password1"> <font size="-1" color="white" face="arial">(deixar em branco para nï¿½o alterar a actual)</font></td></tr>
+	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>CONFIRMAR<br>PASSWORD: </b></font></td><td><input maxlength="255" value="" size="15" type="password" name="password2"> <font size="-1" color="white" face="arial">(deixar em branco para nï¿½o alterar a actual)</font></td></tr>
 	<tr><td><br></td><td></td></tr>
 	<% if autorRes("home_page") <> "" then %>
 		<tr><td><font size="-1" color="#FFCC66" face="arial"><b>HOMEPAGE: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(autorRes("home_page")) %>" size="40" type="Text" name="homepage"></td></tr>
@@ -88,7 +94,7 @@ Set paisRes = dbConnection.Execute(SQL)
 	<tr>
 		<td>
 			<font size="-1" color="#FFCC66" face="arial"><b>DATA NASCIMENTO: </b></font>
-			<font size="-1" color="white" face="arial"><br>(dia/mês/ano ou nada)</font>
+			<font size="-1" color="white" face="arial"><br>(dia/mï¿½s/ano ou nada)</font>
 		</td>
 		<td>
 			<input value="<% =day(autorRes("data_nascimento")) %>" maxlength="2" type="Text" size="3" name="dia">
@@ -109,7 +115,7 @@ Set paisRes = dbConnection.Execute(SQL)
 			</select>
 			<input value="<% =year(autorRes("data_nascimento")) %>" maxlength="4" type="Text" size="5" name="ano">
 			<select name="mostrar_data_nascimento">
-				<option <% if autorRes("mostrar_data_nascimento") = false then %>selected<% end if %> value="0">Mostrar só a idade (esconder data)</option>
+				<option <% if autorRes("mostrar_data_nascimento") = false then %>selected<% end if %> value="0">Mostrar sï¿½ a idade (esconder data)</option>
 				<option <% if autorRes("mostrar_data_nascimento") = true then %>selected<% end if %> value="1">Mostrar idade e a data</option>
 			</select>
 		</td>
@@ -123,18 +129,18 @@ Set paisRes = dbConnection.Execute(SQL)
 		<table border="1" cellpadding="10" cellspacing="0"><tr><td>
 			<table border="0" cellpadding="2" cellspacing="0">
 			<tr>
-				<td><font size="-1" color="#FFCC66" face="arial"><b>APROVAÇÃO DE<br>COMENTÁRIOS: </b></font></td>
-				<td><font size="-1" color="white" face="arial">os comentários às minhas fotos e à minha ficha são </font> <select name="aprovacao">
-					<option <% if autorOpcoesRes("aprovacao") = "0" then %>selected<% end if %> value="0">só mostrados depois de aprovados por mim</option>
-					<option <% if autorOpcoesRes("aprovacao") = "1" then %>selected<% end if %> value="1">mostrados de imediato com moderação posterior</option>
+				<td><font size="-1" color="#FFCC66" face="arial"><b>APROVAï¿½ï¿½O DE<br>COMENTï¿½RIOS: </b></font></td>
+				<td><font size="-1" color="white" face="arial">os comentï¿½rios ï¿½s minhas fotos e ï¿½ minha ficha sï¿½o </font> <select name="aprovacao">
+					<option <% if autorOpcoesRes("aprovacao") = "0" then %>selected<% end if %> value="0">sï¿½ mostrados depois de aprovados por mim</option>
+					<option <% if autorOpcoesRes("aprovacao") = "1" then %>selected<% end if %> value="1">mostrados de imediato com moderaï¿½ï¿½o posterior</option>
 				</select></td>
 			</tr>
 			<% if session("login") = 2 then %>
 				<tr>
-					<td><font size="-1" color="#FFCC66" face="arial"><b>FOTOS DE<br>CARACTER<br>SENSíVEL: </b></font></td>
-					<td><font size="-1" color="white" face="arial">imagens de caracter sensivel (nudez e violência) </font> <select name="sensiveis">
-						<option <% if autorOpcoesRes("sensiveis") = "0" then %>selected<% end if %> value="0">são ocultadas</option>
-						<option <% if autorOpcoesRes("sensiveis") = "1" then %>selected<% end if %> value="1">são mostradas</option>
+					<td><font size="-1" color="#FFCC66" face="arial"><b>FOTOS DE<br>CARACTER<br>SENSï¿½VEL: </b></font></td>
+					<td><font size="-1" color="white" face="arial">imagens de caracter sensivel (nudez e violï¿½ncia) </font> <select name="sensiveis">
+						<option <% if autorOpcoesRes("sensiveis") = "0" then %>selected<% end if %> value="0">sï¿½o ocultadas</option>
+						<option <% if autorOpcoesRes("sensiveis") = "1" then %>selected<% end if %> value="1">sï¿½o mostradas</option>
 					</select><font size="-1" color="white" face="arial"> quando vejo as galerias.</font></td>
 				</tr>
 			<% end if %>

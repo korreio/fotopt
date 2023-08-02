@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -64,12 +70,12 @@ end if
 
 <%
 if paginaSeguinte <> 0 then
-	OpcaoMenu ">> PÁGINA SEGUINTE", "ver_guestbook.asp?primeira=" & paginaSeguinte & "&pais=" & pais, True, False, -1, False, False
+	OpcaoMenu ">> Pï¿½GINA SEGUINTE", "ver_guestbook.asp?primeira=" & paginaSeguinte & "&pais=" & pais, True, False, -1, False, False
 end if
 if paginaAnterior <> 0 then
-	OpcaoMenu "<< PÁGINA ANTERIOR", "ver_guestbook.asp?primeira=" & paginaAnterior & "&pais=" & pais, True, False, -1, False, False
+	OpcaoMenu "<< Pï¿½GINA ANTERIOR", "ver_guestbook.asp?primeira=" & paginaAnterior & "&pais=" & pais, True, False, -1, False, False
 end if
-OpcaoMenu "OUTRO PAÍS", "guestbook_paises.asp", False, False, -1, False, False
+OpcaoMenu "OUTRO PAï¿½S", "guestbook_paises.asp", False, False, -1, False, False
 Menu 2, 3, "LIVRO DE VISITAS - " & paisRes("nome_pt") & " (" & estaPagina & "/" & paginas & ")"
 %>
 

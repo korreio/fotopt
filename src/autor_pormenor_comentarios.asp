@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -18,8 +24,8 @@ Set numComentAutorRes = dbConnection.Execute(SQL)
 %>
 
 <% 
-OpcaoMenu "TODA A CONTRIBUIÇÃO DESTE AUTOR", "autor_pormenor.asp?autor=" & autor, False, False, -1, False, False
-Menu 3, 2, "CONTRIBUIÇÃO, COMENTÁRIOS - " & autorRes("nome")
+OpcaoMenu "TODA A CONTRIBUIï¿½ï¿½O DESTE AUTOR", "autor_pormenor.asp?autor=" & autor, False, False, -1, False, False
+Menu 3, 2, "CONTRIBUIï¿½ï¿½O, COMENTï¿½RIOS - " & autorRes("nome")
 %>
 
 <table cellpadding="10" cellspacing="0" border="1">
@@ -37,7 +43,7 @@ if numComentFotosRes("num") > 0 then
 	%>
 	<% if not fotoRes.eof then %>
 		<tr>
-			<td valign="top"><font size="-1" color="#FFCC66" face="arial">&nbsp;&nbsp;<i>ANÓNIMOS</i></font>&nbsp;&nbsp;</td>
+			<td valign="top"><font size="-1" color="#FFCC66" face="arial">&nbsp;&nbsp;<i>ANï¿½NIMOS</i></font>&nbsp;&nbsp;</td>
 			<td valign="top"><font size="-2" face="arial">
 			<% do while not fotoRes.eof %>
 				<a href="comentarios.asp?foto=<% =fotoRes("id") %>"><% =fotoRes("id") %></a>&nbsp;

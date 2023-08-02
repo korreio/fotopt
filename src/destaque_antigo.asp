@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 <% 
 Menu 6, 2, "DESTAQUES DE MESES ANTERIORES"
@@ -16,8 +22,8 @@ meses = Array("JANEIRO", "FEVEREIRO", "MAR&Ccedil;O", "ABRIL", "MAIO", "JUNHO", 
 %>
 
 <font size="-1" color="white" face="arial">
-Todos os meses um <a href="juri.asp">júri</a> destacava as melhores imagens e um autor. Entretanto
-esta secção deixou de existir. Escolha o m&ecirc;s do qual quer ver os destaques:
+Todos os meses um <a href="juri.asp">jï¿½ri</a> destacava as melhores imagens e um autor. Entretanto
+esta secï¿½ï¿½o deixou de existir. Escolha o m&ecirc;s do qual quer ver os destaques:
 </font>
 <br><br>
 

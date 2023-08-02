@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="inicio_basedados.asp" -->
 
 <%
@@ -35,7 +41,7 @@ CONFIRMADOS</a><br>
 <br><a href="fotos_moderar.asp">FOTOS A MODERAR</a>
 <br><a href="fotos_eventos_moderar.asp">FOTOS DE EVENTOS A MODERAR</a>
 <br><a href="adm_nome_real_alterado.asp">NOME REAL ALTERADO</a>
-<br><a href="adm_login_antigo.asp">ÚLTIMO LOGIN À MAIS DE 3 MESES</a>
+<br><a href="adm_login_antigo.asp">ï¿½LTIMO LOGIN ï¿½ MAIS DE 3 MESES</a>
 
 <br><br>
 <a href="adm_avisos.asp">MENSAGENS</a>
@@ -48,20 +54,20 @@ CONFIRMADOS</a><br>
 <br><a href="adm_clones.asp">MOSTRAR CLONES</a>
 
 <br><br>
-<font size="-1">COMENTÁRIOS A FOTOS APAGADOS</font>
+<font size="-1">COMENTï¿½RIOS A FOTOS APAGADOS</font>
 &nbsp;&nbsp;<a href="adm_comentarios_apagados_por.asp">POR</a>
 &nbsp;&nbsp;<a href="adm_comentarios_apagados_de.asp">DE</a>
 <br>
-<font size="-1">COMENTÁRIOS A AUTORES APAGADOS</font>
+<font size="-1">COMENTï¿½RIOS A AUTORES APAGADOS</font>
 &nbsp;&nbsp;<a href="adm_comentarios_autor_apagados_por.asp">POR</a>
 &nbsp;&nbsp;<a href="adm_comentarios_autor_apagados_de.asp">DE</a>
 
 <br><br>
-<font size="-1">COMENTÁRIOS A FOTOS POR APROVAR</font>
+<font size="-1">COMENTï¿½RIOS A FOTOS POR APROVAR</font>
 &nbsp;&nbsp;<a href="adm_comentarios_aprovar_por.asp">POR</a>
 &nbsp;&nbsp;<a href="adm_comentarios_aprovar_de.asp">DE</a>
 <br>
-<font size="-1">COMENTÁRIOS A AUTORES POR APROVAR</font>
+<font size="-1">COMENTï¿½RIOS A AUTORES POR APROVAR</font>
 &nbsp;&nbsp;<a href="adm_comentarios_autor_aprovar_por.asp">POR</a>
 &nbsp;&nbsp;<a href="adm_comentarios_autor_aprovar_de.asp">DE</a>
 
@@ -76,7 +82,7 @@ CONFIRMADOS</a><br>
 &nbsp;&nbsp;<a href="../logs/ontem/">ONTEM</a>
 &nbsp;&nbsp;<a href="../logs/hoje/">HOJE</a>
 &nbsp;&nbsp;<a href="../logs/referers/">REFERERS</a>
-&nbsp;&nbsp;<a href="../logs/tecnico/">TÉCNICO</a>
+&nbsp;&nbsp;<a href="../logs/tecnico/">Tï¿½CNICO</a>
 
 </body>
 </html>

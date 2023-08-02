@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <% autor = request("autor") %>
 
 <!-- #include file="../funcoes_principais.asp" -->
@@ -97,7 +103,7 @@ decodedPassword = Aspas2Quot(DeCifrar(autorRes("en_dadop"), autorRes("data"), au
 	<tr>
 		<td>
 			<font size="-1" color="#FFCC66" face="arial"><b>DATA NASCIMENTO: </b></font>
-			<font size="-1" color="white" face="arial"><br>(dia/mês/ano ou nada)</font>
+			<font size="-1" color="white" face="arial"><br>(dia/mï¿½s/ano ou nada)</font>
 		</td>
 		<td>
 			<input value="<% =day(autorRes("data_nascimento")) %>" maxlength="2" type="Text" size="3" name="dia">
@@ -118,7 +124,7 @@ decodedPassword = Aspas2Quot(DeCifrar(autorRes("en_dadop"), autorRes("data"), au
 			</select>
 			<input value="<% =year(autorRes("data_nascimento")) %>" maxlength="4" type="Text" size="5" name="ano">
 			<select name="mostrar_data_nascimento">
-				<option <% if autorRes("mostrar_data_nascimento") = false then %>selected<% end if %> value="0">Mostrar só a idade (esconder data)</option>
+				<option <% if autorRes("mostrar_data_nascimento") = false then %>selected<% end if %> value="0">Mostrar sï¿½ a idade (esconder data)</option>
 				<option <% if autorRes("mostrar_data_nascimento") = true then %>selected<% end if %> value="1">Mostrar idade e a data</option>
 			</select>
 		</td>
@@ -132,17 +138,17 @@ decodedPassword = Aspas2Quot(DeCifrar(autorRes("en_dadop"), autorRes("data"), au
 		<table border="1" cellpadding="10" cellspacing="0"><tr><td>
 			<table border="0" cellpadding="2" cellspacing="0">
 			<tr>
-				<td><font size="-1" color="#FFCC66" face="arial"><b>APROVAÇÃO DE<br>COMENTÁRIOS: </b></font></td>
-				<td><font size="-1" color="white" face="arial">os comentários às minhas fotos e à minha ficha são </font> <select name="aprovacao">
-					<option <% if autorOpcoesRes("aprovacao") = "0" then %>selected<% end if %> value="0">só mostrados depois de aprovados por mim</option>
-					<option <% if autorOpcoesRes("aprovacao") = "1" then %>selected<% end if %> value="1">mostrados de imediato com moderação posterior</option>
+				<td><font size="-1" color="#FFCC66" face="arial"><b>APROVAï¿½ï¿½O DE<br>COMENTï¿½RIOS: </b></font></td>
+				<td><font size="-1" color="white" face="arial">os comentï¿½rios ï¿½s minhas fotos e ï¿½ minha ficha sï¿½o </font> <select name="aprovacao">
+					<option <% if autorOpcoesRes("aprovacao") = "0" then %>selected<% end if %> value="0">sï¿½ mostrados depois de aprovados por mim</option>
+					<option <% if autorOpcoesRes("aprovacao") = "1" then %>selected<% end if %> value="1">mostrados de imediato com moderaï¿½ï¿½o posterior</option>
 				</select></td>
 			</tr>
 			<tr>
-				<td><font size="-1" color="#FFCC66" face="arial"><b>FOTOS DE<br>CARACTER<br>SENSíVEL: </b></font></td>
-				<td><font size="-1" color="white" face="arial">imagens de caracter sensivel (nudez e violência) </font> <select name="sensiveis">
-					<option <% if autorOpcoesRes("sensiveis") = "0" then %>selected<% end if %> value="0">são ocultadas</option>
-					<option <% if autorOpcoesRes("sensiveis") = "1" then %>selected<% end if %> value="1">são mostradas</option>
+				<td><font size="-1" color="#FFCC66" face="arial"><b>FOTOS DE<br>CARACTER<br>SENSï¿½VEL: </b></font></td>
+				<td><font size="-1" color="white" face="arial">imagens de caracter sensivel (nudez e violï¿½ncia) </font> <select name="sensiveis">
+					<option <% if autorOpcoesRes("sensiveis") = "0" then %>selected<% end if %> value="0">sï¿½o ocultadas</option>
+					<option <% if autorOpcoesRes("sensiveis") = "1" then %>selected<% end if %> value="1">sï¿½o mostradas</option>
 				</select><font size="-1" color="white" face="arial"> quando vejo as galerias.</font></td>
 			</tr>
 			<tr>

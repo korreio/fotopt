@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <% 
@@ -13,12 +19,12 @@ Menu 2, 1, "EVENTOS DO FOTO@PT"
 %>
 
 <font color="white" size="-1" face="arial">
-Aqui encontra uma série de galerias de fotografias de documentam os vários encontros,
-almoços, prémios, exposições, e outros eventos relacionados com o foto@pt. Para inserir 
-fotos suas escolha o evento em que se enquadram e prima a opção INSERIR FOTO.
+Aqui encontra uma sï¿½rie de galerias de fotografias de documentam os vï¿½rios encontros,
+almoï¿½os, prï¿½mios, exposiï¿½ï¿½es, e outros eventos relacionados com o foto@pt. Para inserir 
+fotos suas escolha o evento em que se enquadram e prima a opï¿½ï¿½o INSERIR FOTO.
 <br><br>
-As fotos aqui inseridas não contam para o limite de fotos da sua galeria de membro. Todas 
-as fotos inseridas podem ser comentadas, mas não podem entrar em concursos do site.
+As fotos aqui inseridas nï¿½o contam para o limite de fotos da sua galeria de membro. Todas 
+as fotos inseridas podem ser comentadas, mas nï¿½o podem entrar em concursos do site.
 </font>
 <br><br>
 
@@ -45,7 +51,7 @@ as fotos inseridas podem ser comentadas, mas não podem entrar em concursos do si
 	<font color="#FFCC66" face="arial"><b>OUTROS EVENTOS:</b></font><br><br>
 	<font color="white" size="-1" face="arial">
 	Se acha que tem fotos de algum evento relacionado com o site avise o webmaster
-	para ser criada aqui uma entrada. Requisitos mínimos do evento: ter sido divulgado
+	para ser criada aqui uma entrada. Requisitos mï¿½nimos do evento: ter sido divulgado
 	no site ou na mailing list "Escrita com Luz", ter estado aberto a todos e terem participado
 	mais de 10 membros.
 	</font><br><br>

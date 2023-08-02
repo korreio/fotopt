@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 <!-- #include file="ordem_galeria.asp" -->
 
@@ -181,7 +187,7 @@ Menu 1, 7, "GALERIAS DE MEMBROS"
 		</table>
 	</td>
     <td valign="top">
-		<font color="white" face="arial"><b>CRÓNICAS</b></font><br>
+		<font color="white" face="arial"><b>CRï¿½NICAS</b></font><br>
 		
 		<table border="0" cellspacing="0" cellpadding="2">
 		<tr><td><a href="cronicas.asp"><font size="-2" color="#ffcc66" face="verdana, arial"><b>FOTOS COM CR&Oacute;NICAS</b></font></a>&nbsp;</td></tr>
@@ -191,14 +197,14 @@ Menu 1, 7, "GALERIAS DE MEMBROS"
   </tr>
   <tr>
     <td valign="top" colspan="3">
-		<font color="white" face="arial"><b>EXPOSIÇÕES E LIVROS DO SITE</b></font><br>
+		<font color="white" face="arial"><b>EXPOSIï¿½ï¿½ES E LIVROS DO SITE</b></font><br>
 		
 		<table border="0" cellspacing="0" cellpadding="2">
-			<tr><td><a href="galeria.asp?tipo=especial&id=1"><font size="-2" color="#ffcc66" face="verdana, arial"><b>1ª LIVRO FOTO@PT</b></font></a>&nbsp;</td></tr>
-			<tr><td><a href="galeria.asp?tipo=especial&id=3"><font size="-2" color="#ffcc66" face="verdana, arial"><b>1ª EXPOSIÇÃO FOTO@PT (ALMADA)</b></font></a>&nbsp;</td></tr>
-			<tr><td><a href="galeria.asp?tipo=especial&id=2"><font size="-2" color="#ffcc66" face="verdana, arial"><b>2ª EXPOSIÇÃO FOTO@PT (BEJA)</b></font></a>&nbsp;</td></tr>
-			<tr><td><a href="galeria.asp?tipo=especial&id=4"><font size="-2" color="#ffcc66" face="verdana, arial"><b>1ª COLECTIVA DE FOTOGRAFIA FOTO@PT - BRASIL</b></font></a>&nbsp;</td></tr>
-			<tr><td><a href="galeria.asp?tipo=especial&id=5"><font size="-2" color="#ffcc66" face="verdana, arial"><b>3ª EXPOSIÇÃO FOTO@PT (VIDIGUEIRA)</b></font></a>&nbsp;</td></tr>
+			<tr><td><a href="galeria.asp?tipo=especial&id=1"><font size="-2" color="#ffcc66" face="verdana, arial"><b>1ï¿½ LIVRO FOTO@PT</b></font></a>&nbsp;</td></tr>
+			<tr><td><a href="galeria.asp?tipo=especial&id=3"><font size="-2" color="#ffcc66" face="verdana, arial"><b>1ï¿½ EXPOSIï¿½ï¿½O FOTO@PT (ALMADA)</b></font></a>&nbsp;</td></tr>
+			<tr><td><a href="galeria.asp?tipo=especial&id=2"><font size="-2" color="#ffcc66" face="verdana, arial"><b>2ï¿½ EXPOSIï¿½ï¿½O FOTO@PT (BEJA)</b></font></a>&nbsp;</td></tr>
+			<tr><td><a href="galeria.asp?tipo=especial&id=4"><font size="-2" color="#ffcc66" face="verdana, arial"><b>1ï¿½ COLECTIVA DE FOTOGRAFIA FOTO@PT - BRASIL</b></font></a>&nbsp;</td></tr>
+			<tr><td><a href="galeria.asp?tipo=especial&id=5"><font size="-2" color="#ffcc66" face="verdana, arial"><b>3ï¿½ EXPOSIï¿½ï¿½O FOTO@PT (VIDIGUEIRA)</b></font></a>&nbsp;</td></tr>
 		</table>
 	</td>
   </tr>
@@ -208,7 +214,7 @@ Menu 1, 7, "GALERIAS DE MEMBROS"
 		
 		<table border="0" cellspacing="0" cellpadding="2">
 			<% if destaque <> "juri" then %>
-				<tr><td><a href="escolha_galeria_especiais.asp?destaque=juri"><font size="-2" color="#ffcc66" face="verdana, arial"><b>DESTAQUE MENSAL DO JÚRI</b></font></a>&nbsp;</td></tr>
+				<tr><td><a href="escolha_galeria_especiais.asp?destaque=juri"><font size="-2" color="#ffcc66" face="verdana, arial"><b>DESTAQUE MENSAL DO Jï¿½RI</b></font></a>&nbsp;</td></tr>
 			<% end if %>
 			<tr><td><a href="momentos_historicos.asp"><font size="-2" color="#ffcc66" face="verdana, arial"><b>MOMENTOS HIST&Oacute;RICOS</b></font></a>&nbsp;</td></tr>
 		</table>
@@ -217,6 +223,6 @@ Menu 1, 7, "GALERIAS DE MEMBROS"
 </table>
 
 <br>
-<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorização dos mesmos.</font>
+<a href="direitos_autor.asp"><font size="-2" color="white" face="arial">Direitos de autor</font></a><font size="-2" color="white" face="arial">: As imagens sao propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorizaï¿½ï¿½o dos mesmos.</font>
 
 <% FimPagina() %>

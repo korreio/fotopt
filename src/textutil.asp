@@ -1,4 +1,10 @@
 <%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
+<%
 function CheckNick(s)
 	dim tmp
 	tmp = s
@@ -59,34 +65,34 @@ end function
 function LimparAcentos(str)
 	s = lcase(str)
 
-	s = replace(s, "á", "a")
-	s = replace(s, "à", "a")
-	s = replace(s, "â", "a")
-	s = replace(s, "ã", "a")
-	s = replace(s, "ä", "a")
+	s = replace(s, "ï¿½", "a")
+	s = replace(s, "ï¿½", "a")
+	s = replace(s, "ï¿½", "a")
+	s = replace(s, "ï¿½", "a")
+	s = replace(s, "ï¿½", "a")
 
-	s = replace(s, "é", "e")
-	s = replace(s, "è", "e")
-	s = replace(s, "ê", "e")
-	s = replace(s, "ë", "e")
+	s = replace(s, "ï¿½", "e")
+	s = replace(s, "ï¿½", "e")
+	s = replace(s, "ï¿½", "e")
+	s = replace(s, "ï¿½", "e")
 
-	s = replace(s, "í", "i")
-	s = replace(s, "ì", "i")
-	s = replace(s, "î", "i")
-	s = replace(s, "ï", "i")
+	s = replace(s, "ï¿½", "i")
+	s = replace(s, "ï¿½", "i")
+	s = replace(s, "ï¿½", "i")
+	s = replace(s, "ï¿½", "i")
 
-	s = replace(s, "ó", "o")
-	s = replace(s, "ò", "o")
-	s = replace(s, "ô", "o")
-	s = replace(s, "õ", "o")
-	s = replace(s, "ö", "o")
+	s = replace(s, "ï¿½", "o")
+	s = replace(s, "ï¿½", "o")
+	s = replace(s, "ï¿½", "o")
+	s = replace(s, "ï¿½", "o")
+	s = replace(s, "ï¿½", "o")
 
-	s = replace(s, "ú", "u")
-	s = replace(s, "ù", "u")
-	s = replace(s, "û", "u")
-	s = replace(s, "ü", "u")
+	s = replace(s, "ï¿½", "u")
+	s = replace(s, "ï¿½", "u")
+	s = replace(s, "ï¿½", "u")
+	s = replace(s, "ï¿½", "u")
 
-	s = replace(s, "ç", "c")
+	s = replace(s, "ï¿½", "c")
 
 	limpo = ""
     for i = 1 To len(s) 

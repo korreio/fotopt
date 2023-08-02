@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -102,18 +108,18 @@ Menu 1, 1, "TEMAS DA GALERIA DE " & autorRes("nome")
 	<td width="220" valign="top" height="300">
 		<br>
 		<a href="galeria.asp?tipo=autor&id=<% =autor %>&tema=-1"><font color="#FFCC66" size="-1" face="arial"><b>VER TODAS AS FOTOS DO AUTOR</b></font></a>
-		<br><font size="-1" color="white" face="arial">Sem respeitar a divisão por temas do autor.</font>
+		<br><font size="-1" color="white" face="arial">Sem respeitar a divisï¿½o por temas do autor.</font>
 
 		<% if numFotoRes("numPreferidas") > 0 then %>
 			<br><br>
-			<a href="galeria.asp?tipo=preferidas_autor&id=<% =autor %>"><font color="#FFCC66" size="-1" face="arial"><b>A SELECÇÃO DO PRÓPRIO AUTOR</b></font></a>
-			<br><font size="-1" color="white" face="arial">Escolhidas pelo autor entre todas as que estão na sua galeria.</font>
+			<a href="galeria.asp?tipo=preferidas_autor&id=<% =autor %>"><font color="#FFCC66" size="-1" face="arial"><b>A SELECï¿½ï¿½O DO PRï¿½PRIO AUTOR</b></font></a>
+			<br><font size="-1" color="white" face="arial">Escolhidas pelo autor entre todas as que estï¿½o na sua galeria.</font>
 		<% end if %>
 
 		<% if numFotoVencedorasRes("num") > 0 then %>
 			<br><br>
 			<a href="galeria.asp?tipo=vencedoras_autor&id=<% =autor %>"><font color="#FFCC66" size="-1" face="arial"><b>DESTACADAS E VENCEDORAS</b></font></a>
-			<br><font size="-1" color="white" face="arial">Destacadas pelo júri ou vencedoras de algum concurso no site.</font>
+			<br><font size="-1" color="white" face="arial">Destacadas pelo jï¿½ri ou vencedoras de algum concurso no site.</font>
 		<% end if %>
 	</td>
 </tr>

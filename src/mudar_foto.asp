@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -49,13 +55,13 @@ Menu 1, GaleriaSubSeccao(tipo, id), "ALTERAR OU APAGAR FOTO"
 <table border="0" cellpadding="3" cellspacing="0">
 	<% if fotoRes("anonima") <> 0 then %>
 		<tr>
-			<td><font size="-1" color="#FFCC66" face="arial"><b>IDENTIFICAÇÃO<br>DESTA FOTO: </b></font></td>
+			<td><font size="-1" color="#FFCC66" face="arial"><b>IDENTIFICAï¿½ï¿½O<br>DESTA FOTO: </b></font></td>
 			<td><select name="anonima">
 				<option value="0">Mostrar sempre o meu nome de autor com esta foto</option>
-				<option <% if fotoRes("anonima") = 1 then %>selected<% end if %> value="1">Foto anónima por uma semana, mas aparece na minha galeria pessoal</option>
-				<option <% if fotoRes("anonima") = 2 then %>selected<% end if %> value="2">Completamente anónima por uma semana, só eu a vejo na minha galeria</option>
+				<option <% if fotoRes("anonima") = 1 then %>selected<% end if %> value="1">Foto anï¿½nima por uma semana, mas aparece na minha galeria pessoal</option>
+				<option <% if fotoRes("anonima") = 2 then %>selected<% end if %> value="2">Completamente anï¿½nima por uma semana, sï¿½ eu a vejo na minha galeria</option>
 			</select><br>
-			<font size="-2" color="white" face="arial">(Nota: para remover a foto do anonimato antes do fim da semana usar a opção MUDAR DADOS da foto)</font>
+			<font size="-2" color="white" face="arial">(Nota: para remover a foto do anonimato antes do fim da semana usar a opï¿½ï¿½o MUDAR DADOS da foto)</font>
 			</td>
 		</tr>
 		<tr><td><br></td><td></td></tr>		
@@ -130,7 +136,7 @@ Menu 1, GaleriaSubSeccao(tipo, id), "ALTERAR OU APAGAR FOTO"
 	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>OBJECTIVA: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(fotoRes("lente")) %>" size="40" type="Text" name="lente"></td></tr>
 	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>FILME: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(fotoRes("filme")) %>" size="40" type="Text" name="filme"></td></tr>
 	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>FILTROS: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(fotoRes("filtros")) %>" size="40" type="Text" name="filtros"></td></tr>
-	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>ILUMINAÇÃO: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(fotoRes("flash")) %>" size="40" type="Text" name="flash"></td></tr>
+	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>ILUMINAï¿½ï¿½O: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(fotoRes("flash")) %>" size="40" type="Text" name="flash"></td></tr>
 	<tr><td><br></td><td></td></tr>	
 	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>TEMPO DE<br>EXPOSI&Ccedil;&Atilde;O: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(fotoRes("velocidade")) %>" size="20" type="Text" name="velocidade"></td></tr>
 	<tr><td><font size="-1" color="#FFCC66" face="arial"><b>ABERTURA: </b></font></td><td><input maxlength="255" value="<% =Aspas2Quot(fotoRes("abertura")) %>" size="20" type="Text" name="abertura"></td></tr>

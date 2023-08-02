@@ -1,8 +1,14 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../../funcoes_principais.asp" -->
 <% 
 OpcaoMenu ">> SEGUINTE", "tecnica/curso/parte4.asp", False, False, -1, False, False
 OpcaoMenu "<< ANTERIOR", "tecnica/curso/parte2.asp", False, False, -1, False, False
-Menu 4, 1, "FOTOGRAFIA BÁSICA EXEMPLO A EXEMPLO - FOTOMETRIA" 
+Menu 4, 1, "FOTOGRAFIA Bï¿½SICA EXEMPLO A EXEMPLO - FOTOMETRIA" 
 %>
 
 <font color="#FFCC66" face="arial"><b>FOTOMETRIA</b></font>

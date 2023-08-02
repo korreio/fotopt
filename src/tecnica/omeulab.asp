@@ -1,7 +1,13 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="../funcoes_principais.asp" -->
 
 <% 
-Menu 4, 5, "LABORATÓRIOS DE MEMBROS" 
+Menu 4, 5, "LABORATï¿½RIOS DE MEMBROS" 
 %>
 
 <font size="-1" color="white" face="Arial">

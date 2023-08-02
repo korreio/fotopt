@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="funcoes_principais.asp" -->
 
 <%
@@ -39,9 +45,9 @@ else
 end if
 
 ComRefresh "comentarios.asp?foto=" & fotoRes("id") & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num
-Menu 1, GaleriaSubSeccao(tipo, id), "APROVAR COMENTÁRIO"
+Menu 1, GaleriaSubSeccao(tipo, id), "APROVAR COMENTï¿½RIO"
 %>
 
-<font size="+1" color="white" face="arial"><b>Comentário aprovado com sucesso</b></font>
+<font size="+1" color="white" face="arial"><b>Comentï¿½rio aprovado com sucesso</b></font>
 
 <% FimPagina() %>

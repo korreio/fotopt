@@ -1,3 +1,9 @@
+<%
+' Copyright: (c) 1999-2023, Tiago Fonseca
+' GNU General Public License v3.0+ (see LICENSE.md or https://www.gnu.org/licenses/gpl-3.0.html)
+' SPDX-License-Identifier: GPL-3.0-or-later
+%>
+
 <!-- #include file="sqltext.asp" -->
 <!-- #include file="funcoes_principais.asp" -->
 
@@ -35,12 +41,12 @@ directoria = int(fotoRes("id") / 1000)
 
 <%
 if tipo <> "" then
-	OpcaoMenu "VOLTAR À GALERIA", "galeria.asp?primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+	OpcaoMenu "VOLTAR ï¿½ GALERIA", "galeria.asp?primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
 end if
 OpcaoMenu "VER A FOTO", "foto.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
-OpcaoMenu "LER OU INSERIR COMENTÁRIOS", "comentarios.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
-'OpcaoMenu "ALTERAR OU APAGAR CRÓNICA", "inserir_cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
-Menu 1, GaleriaSubSeccao(tipo, id), "CRÓNICA"
+OpcaoMenu "LER OU INSERIR COMENTï¿½RIOS", "comentarios.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, False, -1, False, False
+'OpcaoMenu "ALTERAR OU APAGAR CRï¿½NICA", "inserir_cronica.asp?foto=" & foto & "&primeira=" & primeira & "&tema=" & tema & "&tipo=" & tipo & "&id=" & id & "&num=" & num, False, True, fotoRes("autor"), False, False
+Menu 1, GaleriaSubSeccao(tipo, id), "CRï¿½NICA"
 %>
 
 <table border="0" cellpadding="0" cellspacing="10">
@@ -61,7 +67,7 @@ Menu 1, GaleriaSubSeccao(tipo, id), "CRÓNICA"
 			<% if session("login") = 2 then %>
 				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><a href="autor.asp?autor=<% =fotoRes("autor") %>"><font size="-1" color="red" face="arial"><% =autorRes("nome") %></font></a></td></tr>
 			<% else %>
-				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><font color="white" size="-1" face="arial"><i>anónimo</i> (até <% =day(fotoRes("data") + 7) & "/" & month(fotoRes("data") + 7) & "/" & year(fotoRes("data") + 7) & " às " & hour(fotoRes("data") + 7) & ":" & minute(fotoRes("data") + 7) %>)</font></td></tr>
+				<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><font color="white" size="-1" face="arial"><i>anï¿½nimo</i> (atï¿½ <% =day(fotoRes("data") + 7) & "/" & month(fotoRes("data") + 7) & "/" & year(fotoRes("data") + 7) & " ï¿½s " & hour(fotoRes("data") + 7) & ":" & minute(fotoRes("data") + 7) %>)</font></td></tr>
 			<% end if %>
 		<% else %>
 			<tr><td><font size="-1" color="#FFCC66" face="arial"><b>AUTOR: </b></font></td><td><a href="autor.asp?autor=<% =fotoRes("autor") %>"><font size="-1" color="white" face="arial"><% =autorRes("nome") %></font></a></td></tr>
@@ -69,7 +75,7 @@ Menu 1, GaleriaSubSeccao(tipo, id), "CRÓNICA"
 		<tr><td><font size="-1" color="#FFCC66" face="arial"><b>FOTO: </b></font></td><td valign="bottom"><font size="-1" color="white" face="arial">inserida a <% =day(fotoRes("data")) %>/<% =month(fotoRes("data")) %>/<% =year(fotoRes("data")) %></font></td></tr>
 		<tr>
 			<td>
-				<font size="-1" color="#FFCC66" face="arial"><b>CRÓNICA: </b></font>
+				<font size="-1" color="#FFCC66" face="arial"><b>CRï¿½NICA: </b></font>
 			</td>
 			<td valign="bottom">
 				<font size="-1" color="white" face="arial">escrita a <% =day(cronicaRes("data")) %>/<% =month(cronicaRes("data")) %>/<% =year(cronicaRes("data")) %></font>
@@ -101,6 +107,6 @@ de COMENT&Aacute;RIOS para comentar o texto.
 </table>
 
 <br>
-<font size="-2" color="white" face="arial">Direitos de autor</font><font size="-2" color="white" face="arial">: Os textos s&atilde;o propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorização dos mesmos.</font>
+<font size="-2" color="white" face="arial">Direitos de autor</font><font size="-2" color="white" face="arial">: Os textos s&atilde;o propriedade do autor ou dos seus clientes, podendo ser reproduzida somente com autorizaï¿½ï¿½o dos mesmos.</font>
 
 <% FimPagina() %>
