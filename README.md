@@ -12,15 +12,17 @@ http://www.fotopt.net (both deactivated)
 ## Table of Contents
 
 - [Story and Context](#story-and-context)
-  - [Origins](#origins)
-  - [Technology](#technology)
-  - [Popularity](#popularity)
-  - [Evolution](#evolution)
+- [Technology](#technology)
+- [Popularity](#popularity)
+- [Evolution](#evolution)
 - [Community](#community)
-- [Public Code (GNU GPL License)](#public-code-gnu-gpl-license)
+- [Book](#book)
+- [JetNet Awards](#jetnet-awards)
+- [The End](#the-end)
+- [Legacy](#legacy)
 - [What I Would Have Done Differently](#what-i-would-have-done-differently)
 - [Public Code](#public-code)
-- [Community and Contact](community-and-contact)
+- [Contact](#contact)
 - [Screenshots](#screenshots)
 
 ## Story and Context
@@ -147,7 +149,7 @@ Also included is a ".mdb" file for the Access Database, which is clean of any us
 
 Feel free to use these resources in compliance with the GNU license terms, and don't hesitate to share your past experiences with the website or contribute your technical observations or suggestions related to the code.
 
-## Community and Contact
+## Contact
 
 You can use the Discussions feature here on GitHub for questions, comments, or discussions about the project.
 
