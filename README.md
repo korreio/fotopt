@@ -91,12 +91,18 @@ In 2001, a unique opportunity arose: one of the website's members was associated
 
 This presented another massive project, but I am immensely proud of the achievement. With the assistance of the website's jury, we selected 200 of the best photos from 100 authors and printed 2000 books, featuring high-quality paper and an attractive hardcover sponsored by the publisher (Gótica). The graphic layout work was offered by a company belonging to another website user (eXistenz).
 
-![119633774_10158078816604051_5913169777653417411_n](https://github.com/korreio/fotopt/assets/97610322/ce9c8aef-a191-4526-9795-55a3076085c2)
-![119582527_10158078816629051_6631383753511585388_n](https://github.com/korreio/fotopt/assets/97610322/f1e01bd1-a91a-4cd5-ac25-f273ac1e9e1a)
-![119549693_10158078816749051_8632988319230929459_n](https://github.com/korreio/fotopt/assets/97610322/821439f5-318b-486c-9908-669a07ef386f)
-![119559623_10158078816799051_655590996347849388_n](https://github.com/korreio/fotopt/assets/97610322/13986694-f905-4e1f-a2df-ba228163f72c)
-![119475388_10158078835464051_1903120274973179911_n](https://github.com/korreio/fotopt/assets/97610322/136f76cc-c703-43ac-873f-2612d3b89196)
-![119568366_10158078835319051_6015749264922654172_n](https://github.com/korreio/fotopt/assets/97610322/5d385e6b-d9a3-4fa3-bc0b-5385f3979f41)
+<table>
+  <tr>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/ce9c8aef-a191-4526-9795-55a3076085c2" alt="Image 1" width="200"/></td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/f1e01bd1-a91a-4cd5-ac25-f273ac1e9e1a" alt="Image 2" width="200"/></td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/821439f5-318b-486c-9908-669a07ef386f" alt="Image 3" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/13986694-f905-4e1f-a2df-ba228163f72c" alt="Image 4" width="200"/></td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/136f76cc-c703-43ac-873f-2612d3b89196" alt="Image 5" width="200"/></td>
+    <td><img src="https://github.com/korreio/fotopt/assets/97610322/5d385e6b-d9a3-4fa3-bc0b-5385f3979f41" alt="Image 6" width="200"/></td>
+  </tr>
+</table>
 
 ## Jetnet Awards
 
